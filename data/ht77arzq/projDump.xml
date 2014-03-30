@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396151089609'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396155036928'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -31,11 +31,11 @@
     <scheduleException week='0' hours='0.0'/>
   </teamMember>
 	<component name='Ciclo1' id='13566456' tid='ht77arzq:13566456' labels='none' wid='5235971'>
-		<task name='Launch' id='13566459' tid='ht77arzq:13566459' labels='LAU1' effectivePhase='Misc'>
+		<task name='Launch' id='13566459' tid='ht77arzq:13566459' labels='none' effectivePhase='Misc'>
 			<note author='Carlos Felipe Roa' timestamp='@1395757122696' format='text'>PSP Course, &#10;Chapter 1,2,3 and Appe A</note>
-			<task name='INFOForm' id='13566467' tid='ht77arzq:13566467' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',DA=3.980392156862744,FF=3.980392156862744,GM=3.980392156862744,IE=3.980392156862744,PC=3.980392156862744,'/>
-			<task name='ProyectCharter' id='13566468' tid='ht77arzq:13566468' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=6.368627450980393,'/>
-			<task name='WeekForm' id='13566469' tid='ht77arzq:13566469' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',PC=0.7960784313725491,'/>
+			<task name='INFOForm' id='13566467' tid='ht77arzq:13566467' labels='none' phaseName='Misc' phaseType='MGMT' time=',DA=3.980392156862744,FF=3.980392156862744,GM=3.980392156862744,IE=3.980392156862744,PC=3.980392156862744,'/>
+			<task name='ProyectCharter' id='13566468' tid='ht77arzq:13566468' labels='none' phaseName='Misc' phaseType='MGMT' time=',CR=6.368627450980393,'/>
+			<task name='WeekForm' id='13566469' tid='ht77arzq:13566469' labels='none' phaseName='Misc' phaseType='MGMT' time=',PC=0.7960784313725491,'/>
 		</task>
 		<task name='Strategy' id='13566466' tid='ht77arzq:13566466' labels='STRAT1' effectivePhase='Strategy'>
 			<dependency name='/ChangeCounter/Ciclo1/Launch' tid='ht77arzq:13566459' source='wbs'/>
