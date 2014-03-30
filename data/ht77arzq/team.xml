@@ -1,0 +1,50 @@
+<teamList firstDayOfWeek='4' referenceDate='@1396126800000'>
+  <teamMember name='David Abril' tmid='90251806' initials='DA' color='#9933ff' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+  <teamMember name='Felipe Fagua' tmid='78568887' initials='FF' color='#6666ff' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+  <teamMember name='Gabriel Martinez' tmid='1381840709' initials='GM' color='#00ccff' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+  <teamMember name='Ingrid Echavarria' tmid='1749577063' initials='IE' color='#66ff99' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+  <teamMember name='Paula Castellanos' tmid='1862250478' initials='PC' color='#ffff66' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+  <teamMember name='Carlos Roa' tmid='2019855370' initials='CR' color='#ffcc66' startDate='@1393977600000' startWeek='-3' endWeek='6' hoursPerWeek='6.0'>
+    <scheduleException week='3' hours='16.0'/>
+    <scheduleException week='5' hours='3.0'/>
+    <scheduleException week='6' hours='0.0'/>
+    <scheduleException week='7' hours='0.0'/>
+    <scheduleException week='8' hours='0.0'/>
+    <scheduleException week='-3' hours='0.0'/>
+  </teamMember>
+</teamList>

@@ -1,0 +1,95 @@
+<wbsModel>
+  <wbsNode name='Project Milestones' id='11867052' type='Milestone List' indentLevel='0' expanded='true'>
+    <attr name='createdWithVersion' value='4.0.0'/>
+  </wbsNode>
+    <wbsNode name='Inicio del projecto' id='11867033' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-03-05'/>
+      <attr name='Color' value='#00ffff'/>
+    </wbsNode>
+    <wbsNode name='LAU1' id='11867034' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-03-19'/>
+      <attr name='Color' value='#e2931d'/>
+    </wbsNode>
+    <wbsNode name='STRAT1' id='11867037' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-03-26'/>
+      <attr name='Color' value='#63d62a'/>
+    </wbsNode>
+    <wbsNode name='PLAN1' id='11867035' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-03-26'/>
+      <attr name='Color' value='#b400b4'/>
+    </wbsNode>
+    <wbsNode name='REQ1' id='11867038' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-02'/>
+      <attr name='Color' value='#ff69b4'/>
+    </wbsNode>
+    <wbsNode name='DES1' id='11867036' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-02'/>
+      <attr name='Color' value='#e7e730'/>
+    </wbsNode>
+    <wbsNode name='IMP1' id='11867039' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-09'/>
+      <attr name='Color' value='#989797'/>
+    </wbsNode>
+    <wbsNode name='TEST1' id='11867041' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-09'/>
+      <attr name='Color' value='#1a3f8d'/>
+    </wbsNode>
+    <wbsNode name='PM1' id='11867042' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#ae7a11'/>
+    </wbsNode>
+    <wbsNode name='LAU2' id='11867043' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#7f4e28'/>
+    </wbsNode>
+    <wbsNode name='STRAT2' id='11867044' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#8c5f51'/>
+    </wbsNode>
+    <wbsNode name='PLAN2' id='11867045' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#b5d1d4'/>
+    </wbsNode>
+    <wbsNode name='REQ2' id='11867046' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#f0809c'/>
+    </wbsNode>
+    <wbsNode name='DES2' id='11867047' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-16'/>
+      <attr name='Color' value='#f3d0b1'/>
+    </wbsNode>
+    <wbsNode name='IMP2' id='11867048' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-23'/>
+      <attr name='Color' value='#f67388'/>
+    </wbsNode>
+    <wbsNode name='TEST2' id='11867049' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-23'/>
+      <attr name='Color' value='#368023'/>
+    </wbsNode>
+    <wbsNode name='PM2' id='11867050' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-04-30'/>
+      <attr name='Color' value='#4d3571'/>
+    </wbsNode>
+    <wbsNode name='LAU3' id='11867051' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Defer Sync' value='true'/>
+      <attr name='Commit Date' value='2014-05-07'/>
+      <attr name='Color' value='#e8b12c'/>
+    </wbsNode>
+</wbsModel>
