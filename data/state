@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- hierarchical work breakdown structure -->
+
+<node name="top">
+  <node name="Proyecto" selected="true"/>
+  <node name="No Proyecto"/>
+</node>
