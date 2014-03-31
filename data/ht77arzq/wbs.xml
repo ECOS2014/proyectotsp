@@ -179,7 +179,6 @@
         </wbsNode>
       <wbsNode name='Reqts' id='13566461' type='Reqts Task' indentLevel='2'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867038'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566460'/>
         <attr name='Notes' value='Chapter 6, Chapter 9, Need statement'/>
@@ -249,7 +248,6 @@
         </wbsNode>
       <wbsNode name='Design' id='13566477' type='HLD Task' indentLevel='2'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867036'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566461'/>
         <attr name='Notes' value='Chapter 7'/>
@@ -379,8 +377,8 @@
           <attr name='Dependencies' value='ht77arzq:13566477'/>
           <attr name='PC-Time (Top Down)' value='0.48'/>
           <attr name='IE-Time (Top Down)' value='0.48'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Design'/>
           <attr name='FF-Time (Top Down)' value='0.48'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Design'/>
           <attr name='Misc Size' value='58.0'/>
           <attr name='CR-Time (Top Down)' value='0.48'/>
         </wbsNode>
@@ -541,8 +539,8 @@
           <attr name='Dependencies' value='ht77arzq:13566464'/>
           <attr name='PC-Time (Top Down)' value='0.1555555555555555'/>
           <attr name='IE-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test/Int Test'/>
           <attr name='FF-Time (Top Down)' value='0.1555555555555555'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test/Int Test'/>
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.1555555555555555'/>
         </wbsNode>
@@ -555,8 +553,8 @@
           <attr name='Dependencies' value='ht77arzq:13566487'/>
           <attr name='PC-Time (Top Down)' value='0.1555555555555555'/>
           <attr name='IE-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test'/>
           <attr name='FF-Time (Top Down)' value='0.1555555555555555'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test'/>
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.1555555555555555'/>
         </wbsNode>
@@ -1175,8 +1173,8 @@
           <attr name='Dependencies' value='ht77arzq:13566588'/>
           <attr name='PC-Time (Top Down)' value='0.42607429570326083'/>
           <attr name='IE-Time (Top Down)' value='0.42607429570326083'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Design'/>
           <attr name='FF-Time (Top Down)' value='0.42607429570326083'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Design'/>
           <attr name='Misc Size' value='1.0'/>
           <attr name='CR-Time (Top Down)' value='0.42607429570326083'/>
         </wbsNode>
@@ -1337,8 +1335,8 @@
           <attr name='Dependencies' value='ht77arzq:13566619'/>
           <attr name='PC-Time (Top Down)' value='0.7912808348774844'/>
           <attr name='IE-Time (Top Down)' value='0.7912808348774844'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Test/Int Test'/>
           <attr name='FF-Time (Top Down)' value='0.7912808348774844'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Test/Int Test'/>
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.7912808348774844'/>
         </wbsNode>
@@ -1352,8 +1350,8 @@
           <attr name='Dependencies' value='ht77arzq:13566617'/>
           <attr name='PC-Time (Top Down)' value='0.3956404174387422'/>
           <attr name='IE-Time (Top Down)' value='0.3956404174387422'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Test'/>
           <attr name='FF-Time (Top Down)' value='0.3956404174387422'/>
+          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Test'/>
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.3956404174387422'/>
         </wbsNode>
