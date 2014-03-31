@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396155036928'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396231790370'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -37,27 +37,27 @@
 			<task name='ProyectCharter' id='13566468' tid='ht77arzq:13566468' labels='none' phaseName='Misc' phaseType='MGMT' time=',CR=6.368627450980393,'/>
 			<task name='WeekForm' id='13566469' tid='ht77arzq:13566469' labels='none' phaseName='Misc' phaseType='MGMT' time=',PC=0.7960784313725491,'/>
 		</task>
-		<task name='Strategy' id='13566466' tid='ht77arzq:13566466' labels='STRAT1' effectivePhase='Strategy'>
+		<task name='Strategy' id='13566466' tid='ht77arzq:13566466' labels='none' effectivePhase='Strategy'>
 			<dependency name='/ChangeCounter/Ciclo1/Launch' tid='ht77arzq:13566459' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395755508561' format='text'>Chapter 4</note>
-			<task name='Conceptual Desing' id='13566473' tid='ht77arzq:13566473' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',FF=2.8288659793814435,PC=2.8288659793814435,'/>
-			<task name='ITL' id='13566471' tid='ht77arzq:13566471' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',DA=2.0206185567010313,'/>
-			<task name='STRAT' id='13566472' tid='ht77arzq:13566472' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',IE=1.347079037800687,'/>
-			<task name='Configuration plan' id='13566548' tid='ht77arzq:13566548' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',GM=4.041237113402063,'/>
+			<task name='Conceptual Desing' id='13566473' tid='ht77arzq:13566473' labels='none' phaseName='Strategy' phaseType='STRAT' time=',FF=2.8288659793814435,PC=2.8288659793814435,'/>
+			<task name='ITL' id='13566471' tid='ht77arzq:13566471' labels='none' phaseName='Strategy' phaseType='STRAT' time=',DA=2.0206185567010313,'/>
+			<task name='STRAT' id='13566472' tid='ht77arzq:13566472' labels='none' phaseName='Strategy' phaseType='STRAT' time=',IE=1.347079037800687,'/>
+			<task name='Configuration plan' id='13566548' tid='ht77arzq:13566548' labels='none' phaseName='Strategy' phaseType='STRAT' time=',GM=4.041237113402063,'/>
 		</task>
-		<task name='Planning' id='13566460' tid='ht77arzq:13566460' labels='PLAN1' effectivePhase='Planning'>
+		<task name='Planning' id='13566460' tid='ht77arzq:13566460' labels='none' effectivePhase='Planning'>
 			<dependency name='/ChangeCounter/Ciclo1/Strategy' tid='ht77arzq:13566466' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395757115601' format='text'>Chapter 5</note>
-			<task name='SUMS' id='13566490' tid='ht77arzq:13566490' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=1.931034482758621,CR=1.931034482758621,'/>
-			<task name='TASK' id='13566491' tid='ht77arzq:13566491' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=1.931034482758621,CR=1.931034482758621,'/>
-			<task name='SUMTASK' id='13566534' tid='ht77arzq:13566534' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=0.2574712643678162,'/>
-			<task name='SCHEDULE' id='13566492' tid='ht77arzq:13566492' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=0.2574712643678162,'/>
-			<task name='SUMP' id='13566533' tid='ht77arzq:13566533' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=0.7724137931034484,'/>
-			<task name='SUMQ' id='13566493' tid='ht77arzq:13566493' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',DA=3.862068965517242,'/>
-			<task name='Personal TASK' id='13566494' tid='ht77arzq:13566494' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',DA=0.1287356321839081,FF=0.1287356321839081,GM=0.1287356321839081,IE=0.1287356321839081,PC=0.1287356321839081,CR=0.1287356321839081,'/>
-			<task name='Personal SCHEDULE' id='13566495' tid='ht77arzq:13566495' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',DA=0.1287356321839081,FF=0.1287356321839081,GM=0.1287356321839081,IE=0.1287356321839081,PC=0.1287356321839081,CR=0.1287356321839081,'/>
-			<task name='Balance TASK' id='13566496' tid='ht77arzq:13566496' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=0.2574712643678162,'/>
-			<task name='Balance SCHEDULE' id='13566497' tid='ht77arzq:13566497' labels='PLAN1' phaseName='Planning' phaseType='PLAN' deferredTime=',IE=0.2574712643678162,'/>
+			<task name='SUMS' id='13566490' tid='ht77arzq:13566490' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=1.931034482758621,CR=1.931034482758621,'/>
+			<task name='TASK' id='13566491' tid='ht77arzq:13566491' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=1.931034482758621,CR=1.931034482758621,'/>
+			<task name='SUMTASK' id='13566534' tid='ht77arzq:13566534' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=0.2574712643678162,'/>
+			<task name='SCHEDULE' id='13566492' tid='ht77arzq:13566492' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=0.2574712643678162,'/>
+			<task name='SUMP' id='13566533' tid='ht77arzq:13566533' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=0.7724137931034484,'/>
+			<task name='SUMQ' id='13566493' tid='ht77arzq:13566493' labels='none' phaseName='Planning' phaseType='PLAN' time=',DA=3.862068965517242,'/>
+			<task name='Personal TASK' id='13566494' tid='ht77arzq:13566494' labels='none' phaseName='Planning' phaseType='PLAN' time=',DA=0.1287356321839081,FF=0.1287356321839081,GM=0.1287356321839081,IE=0.1287356321839081,PC=0.1287356321839081,CR=0.1287356321839081,'/>
+			<task name='Personal SCHEDULE' id='13566495' tid='ht77arzq:13566495' labels='none' phaseName='Planning' phaseType='PLAN' time=',DA=0.1287356321839081,FF=0.1287356321839081,GM=0.1287356321839081,IE=0.1287356321839081,PC=0.1287356321839081,CR=0.1287356321839081,'/>
+			<task name='Balance TASK' id='13566496' tid='ht77arzq:13566496' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=0.2574712643678162,'/>
+			<task name='Balance SCHEDULE' id='13566497' tid='ht77arzq:13566497' labels='none' phaseName='Planning' phaseType='PLAN' time=',IE=0.2574712643678162,'/>
 		</task>
 		<task name='Reqts' id='13566461' tid='ht77arzq:13566461' labels='REQ1' effectivePhase='Reqts'>
 			<dependency name='/ChangeCounter/Ciclo1/Planning' tid='ht77arzq:13566460' source='wbs'/>
