@@ -1,8 +1,7 @@
-Process Dashboard - logging started at Sat Mar 29 23:29:04 COT 2014
-Oracle Corporation JRE 1.7.0_17; Windows 7
-Using LocalWorkingDirectory[G:\Documents\GitHub\proyectotsp]
-Created default translation engine.
-mar 29, 2014 11:29:06 PM net.sourceforge.processdash.ProcessDashboard <init>
+Process Dashboard - logging started at Wed Apr 02 01:57:16 COT 2014
+Oracle Corporation JRE 1.7.0_51; Windows Vista
+Using LocalWorkingDirectory[C:\Users\Sofia PC\Documents\GitHub\proyectotsp]
+abr 02, 2014 1:57:28 AM net.sourceforge.processdash.ProcessDashboard <init>
 INFO: Process Dashboard version 2.0
-mar 29, 2014 11:29:26 PM net.sourceforge.processdash.ProcessDashboard quit
+abr 02, 2014 1:57:58 AM net.sourceforge.processdash.ProcessDashboard quit
 INFO: Successfully saved all data.
