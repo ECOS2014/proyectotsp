@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396232706609'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396465343682'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -63,10 +63,10 @@
 			<dependency name='/ChangeCounter/Ciclo1/Planning' tid='ht77arzq:13566460' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395758192104' format='text'>Chapter 6, Chapter 9, Need statement</note>
 			<task name='Reqts Review' id='13566475' tid='ht77arzq:13566475' labels='none' phaseName='Reqts Review' phaseType='REQINSP' time=',FF=1.2645161290322586,PC=1.2645161290322586,' inspUnits='Req Pages' inspSize='0'/>
-			<task name='SRS' id='13566499' tid='ht77arzq:13566499' labels='none' phaseName='Reqts Review' phaseType='REQINSP' time=',DA=0.8430107526881724,FF=0.8430107526881724,GM=0.8430107526881724,IE=0.8430107526881724,PC=0.8430107526881724,CR=0.8430107526881724,' inspUnits='Req Pages' inspSize='0'/>
+			<task name='SRS' id='13566499' tid='ht77arzq:13566499' labels='none' phaseName='Reqts Review' phaseType='REQINSP' time=',DA=0.8430107526881724,FF=8.85,GM=0.8430107526881724,IE=0.8430107526881724,PC=0.8430107526881724,CR=0.8430107526881724,' syncTime=',FF=8.85,' inspUnits='Req Pages' inspSize='0'/>
 			<task name='SRS Baseline' id='13566549' tid='ht77arzq:13566549' labels='none' phaseName='Reqts Review' phaseType='REQINSP' time=',GM=1.6860215053763445,' inspUnits='Req Pages' inspSize='0'/>
 			<task name='Reqts Inspect' id='13566476' tid='ht77arzq:13566476' labels='none' phaseName='Reqts Inspect' phaseType='REQINSP' time=',DA=0.8430107526881723,PC=0.8430107526881723,' inspUnits='Req Pages' inspSize='0'/>
-			<task name='Sys Test Plan' id='13566498' tid='ht77arzq:13566498' labels='none' phaseName='Sys Test Plan' phaseType='STP' time=',FF=1.2645161290322586,'/>
+			<task name='Sys Test Plan' id='13566498' tid='ht77arzq:13566498' labels='none' phaseName='Sys Test Plan' phaseType='STP' time=',FF=2.6,' syncTime=',FF=2.6,'/>
 			<task name='INS' id='13566503' tid='ht77arzq:13566503' labels='none' phaseName='Sys Test Plan' phaseType='STP' time=',DA=0.42150537634408614,'/>
 			<task name='CCR' id='13566504' tid='ht77arzq:13566504' labels='none' phaseName='Sys Test Plan' phaseType='STP' time=',DA=0.42150537634408614,'/>
 		</task>
@@ -79,8 +79,8 @@
 				<task name='Documentation' id='13566508' tid='ht77arzq:13566508' labels='none' phaseName='HLD' phaseType='HLD' time=',DA=0.48000000000000004,'/>
 			</task>
 			<task name='Int Test Plan' id='13566478' tid='ht77arzq:13566478' labels='none' phaseName='Int Test Plan' phaseType='ITP' time=',FF=0.9600000000000001,'/>
-			<task name='HLD' id='13566462' tid='ht77arzq:13566462' labels='none' phaseName='HLD' phaseType='HLD' time=',FF=0.48000000000000004,'/>
-			<task name='SDS' id='13566510' tid='ht77arzq:13566510' labels='none' phaseName='Design' phaseType='DLD' time=',FF=0.48000000000000004,'/>
+			<task name='HLD' id='13566462' tid='ht77arzq:13566462' labels='none' phaseName='HLD' phaseType='HLD' time=',FF=5.483333333333333,' syncTime=',FF=5.483333333333333,'/>
+			<task name='SDS' id='13566510' tid='ht77arzq:13566510' labels='none' phaseName='Design' phaseType='DLD' time=',FF=8.25,' syncTime=',FF=8.25,'/>
 			<task name='SDS Baseline' id='13566550' tid='ht77arzq:13566550' labels='none' phaseName='Design' phaseType='DLD' time=',GM=1.44,'/>
 			<task name='Update INS' id='13566512' tid='ht77arzq:13566512' labels='none' phaseName='Design' phaseType='DLD' time=',DA=0.48000000000000004,'/>
 			<task name='LOGD' id='13566513' tid='ht77arzq:13566513' labels='none' phaseName='Design' phaseType='DLD' time=',DA=0.08000000000000002,FF=0.08000000000000002,GM=0.08000000000000002,IE=0.08000000000000002,PC=0.08000000000000002,CR=0.08000000000000002,'/>
