@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1396465343682'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397016775031'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -95,32 +95,32 @@
 				<dependency name='/ChangeCounter/Ciclo1/Design/Test Devel' tid='ht77arzq:13566482' source='wbs'/>
 			</task>
 		</task>
-		<task name='Code' id='13566463' tid='ht77arzq:13566463' labels='IMP1' effectivePhase='Code'>
+		<task name='Code' id='13566463' tid='ht77arzq:13566463' labels='none' effectivePhase='Code'>
 			<dependency name='/ChangeCounter/Ciclo1/Design' tid='ht77arzq:13566477' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395774961236' format='text'>Chapter 8&#10;PSP2.1 PSP3.0</note>
-			<task name='Implementation Standards' id='13566517' tid='ht77arzq:13566517' labels='IMP1' phaseName='Code' phaseType='CODE' deferredTime=',IE=0.34999999999999987,CR=0.34999999999999987,'/>
-			<task name='Detailed Design' id='13566535' tid='ht77arzq:13566535' labels='IMP1' phaseName='Design' phaseType='DLD' deferredTime=',DA=0.1225,FF=0.1225,GM=0.1225,IE=0.1225,PC=0.1225,CR=0.1225,'/>
-			<task name='Implementation' id='13566518' tid='ht77arzq:13566518' labels='IMP1' phaseName='Code' phaseType='CODE' deferredTime=',DA=2.8000000000000003,FF=2.8000000000000003,GM=2.8000000000000003,IE=2.8000000000000003,PC=2.8000000000000003,CR=2.8000000000000003,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='336' sizeReu='0' sizeNC='336'/>
-			<task name='Code Review' id='13566484' tid='ht77arzq:13566484' labels='IMP1' phaseName='Code Review' phaseType='CR' deferredTime=',DA=1.4000000000000001,FF=1.4000000000000001,GM=1.4000000000000001,IE=1.4000000000000001,PC=1.4000000000000001,CR=1.4000000000000001,' inspUnits='LOC' inspSize='336'/>
-			<task name='Code Inspect' id='13566485' tid='ht77arzq:13566485' labels='IMP1' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',DA=0.7000000000000001,FF=0.7000000000000001,GM=0.7000000000000001,IE=0.7000000000000001,PC=0.7000000000000001,CR=0.7000000000000001,' inspUnits='LOC' inspSize='336'/>
-			<task name='UpdateSUMP' id='13566519' tid='ht77arzq:13566519' labels='IMP1' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',IE=0.27999999999999986,' inspUnits='LOC' inspSize='336'/>
-			<task name='UpdateSUMQ' id='13566520' tid='ht77arzq:13566520' labels='IMP1' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',DA=0.17499999999999993,' inspUnits='LOC' inspSize='336'/>
-			<task name='UpdateLOGD' id='13566521' tid='ht77arzq:13566521' labels='IMP1' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',DA=0.05833333333333333,FF=0.05833333333333333,GM=0.05833333333333333,IE=0.05833333333333333,PC=0.05833333333333333,CR=0.05833333333333333,' inspUnits='LOC' inspSize='336'/>
-			<task name='UpdateLOGT' id='13566522' tid='ht77arzq:13566522' labels='IMP1' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',DA=0.05833333333333333,FF=0.05833333333333333,GM=0.05833333333333333,IE=0.05833333333333333,PC=0.05833333333333333,CR=0.05833333333333333,' inspUnits='LOC' inspSize='336'/>
-			<task name='Unit Test' id='13566524' tid='ht77arzq:13566524' labels='IMP1' phaseName='Test' phaseType='UT' deferredTime=',DA=0.21,FF=0.21,GM=0.21,IE=0.21,PC=0.21,CR=0.21,'/>
-			<task name='Component Baseline' id='13566551' tid='ht77arzq:13566551' labels='IMP1' phaseName='Test' phaseType='UT' deferredTime=',GM=0.34999999999999987,'/>
+			<task name='Implementation Standards' id='13566517' tid='ht77arzq:13566517' labels='none' phaseName='Code' phaseType='CODE' time=',IE=0.34999999999999987,CR=0.34999999999999987,'/>
+			<task name='Detailed Design' id='13566535' tid='ht77arzq:13566535' labels='none' phaseName='Design' phaseType='DLD' time=',DA=0.1225,FF=0.1225,GM=0.1225,IE=0.1225,PC=0.1225,CR=0.1225,'/>
+			<task name='Implementation' id='13566518' tid='ht77arzq:13566518' labels='none' phaseName='Code' phaseType='CODE' time=',DA=2.8000000000000003,FF=2.8000000000000003,GM=2.8000000000000003,IE=2.8000000000000003,PC=2.8000000000000003,CR=2.8000000000000003,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='336' sizeReu='0' sizeNC='336'/>
+			<task name='Code Review' id='13566484' tid='ht77arzq:13566484' labels='none' phaseName='Code Review' phaseType='CR' time=',DA=1.4000000000000001,FF=1.4000000000000001,GM=1.4000000000000001,IE=1.4000000000000001,PC=1.4000000000000001,CR=1.4000000000000001,' inspUnits='LOC' inspSize='336'/>
+			<task name='Code Inspect' id='13566485' tid='ht77arzq:13566485' labels='none' phaseName='Code Inspect' phaseType='CODEINSP' time=',DA=0.7000000000000001,FF=0.7000000000000001,GM=0.7000000000000001,IE=0.7000000000000001,PC=0.7000000000000001,CR=0.7000000000000001,' inspUnits='LOC' inspSize='336'/>
+			<task name='UpdateSUMP' id='13566519' tid='ht77arzq:13566519' labels='none' phaseName='Code Inspect' phaseType='CODEINSP' time=',IE=0.27999999999999986,' inspUnits='LOC' inspSize='336'/>
+			<task name='UpdateSUMQ' id='13566520' tid='ht77arzq:13566520' labels='none' phaseName='Code Inspect' phaseType='CODEINSP' time=',DA=0.17499999999999993,' inspUnits='LOC' inspSize='336'/>
+			<task name='UpdateLOGD' id='13566521' tid='ht77arzq:13566521' labels='none' phaseName='Code Inspect' phaseType='CODEINSP' time=',DA=0.05833333333333333,FF=0.05833333333333333,GM=0.05833333333333333,IE=0.05833333333333333,PC=0.05833333333333333,CR=0.05833333333333333,' inspUnits='LOC' inspSize='336'/>
+			<task name='UpdateLOGT' id='13566522' tid='ht77arzq:13566522' labels='none' phaseName='Code Inspect' phaseType='CODEINSP' time=',DA=0.05833333333333333,FF=0.05833333333333333,GM=0.05833333333333333,IE=0.05833333333333333,PC=0.05833333333333333,CR=0.05833333333333333,' inspUnits='LOC' inspSize='336'/>
+			<task name='Unit Test' id='13566524' tid='ht77arzq:13566524' labels='none' phaseName='Test' phaseType='UT' time=',DA=0.21,FF=0.21,GM=0.21,IE=0.21,PC=0.21,CR=0.21,'/>
+			<task name='Component Baseline' id='13566551' tid='ht77arzq:13566551' labels='none' phaseName='Test' phaseType='UT' time=',GM=0.34999999999999987,'/>
 		</task>
-		<task name='Test' id='13566487' tid='ht77arzq:13566487' labels='TEST1' effectivePhase='Test'>
+		<task name='Test' id='13566487' tid='ht77arzq:13566487' labels='none' effectivePhase='Test'>
 			<dependency name='/ChangeCounter/Ciclo1/Code' tid='ht77arzq:13566463' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395775197299' format='text'>Chapter 9</note>
-			<task name='Sys Test' id='13566488' tid='ht77arzq:13566488' labels='TEST1' phaseName='Sys Test' phaseType='ST' deferredTime=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
+			<task name='Sys Test' id='13566488' tid='ht77arzq:13566488' labels='none' phaseName='Sys Test' phaseType='ST' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
 				<dependency name='/ChangeCounter/Ciclo1/Test/Int Test' tid='ht77arzq:13566464' source='wbs'/>
 			</task>
-			<task name='Int Test' id='13566464' tid='ht77arzq:13566464' labels='TEST1' phaseName='Int Test' phaseType='IT' deferredTime=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
+			<task name='Int Test' id='13566464' tid='ht77arzq:13566464' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
 				<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
 			</task>
-			<task name='LOGTEST' id='13566525' tid='ht77arzq:13566525' labels='TEST1' phaseName='Int Test' phaseType='IT' deferredTime=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
-			<task name='User Documentation' id='13566536' tid='ht77arzq:13566536' labels='TEST1' phaseName='Documentation' phaseType='DOC' deferredTime=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
+			<task name='LOGTEST' id='13566525' tid='ht77arzq:13566525' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
+			<task name='User Documentation' id='13566536' tid='ht77arzq:13566536' labels='none' phaseName='Documentation' phaseType='DOC' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 		</task>
 		<task name='Postmortem' id='13566465' tid='ht77arzq:13566465' labels='PM1' effectivePhase='Postmortem'>
 			<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
