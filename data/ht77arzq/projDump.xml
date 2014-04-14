@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397422946657'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397437593948'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -116,9 +116,6 @@
 			<task name='Sys Test' id='13566488' tid='ht77arzq:13566488' labels='none' phaseName='Sys Test' phaseType='ST' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
 				<dependency name='/ChangeCounter/Ciclo1/Test/Int Test' tid='ht77arzq:13566464' source='wbs'/>
 			</task>
-			<task name='Int Test' id='13566464' tid='ht77arzq:13566464' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
-				<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
-			</task>
 			<task name='LOGTEST' id='13566525' tid='ht77arzq:13566525' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 			<task name='User Documentation' id='13566536' tid='ht77arzq:13566536' labels='none' phaseName='Documentation' phaseType='DOC' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 		</task>
@@ -157,9 +154,7 @@
 	<component name='Ciclo2' id='13566559' tid='ht77arzq:13566559' labels='none'>
 		<task name='Launch' id='13566560' tid='ht77arzq:13566560' labels='LAU2' effectivePhase='Misc'>
 			<note author='Carlos Felipe Roa' timestamp='@1395757122696' format='text'>PSP Course, &#10;Chapter 1,2,3 and Appe A</note>
-			<task name='INFOForm' id='13566561' tid='ht77arzq:13566561' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',DA=0.15825616697549688,FF=0.15825616697549688,GM=0.15825616697549688,IE=0.15825616697549688,PC=0.15825616697549688,CR=0.15825616697549688,'/>
-			<task name='ProyectCharter' id='13566562' tid='ht77arzq:13566562' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=0.47476850092649037,'/>
-			<task name='WeekForm' id='13566563' tid='ht77arzq:13566563' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',PC=0.47476850092649037,'/>
+			<task name='WeekForm' id='13566563' tid='ht77arzq:13566563' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=0.47476850092649037,'/>
 		</task>
 		<task name='Strategy' id='13566564' tid='ht77arzq:13566564' labels='STRAT2' effectivePhase='Strategy'>
 			<dependency name='/ChangeCounter/Ciclo2/Launch' tid='ht77arzq:13566560' source='wbs'/>
