@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<timeLogEntries>
+  <time id="1" path="/Process Dashboard/ChangeCounter/Ciclo1/Launch/INFOForm" start="@1395174277000" delta="10" />
+  <time id="3" path="/Process Dashboard/ChangeCounter/Ciclo1/Strategy/Configuration plan" start="@1396124704000" delta="60" />
+  <time id="5" path="/Process Dashboard/ChangeCounter/Ciclo1/Planning/Personal TASK" start="@1398803233000" delta="60" />
+  <time id="7" path="/Process Dashboard/ChangeCounter/Ciclo1/Planning/Personal SCHEDULE" start="@1398803242000" delta="20" />
+  <time id="9" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/weekly meeting" start="@1395606622000" delta="60" />
+  <time id="11" path="/Process Dashboard/ChangeCounter/Ciclo1/Documentation/OutLine" start="@1396125298000" delta="420" comment="Se crearon los distintos menuales de usuo de dashboard, git y github" />
+  <time id="13" path="/Process Dashboard/ChangeCounter/Ciclo1/Reqts/SRS" start="@1396384563000" delta="20" />
+  <time id="15" path="/Process Dashboard/ChangeCounter/Ciclo1/Design/SDS Baseline" start="@1396384588000" delta="40" />
+  <time id="16" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/weekly meeting" start="@1396836962000" delta="60" />
+  <time id="20" path="/Process Dashboard/ChangeCounter/Ciclo1/Documentation/OutLine" start="@1397053121300" />
+  <time id="25" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/Detailed Design" start="@1397054247000" delta="30" />
+  <time id="26" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/Implementation" start="@1397054328364" delta="270" />
+  <time id="27" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/Code Review" start="@1397055706866" delta="10" />
+  <time id="29" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/Product Baseline" start="@1396973818000" delta="60" comment="Se genero el archivo de producto base (lineas de codigo reutilizables)" />
+  <time id="31" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/UpdateLOGD" start="@1396974033000" delta="10" />
+  <time id="33" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/UpdateLOGT" start="@1396974053000" delta="10" />
+  <time id="34" path="/Process Dashboard/ChangeCounter/Ciclo1/Reqts/SRS Baseline" start="@1396411737000" />
+  <time id="36" path="/Process Dashboard/ChangeCounter/Ciclo1/Design/LOGD" start="@1396408209000" delta="10" />
+  <time id="38" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/Unit Test" start="@1396846200000" delta="10" />
+  <time id="39" path="/Process Dashboard/ChangeCounter/Ciclo1/Code/Unit Test" start="@1397067216224" />
+  <time id="40" path="/Process Dashboard/ChangeCounter/Ciclo1/Test/Sys Test" start="@1396922400000" delta="10" />
+  <time id="43" path="/Process Dashboard/ChangeCounter/Ciclo1/Test/Int Test" start="@1396923291000" delta="5" />
+  <time id="45" path="/Process Dashboard/ChangeCounter/Ciclo1/Test/LOGTEST" start="@1396927214000" delta="10" />
+  <time id="46" path="/Process Dashboard/ChangeCounter/Ciclo1/Test/User Documentation" start="@1397005204000" delta="20" />
+  <time id="47" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/PEER" start="@1397433927000" delta="20" />
+  <time id="49" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/PIP" start="@1397431837000" delta="20" />
+  <time id="51" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Role Report" start="@1397480761004" delta="10" />
+  <time id="52" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Cycle Report" start="@1397433965000" delta="10" />
+  <time id="53" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Engineer Report" start="@1397527200000" delta="10" />
+  <time id="54" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/Data reporting" start="@1397480796556" delta="10" />
+  <time id="55" path="/Process Dashboard/ChangeCounter/Ciclo1/Design/Test Devel" start="@1396411235000" delta="10" />
+</timeLogEntries>

@@ -8,9 +8,8 @@
       <attr name='Time Per Person' value='0.0'/>
       <attr name='workflowSourceIDs' value='5235971'/>
     </wbsNode>
-      <wbsNode name='Launch' id='13566459' type='Misc Task' indentLevel='2'>
+      <wbsNode name='Launch' id='13566459' type='Misc Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867034'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Notes' value='PSP Course, &#10;Chapter 1,2,3 and Appe A'/>
         <attr name='Notes Timestamp' value='1.395757122696E12'/>
@@ -44,9 +43,8 @@
           <attr name='PC-Time (Top Down)' value='0.7960784313725491'/>
           <attr name='Misc Size' value='1.0'/>
         </wbsNode>
-      <wbsNode name='Strategy' id='13566466' type='Strategy Task' indentLevel='2'>
+      <wbsNode name='Strategy' id='13566466' type='Strategy Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867037'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566459'/>
         <attr name='Notes' value='Chapter 4'/>
@@ -179,7 +177,7 @@
           <attr name='IE-Time (Top Down)' value='0.2574712643678162'/>
           <attr name='Misc Size' value='1.0'/>
         </wbsNode>
-      <wbsNode name='Reqts' id='13566461' type='Reqts Task' indentLevel='2'>
+      <wbsNode name='Reqts' id='13566461' type='Reqts Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566460'/>
@@ -526,7 +524,7 @@
           <attr name='Time Per Person' value='0.34999999999999987'/>
           <attr name='Misc Size' value='1.0'/>
         </wbsNode>
-      <wbsNode name='Test' id='13566487' type='Test Task' indentLevel='2'>
+      <wbsNode name='Test' id='13566487' type='Test Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566463'/>
@@ -545,20 +543,6 @@
           <attr name='IE-Time (Top Down)' value='0.1555555555555555'/>
           <attr name='FF-Time (Top Down)' value='0.1555555555555555'/>
           <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test/Int Test'/>
-          <attr name='Misc Size' value='2.0'/>
-          <attr name='CR-Time (Top Down)' value='0.1555555555555555'/>
-        </wbsNode>
-        <wbsNode name='Int Test' id='13566464' type='Int Test Task' indentLevel='3' expanded='true'>
-          <attr name='GM-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='Time (Top Down)' value='0.9333333333333329'/>
-          <attr name='DA-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='Task Size Units' value='HLD Pages '/>
-          <attr name='Time Per Person' value='0.1555555555555555'/>
-          <attr name='Dependencies' value='ht77arzq:13566487'/>
-          <attr name='PC-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='IE-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='FF-Time (Top Down)' value='0.1555555555555555'/>
-          <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo1/Test'/>
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.1555555555555555'/>
         </wbsNode>
@@ -586,9 +570,8 @@
           <attr name='Misc Size' value='2.0'/>
           <attr name='CR-Time (Top Down)' value='0.1555555555555555'/>
         </wbsNode>
-      <wbsNode name='Postmortem' id='13566465' type='Postmortem Task' indentLevel='2'>
+      <wbsNode name='Postmortem' id='13566465' type='Postmortem Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867042'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566487'/>
         <attr name='Notes' value='Chapter 10,16,17,18'/>
@@ -821,43 +804,21 @@
     </wbsNode>
       <wbsNode name='Launch' id='13566560' type='Misc Task' indentLevel='2'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867043'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Notes' value='PSP Course, &#10;Chapter 1,2,3 and Appe A'/>
         <attr name='Notes Timestamp' value='1.395757122696E12'/>
       </wbsNode>
-        <wbsNode name='INFOForm' id='13566561' type='Misc Task' indentLevel='3' expanded='true'>
-          <attr name='GM-Time (Top Down)' value='0.15825616697549688'/>
-          <attr name='Time (Top Down)' value='0.9495370018529814'/>
-          <attr name='DA-Time (Top Down)' value='0.15825616697549688'/>
-          <attr name='# People' value='6.0'/>
-          <attr name='Task Size Units' value='Text Pages '/>
-          <attr name='Time Per Person' value='0.15825616697549688'/>
-          <attr name='PC-Time (Top Down)' value='0.15825616697549688'/>
-          <attr name='IE-Time (Top Down)' value='0.15825616697549688'/>
-          <attr name='FF-Time (Top Down)' value='0.15825616697549688'/>
-          <attr name='Misc Size' value='6.0'/>
-          <attr name='CR-Time (Top Down)' value='0.15825616697549688'/>
-        </wbsNode>
-        <wbsNode name='ProyectCharter' id='13566562' type='Misc Task' indentLevel='3' expanded='true'>
-          <attr name='Time (Top Down)' value='0.47476850092649037'/>
-          <attr name='# People' value='1.0'/>
-          <attr name='Task Size Units' value='Text Pages '/>
-          <attr name='Time Per Person' value='0.47476850092649037'/>
-          <attr name='Misc Size' value='5.0'/>
-          <attr name='CR-Time (Top Down)' value='0.47476850092649037'/>
-        </wbsNode>
         <wbsNode name='WeekForm' id='13566563' type='Misc Task' indentLevel='3' expanded='true'>
           <attr name='Time (Top Down)' value='0.47476850092649037'/>
           <attr name='# People' value='1.0'/>
           <attr name='Task Size Units' value='Text Pages '/>
           <attr name='Time Per Person' value='0.47476850092649037'/>
-          <attr name='PC-Time (Top Down)' value='0.47476850092649037'/>
+          <attr name='PC-Time (Top Down)' value='0.0'/>
           <attr name='Misc Size' value='1.0'/>
+          <attr name='CR-Time (Top Down)' value='0.47476850092649037'/>
         </wbsNode>
       <wbsNode name='Strategy' id='13566564' type='Strategy Task' indentLevel='2'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867044'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566560'/>
         <attr name='Notes' value='Chapter 4'/>
@@ -889,7 +850,6 @@
         </wbsNode>
       <wbsNode name='Planning' id='13566569' type='Planning Task' indentLevel='2'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
-        <attr name='Milestone' value='11867045'/>
         <attr name='Time Per Person' value='0.0'/>
         <attr name='Dependencies' value='ht77arzq:13566564'/>
         <attr name='Notes' value='Chapter 5'/>
@@ -1063,7 +1023,7 @@
           <attr name='Time Per Person' value='0.1'/>
           <attr name='Misc Size' value='1.0'/>
         </wbsNode>
-        <wbsNode name='Reuse Standards' id='13566590' type='HLD Task' indentLevel='3' expanded='true'>
+        <wbsNode name='Reuse Standards' id='13566590' type='HLD Task' indentLevel='3'>
           <attr name='Time Per Person' value='0.0'/>
         </wbsNode>
           <wbsNode name='Interface' id='13566591' type='HLD Task' indentLevel='4' expanded='true'>
@@ -1191,7 +1151,7 @@
           <attr name='Dependency Name 0' value='/ChangeCounter/Ciclo2/Design/Test Devel'/>
           <attr name='Misc Size' value='1.0'/>
         </wbsNode>
-      <wbsNode name='Code' id='13566605' type='Code Task' indentLevel='2'>
+      <wbsNode name='Code' id='13566605' type='Code Task' indentLevel='2' expanded='true'>
         <attr name='Notes Author' value='Carlos Felipe Roa'/>
         <attr name='Milestone' value='11867048'/>
         <attr name='Time Per Person' value='0.0'/>
