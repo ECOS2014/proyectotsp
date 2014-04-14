@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397437593948'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397438005545'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -119,15 +119,15 @@
 			<task name='LOGTEST' id='13566525' tid='ht77arzq:13566525' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 			<task name='User Documentation' id='13566536' tid='ht77arzq:13566536' labels='none' phaseName='Documentation' phaseType='DOC' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 		</task>
-		<task name='Postmortem' id='13566465' tid='ht77arzq:13566465' labels='PM1' effectivePhase='Postmortem'>
+		<task name='Postmortem' id='13566465' tid='ht77arzq:13566465' labels='none' effectivePhase='Postmortem'>
 			<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395775654586' format='text'>Chapter 10,16,17,18</note>
-			<task name='Plan report cycle' id='13566556' tid='ht77arzq:13566556' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',CR=1.6000000000000003,'/>
-			<task name='PEER' id='13566501' tid='ht77arzq:13566501' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='PIP' id='13566502' tid='ht77arzq:13566502' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Cycle Report' id='13566529' tid='ht77arzq:13566529' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Role Report' id='13566530' tid='ht77arzq:13566530' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Engineer Report' id='13566531' tid='ht77arzq:13566531' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Plan report cycle' id='13566556' tid='ht77arzq:13566556' labels='none' phaseName='Postmortem' phaseType='PM' time=',CR=1.6000000000000003,'/>
+			<task name='PEER' id='13566501' tid='ht77arzq:13566501' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='PIP' id='13566502' tid='ht77arzq:13566502' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Cycle Report' id='13566529' tid='ht77arzq:13566529' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Role Report' id='13566530' tid='ht77arzq:13566530' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Engineer Report' id='13566531' tid='ht77arzq:13566531' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
 		</task>
 		<task name='Documentation' id='13566489' tid='ht77arzq:13566489' labels='none' effectivePhase='Documentation'>
 			<task name='Design' id='13566526' tid='ht77arzq:13566526' labels='none' phaseName='Documentation' phaseType='DOC' time=',PC=2.45,'/>
