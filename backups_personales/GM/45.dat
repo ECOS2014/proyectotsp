@@ -1,0 +1,11 @@
+#include <TSP/indiv2_empty_dataFile.txt>
+= Data for /Process Dashboard/ChangeCounter/Ciclo1/Postmortem
+EV_Task_Dependencies="<list><dependency tid='ht77arzq:13566487' name='/ChangeCounter/Ciclo1/Test' source='wbs'/></list>
+EV_Task_IDs=="ht77arzq:13566465
+TSP /Effective_Phase="Postmortem
+TSP /Effective_Phase_Last_Synced_Val="Postmortem
+Team_Note="<note author='Carlos Felipe Roa' timestamp='@1395775654586' format='text'>Chapter 10,16,17,18</note>
+Team_Note_Last_Synced_Val="<note author='Carlos Felipe Roa' timestamp='@1395775654586' format='text'>Chapter 10,16,17,18</note>
+Time=null
+WBS_Unique_ID="13566465
+leaf=null

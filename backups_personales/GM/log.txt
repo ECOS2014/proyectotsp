@@ -1,20 +1,17 @@
-Process Dashboard - logging started at Mon Apr 14 07:49:49 COT 2014
+Process Dashboard - logging started at Mon Apr 14 08:23:28 COT 2014
 Oracle Corporation JRE 1.8.0-ea; Windows 7
 Using LocalWorkingDirectory[C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM]
 Created default translation engine.
-abr 14, 2014 7:49:59 AM net.sourceforge.processdash.ProcessDashboard <init>
+abr 14, 2014 8:23:31 AM net.sourceforge.processdash.ProcessDashboard <init>
 Información: Process Dashboard version 2.0
-abr 14, 2014 7:50:00 AM net.sourceforge.processdash.tool.export.DataImporter importData
+abr 14, 2014 8:23:32 AM net.sourceforge.processdash.tool.export.DataImporter importData
 Información: importing C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\data\ht77arzq\disseminate\team-data.pdash
-schedule simulation took 70 ms.
-schedule simulation took 56 ms.
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\4.dat
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\2.dat
+schedule simulation took 54 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\44.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\global.dat
-abr 14, 2014 7:58:23 AM net.sourceforge.processdash.ProcessDashboard quit
+abr 14, 2014 8:24:04 AM net.sourceforge.processdash.ProcessDashboard quit
 Información: Successfully saved all data.
-schedule simulation took 31 ms.
+schedule simulation took 44 ms.
 Completed user-scheduled data export.
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\global.dat
