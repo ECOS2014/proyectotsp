@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- hierarchical work breakdown structure -->
+
+<node name="top">
+  <node name="Process Dashboard" selected="true">
+    <node name="ChangeCounter" templateID="TSP/Indiv2Root" dataFile="0.dat" selected="true">
+      <node name="Ciclo1" templateID="TSP/Indiv2ReadOnlyNode" dataFile="1.dat" defectLog="0.def" selected="true">
+        <node name="Launch" templateID="TSP/Indiv2Task" dataFile="2.dat" defectLog="1.def">
+          <node name="INFOForm" templateID="TSP/Indiv2Task" dataFile="3.dat" defectLog="2.def" selected="true"/>
+        </node>
+        <node name="Strategy" templateID="TSP/Indiv2Task" dataFile="4.dat" defectLog="3.def">
+          <node name="Configuration plan" templateID="TSP/Indiv2Task" dataFile="5.dat" defectLog="4.def" selected="true"/>
+        </node>
+        <node name="Planning" templateID="TSP/Indiv2Task" dataFile="6.dat" defectLog="5.def">
+          <node name="Personal TASK" templateID="TSP/Indiv2Task" dataFile="7.dat" defectLog="6.def"/>
+          <node name="Personal SCHEDULE" templateID="TSP/Indiv2Task" dataFile="8.dat" defectLog="7.def" selected="true"/>
+        </node>
+        <node name="Reqts" templateID="TSP/Indiv2Task" dataFile="9.dat" defectLog="8.def">
+          <node name="SRS" templateID="TSP/Indiv2Task" dataFile="10.dat" defectLog="9.def"/>
+          <node name="SRS Baseline" templateID="TSP/Indiv2Task" dataFile="11.dat" defectLog="10.def" selected="true"/>
+        </node>
+        <node name="Design" templateID="TSP/Indiv2Task" dataFile="12.dat" defectLog="11.def" selected="true">
+          <node name="SDS Baseline" templateID="TSP/Indiv2Task" dataFile="13.dat" defectLog="12.def" selected="true"/>
+          <node name="LOGD" templateID="TSP/Indiv2Task" dataFile="14.dat" defectLog="13.def"/>
+          <node name="Design Review" templateID="TSP/Indiv2Task" dataFile="15.dat" defectLog="14.def"/>
+          <node name="Test Devel" templateID="TSP/Indiv2Task" dataFile="44.dat" defectLog="44.def"/>
+        </node>
+        <node name="Code" templateID="TSP/Indiv2Task" dataFile="16.dat" defectLog="30.def">
+          <node name="Detailed Design" templateID="TSP/Indiv2Task" dataFile="31.dat" defectLog="31.def"/>
+          <node name="Implementation" templateID="TSP/Indiv2Task" dataFile="32.dat" defectLog="32.def"/>
+          <node name="Code Review" templateID="TSP/Indiv2Task" dataFile="33.dat" defectLog="33.def"/>
+          <node name="Code Inspect" templateID="TSP/Indiv2Task" dataFile="34.dat" defectLog="34.def"/>
+          <node name="UpdateLOGD" templateID="TSP/Indiv2Task" dataFile="35.dat" defectLog="35.def"/>
+          <node name="UpdateLOGT" templateID="TSP/Indiv2Task" dataFile="36.dat" defectLog="36.def"/>
+          <node name="Unit Test" templateID="TSP/Indiv2Task" dataFile="37.dat" defectLog="37.def"/>
+          <node name="Component Baseline" templateID="TSP/Indiv2Task" dataFile="38.dat" defectLog="38.def" selected="true"/>
+        </node>
+        <node name="Test" templateID="TSP/Indiv2Task" dataFile="39.dat" defectLog="39.def">
+          <node name="Sys Test" templateID="TSP/Indiv2Task" dataFile="40.dat" defectLog="40.def"/>
+          <node name="Int Test" templateID="TSP/Indiv2Task" dataFile="41.dat" defectLog="41.def"/>
+          <node name="LOGTEST" templateID="TSP/Indiv2Task" dataFile="42.dat" defectLog="42.def"/>
+          <node name="User Documentation" templateID="TSP/Indiv2Task" dataFile="43.dat" defectLog="43.def" selected="true"/>
+        </node>
+        <node name="Documentation" templateID="TSP/Indiv2Task" dataFile="17.dat" defectLog="16.def">
+          <node name="OutLine" templateID="TSP/Indiv2Task" dataFile="18.dat" defectLog="17.def"/>
+          <node name="Review" templateID="TSP/Indiv2Task" dataFile="19.dat" defectLog="18.def" selected="true"/>
+        </node>
+        <node name="Every Week" templateID="TSP/Indiv2Task" dataFile="20.dat" defectLog="19.def">
+          <node name="weekly meeting" templateID="TSP/Indiv2Task" dataFile="21.dat" defectLog="20.def"/>
+          <node name="Data reporting" templateID="TSP/Indiv2Task" dataFile="22.dat" defectLog="21.def"/>
+          <node name="Product Baseline" templateID="TSP/Indiv2Task" dataFile="23.dat" defectLog="22.def" selected="true"/>
+        </node>
+      </node>
+      <node name="Ciclo2" templateID="TSP/Indiv2ReadOnlyNode" dataFile="24.dat" defectLog="23.def">
+        <node name="Documentation" templateID="TSP/Indiv2Task" dataFile="25.dat" defectLog="24.def" selected="true">
+          <node name="OutLine" templateID="TSP/Indiv2Task" dataFile="26.dat" defectLog="25.def" selected="true"/>
+          <node name="Review" templateID="TSP/Indiv2Task" dataFile="27.dat" defectLog="26.def"/>
+        </node>
+        <node name="Every Week" templateID="TSP/Indiv2Task" dataFile="28.dat" defectLog="27.def">
+          <node name="weekly meeting" templateID="TSP/Indiv2Task" dataFile="29.dat" defectLog="28.def" selected="true"/>
+          <node name="Data reporting" templateID="TSP/Indiv2Task" dataFile="30.dat" defectLog="29.def"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node name="No Proyecto"/>
+</node>

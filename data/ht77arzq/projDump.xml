@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397056084966'>
+<project name='ChangeCounter' id='13566648' tid='ht77arzq:13566648' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397438005545'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -31,19 +31,19 @@
     <scheduleException week='0' hours='0.0'/>
   </teamMember>
 	<component name='Ciclo1' id='13566456' tid='ht77arzq:13566456' labels='none' wid='5235971'>
-		<task name='Launch' id='13566459' tid='ht77arzq:13566459' labels='LAU1' effectivePhase='Misc'>
+		<task name='Launch' id='13566459' tid='ht77arzq:13566459' labels='none' effectivePhase='Misc'>
 			<note author='Carlos Felipe Roa' timestamp='@1395757122696' format='text'>PSP Course, &#10;Chapter 1,2,3 and Appe A</note>
-			<task name='INFOForm' id='13566467' tid='ht77arzq:13566467' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',DA=3.980392156862744,FF=3.980392156862744,GM=3.980392156862744,IE=3.980392156862744,PC=3.980392156862744,'/>
-			<task name='ProyectCharter' id='13566468' tid='ht77arzq:13566468' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=6.368627450980393,'/>
-			<task name='WeekForm' id='13566469' tid='ht77arzq:13566469' labels='LAU1' phaseName='Misc' phaseType='MGMT' deferredTime=',PC=0.7960784313725491,'/>
+			<task name='INFOForm' id='13566467' tid='ht77arzq:13566467' labels='none' phaseName='Misc' phaseType='MGMT' time=',DA=3.980392156862744,FF=3.980392156862744,GM=3.980392156862744,IE=3.980392156862744,PC=3.980392156862744,'/>
+			<task name='ProyectCharter' id='13566468' tid='ht77arzq:13566468' labels='none' phaseName='Misc' phaseType='MGMT' time=',CR=6.368627450980393,'/>
+			<task name='WeekForm' id='13566469' tid='ht77arzq:13566469' labels='none' phaseName='Misc' phaseType='MGMT' time=',PC=0.7960784313725491,'/>
 		</task>
-		<task name='Strategy' id='13566466' tid='ht77arzq:13566466' labels='STRAT1' effectivePhase='Strategy'>
+		<task name='Strategy' id='13566466' tid='ht77arzq:13566466' labels='none' effectivePhase='Strategy'>
 			<dependency name='/ChangeCounter/Ciclo1/Launch' tid='ht77arzq:13566459' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395755508561' format='text'>Chapter 4</note>
-			<task name='Conceptual Desing' id='13566473' tid='ht77arzq:13566473' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',FF=2.8288659793814435,PC=2.8288659793814435,'/>
-			<task name='ITL' id='13566471' tid='ht77arzq:13566471' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',DA=2.0206185567010313,'/>
-			<task name='STRAT' id='13566472' tid='ht77arzq:13566472' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',IE=1.347079037800687,'/>
-			<task name='Configuration plan' id='13566548' tid='ht77arzq:13566548' labels='STRAT1' phaseName='Strategy' phaseType='STRAT' deferredTime=',GM=4.041237113402063,'/>
+			<task name='Conceptual Desing' id='13566473' tid='ht77arzq:13566473' labels='none' phaseName='Strategy' phaseType='STRAT' time=',FF=2.8288659793814435,PC=2.8288659793814435,'/>
+			<task name='ITL' id='13566471' tid='ht77arzq:13566471' labels='none' phaseName='Strategy' phaseType='STRAT' time=',DA=2.0206185567010313,'/>
+			<task name='STRAT' id='13566472' tid='ht77arzq:13566472' labels='none' phaseName='Strategy' phaseType='STRAT' time=',IE=1.347079037800687,'/>
+			<task name='Configuration plan' id='13566548' tid='ht77arzq:13566548' labels='none' phaseName='Strategy' phaseType='STRAT' time=',GM=4.041237113402063,'/>
 		</task>
 		<task name='Planning' id='13566460' tid='ht77arzq:13566460' labels='none' effectivePhase='Planning'>
 			<dependency name='/ChangeCounter/Ciclo1/Strategy' tid='ht77arzq:13566466' source='wbs'/>
@@ -116,21 +116,18 @@
 			<task name='Sys Test' id='13566488' tid='ht77arzq:13566488' labels='none' phaseName='Sys Test' phaseType='ST' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
 				<dependency name='/ChangeCounter/Ciclo1/Test/Int Test' tid='ht77arzq:13566464' source='wbs'/>
 			</task>
-			<task name='Int Test' id='13566464' tid='ht77arzq:13566464' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'>
-				<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
-			</task>
 			<task name='LOGTEST' id='13566525' tid='ht77arzq:13566525' labels='none' phaseName='Int Test' phaseType='IT' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 			<task name='User Documentation' id='13566536' tid='ht77arzq:13566536' labels='none' phaseName='Documentation' phaseType='DOC' time=',DA=0.1555555555555555,FF=0.1555555555555555,GM=0.1555555555555555,IE=0.1555555555555555,PC=0.1555555555555555,CR=0.1555555555555555,'/>
 		</task>
-		<task name='Postmortem' id='13566465' tid='ht77arzq:13566465' labels='PM1' effectivePhase='Postmortem'>
+		<task name='Postmortem' id='13566465' tid='ht77arzq:13566465' labels='none' effectivePhase='Postmortem'>
 			<dependency name='/ChangeCounter/Ciclo1/Test' tid='ht77arzq:13566487' source='wbs'/>
 			<note author='Carlos Felipe Roa' timestamp='@1395775654586' format='text'>Chapter 10,16,17,18</note>
-			<task name='Plan report cycle' id='13566556' tid='ht77arzq:13566556' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',CR=1.6000000000000003,'/>
-			<task name='PEER' id='13566501' tid='ht77arzq:13566501' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='PIP' id='13566502' tid='ht77arzq:13566502' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Cycle Report' id='13566529' tid='ht77arzq:13566529' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Role Report' id='13566530' tid='ht77arzq:13566530' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
-			<task name='Engineer Report' id='13566531' tid='ht77arzq:13566531' labels='PM1' phaseName='Postmortem' phaseType='PM' deferredTime=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Plan report cycle' id='13566556' tid='ht77arzq:13566556' labels='none' phaseName='Postmortem' phaseType='PM' time=',CR=1.6000000000000003,'/>
+			<task name='PEER' id='13566501' tid='ht77arzq:13566501' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='PIP' id='13566502' tid='ht77arzq:13566502' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Cycle Report' id='13566529' tid='ht77arzq:13566529' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Role Report' id='13566530' tid='ht77arzq:13566530' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
+			<task name='Engineer Report' id='13566531' tid='ht77arzq:13566531' labels='none' phaseName='Postmortem' phaseType='PM' time=',DA=0.13333333333333333,FF=0.13333333333333333,GM=0.13333333333333333,IE=0.13333333333333333,PC=0.13333333333333333,CR=0.13333333333333333,'/>
 		</task>
 		<task name='Documentation' id='13566489' tid='ht77arzq:13566489' labels='none' effectivePhase='Documentation'>
 			<task name='Design' id='13566526' tid='ht77arzq:13566526' labels='none' phaseName='Documentation' phaseType='DOC' time=',PC=2.45,'/>
@@ -157,9 +154,7 @@
 	<component name='Ciclo2' id='13566559' tid='ht77arzq:13566559' labels='none'>
 		<task name='Launch' id='13566560' tid='ht77arzq:13566560' labels='LAU2' effectivePhase='Misc'>
 			<note author='Carlos Felipe Roa' timestamp='@1395757122696' format='text'>PSP Course, &#10;Chapter 1,2,3 and Appe A</note>
-			<task name='INFOForm' id='13566561' tid='ht77arzq:13566561' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',DA=0.15825616697549688,FF=0.15825616697549688,GM=0.15825616697549688,IE=0.15825616697549688,PC=0.15825616697549688,CR=0.15825616697549688,'/>
-			<task name='ProyectCharter' id='13566562' tid='ht77arzq:13566562' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=0.47476850092649037,'/>
-			<task name='WeekForm' id='13566563' tid='ht77arzq:13566563' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',PC=0.47476850092649037,'/>
+			<task name='WeekForm' id='13566563' tid='ht77arzq:13566563' labels='LAU2' phaseName='Misc' phaseType='MGMT' deferredTime=',CR=0.47476850092649037,'/>
 		</task>
 		<task name='Strategy' id='13566564' tid='ht77arzq:13566564' labels='STRAT2' effectivePhase='Strategy'>
 			<dependency name='/ChangeCounter/Ciclo2/Launch' tid='ht77arzq:13566560' source='wbs'/>
