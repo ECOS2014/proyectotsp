@@ -28,7 +28,8 @@
   <time id="49" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/PIP" start="@1397431837000" delta="20" />
   <time id="51" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Role Report" start="@1397480761004" delta="10" />
   <time id="52" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Cycle Report" start="@1397433965000" delta="10" />
-  <time id="53" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Engineer Report" start="@1397527200000" delta="10" />
+  <time id="53" path="/Process Dashboard/ChangeCounter/Ciclo1/Postmortem/Engineer Report" start="@1397527200000" delta="8" />
   <time id="54" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/Data reporting" start="@1397480796556" delta="10" />
   <time id="55" path="/Process Dashboard/ChangeCounter/Ciclo1/Design/Test Devel" start="@1396411235000" delta="10" />
+  <time id="56" path="/Process Dashboard/ChangeCounter/Ciclo1/Every Week/Product Baseline" start="@1397448660000" delta="60" comment="Se genero manual de usuo de la herramienta" />
 </timeLogEntries>
