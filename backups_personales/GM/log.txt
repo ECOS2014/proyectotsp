@@ -1,17 +1,18 @@
-Process Dashboard - logging started at Mon Apr 14 08:23:28 COT 2014
+Process Dashboard - logging started at Tue Apr 15 10:29:22 COT 2014
 Oracle Corporation JRE 1.8.0-ea; Windows 7
 Using LocalWorkingDirectory[C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM]
 Created default translation engine.
-abr 14, 2014 8:23:31 AM net.sourceforge.processdash.ProcessDashboard <init>
+abr 15, 2014 10:30:02 AM net.sourceforge.processdash.ProcessDashboard <init>
 Información: Process Dashboard version 2.0
-abr 14, 2014 8:23:32 AM net.sourceforge.processdash.tool.export.DataImporter importData
+abr 15, 2014 10:30:05 AM net.sourceforge.processdash.tool.export.DataImporter importData
 Información: importing C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\data\ht77arzq\disseminate\team-data.pdash
-schedule simulation took 54 ms.
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\44.dat
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
-abr 14, 2014 8:24:04 AM net.sourceforge.processdash.ProcessDashboard quit
-Información: Successfully saved all data.
-schedule simulation took 44 ms.
-Completed user-scheduled data export.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\53.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\22.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\52.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\51.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\global.dat
+schedule simulation took 976 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
+abr 15, 2014 10:40:05 AM net.sourceforge.processdash.tool.export.DataImporter importData
+Información: importing C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\data\ht77arzq\disseminate\team-data.pdash
