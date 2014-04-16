@@ -1,4 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <timeLogEntries>
-  <time id="54" start="@1397480796000" delta="-1" flag="M" />
+  <time id="57" path="/Process Dashboard/ChangeCounter/Ciclo2/Planning/Personal TASK" start="@1397661600000" delta="5" flag="A" />
+  <time id="58" flag="D" />
+  <time id="59" path="/Process Dashboard/ChangeCounter/Ciclo2/Planning/Personal SCHEDULE" start="@1397661900000" delta="5" flag="A" />
+  <time id="60" flag="D" />
+  <time id="61" path="/Process Dashboard/ChangeCounter/Ciclo2/Documentation/OutLine" start="@1397664000000" delta="5" flag="A" />
+  <time id="62" flag="D" />
+  <time id="63" path="/Process Dashboard/ChangeCounter/Ciclo2/Documentation/Review" start="@1397664603000" delta="10" flag="A" />
+  <time id="64" flag="D" />
+  <time id="65" path="/Process Dashboard/ChangeCounter/Ciclo2/Every Week/weekly meeting" start="@1397402474000" delta="10" flag="A" />
+  <time id="66" flag="D" />
+  <time id="67" path="/Process Dashboard/ChangeCounter/Ciclo2/Every Week/Data reporting" start="@1397661682250" delta="10" flag="A" />
+  <time id="68" flag="D" />
+  <time id="69" flag="D" />
 </timeLogEntries>
