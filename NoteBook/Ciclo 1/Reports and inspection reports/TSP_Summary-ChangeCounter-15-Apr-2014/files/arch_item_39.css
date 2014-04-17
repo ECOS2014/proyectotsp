@@ -1,0 +1,396 @@
+/*
+ * Gantt chart functionality by Tuma Solutions.
+ * Copyright (C) 2010-2011 Tuma Solutions, LLC.  All rights reserved.
+ *
+ * This file is NOT open source.  It can not be copied, modified, or
+ * reused without prior written permission from Tuma Solutions, LLC.
+ *
+ * Unauthorized reuse of this file or portions thereof is a federal
+ * copyright violation, and is punishable by fines of up to $100,000
+ * per infraction and/or prison sentence.
+ *
+ * For more information, or to request permission to reuse this file,
+ * contact <gantt@tuma-solutions.com>
+ */
+
+/* CSS classes relating to the appearance of the overall table */
+
+div.tsGantt {
+    font-size: 16px; 
+}
+
+table.tsGantt {
+    border-collapse: collapse
+}
+
+table.tsGantt td {
+    border: 1px solid #777777;
+    vertical-align: top;
+}
+
+div.tsGanttDataHolder {
+    position: relative;
+    background-image: url("arch_item_122.png");
+    overflow-x: scroll;
+}
+
+@media print { div.tsGanttDataHolder {
+    overflow-x: hidden;
+    background-image: none;
+} }
+
+td.tsGanttLeft  div.tsGanttDataHolder { width: 400px; }
+
+td.tsGanttRight div.tsGanttDataHolder { width: 800px; }
+
+
+table.tsGanttData {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    cursor: move;
+}
+
+table.tsGanttData tr {
+    height: 24px;
+}
+
+table.tsGanttData td {
+    margin: 0px;
+    padding: 0px;
+    height: 24px;
+    vertical-align: top;
+    border: 0px;
+    white-space: nowrap;
+}
+
+@media print { table.tsGanttData tr {
+    background-image: url("arch_item_124.png");
+} }
+
+@media screen { table.tsGanttData tr.tsgHighlight {
+    background-image: url("arch_item_123.png");
+} }
+
+
+
+/* CSS classes relating to the table header and toolbar */
+
+div.tsGanttHeader {
+    height: 30px;
+    background-color: #c9c9c9;
+    background-image: url("arch_item_120.png");
+    white-space: nowrap;
+}
+
+div.tsGanttTaskColumnText {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 24px;
+}
+
+div.tsgPrintSetupHelp {
+    position: absolute;
+    font-weight: bold;
+    font-size: 20pt;
+    text-align: center;
+    padding: 30px;
+    width: 600px;
+}
+
+@media screen { div.tsgPrintSetupHelp { display: none; } }
+
+div.tsgControlBar {
+    font-size: 0px;
+    position: relative;
+    overflow: visible;
+    width: 100%;
+    height: 0px;
+    z-index: 5;
+}
+
+@media print { div.tsgControlBar { display: none } }
+
+div.tsgControlBar a {
+    position: absolute;
+    top: 0px;
+    width: 27px;
+    height: 30px;
+    font-size: 1px;
+    outline: none;
+    text-decoration: none;
+}
+
+a.tsgZoomIn {
+    background-image: url("arch_item_134.png");
+}
+
+a.tsgZoomOut {
+    background-image: url("arch_item_135.png");
+}
+
+a.tsgZoomFit {
+    background-image: url("arch_item_133.png");
+}
+
+a.tsgConfig {
+    background-image: url("arch_item_116.png");
+}
+
+span.tsgControlSpacer {
+    font-size: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30px;
+    width: 3px;
+    background-image: url("arch_item_120.png");
+}
+
+td.tsResizer {
+    width: 7px;
+    background-color: #d4d0c8;
+    background-image: url("arch_item_121.png");
+    cursor: e-resize;
+}
+
+td.tsResizer div {
+    width: 7px;
+}
+
+@media print { td.tsResizer { display: none } }
+
+
+/* CSS classes relating to the display of the tree on the left */
+
+td.tsGanttLeft table.tsGanttData td div {
+    position: relative
+}
+
+td.tsGanttLeft table.tsGanttData td span {
+    position: relative;
+    top: 2px;
+}
+
+a.tsgExpandAll {
+    font-size: 1px;
+    position: absolute;
+    left: -20px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    background-image: url("arch_item_119.gif");
+    outline: none;
+    text-decoration: none;
+}
+
+a.tsgRowExpander {
+    font-size: 1px;
+    position: absolute;
+    left: -15px;
+    top: 4px;
+    width: 11px;
+    height: 14px;
+    background-image: url("arch_item_132.gif");
+    outline: none;
+    text-decoration: none;
+}
+
+tr.tsgCollapsed a.tsgRowExpander {
+    background-image: url("arch_item_131.gif");
+}
+
+div.tsGanttRowData {
+    display: none
+}
+
+
+
+/* CSS classes relating to the chart rows on the right (with task bars, etc) */
+
+div.tsgChartRow {
+    position: relative;
+}
+
+div.tsgSum {
+    font-size: 1px;
+    position: absolute;
+    top: 5px;
+    height: 9px;
+    width: 1px;
+    margin-right: 15px;
+    background-color: #2d2d2d;
+    background-image: url("arch_item_125.png");
+    overflow: visible;
+    cursor: pointer;
+    z-index: 1;
+}
+
+div.tsgSumPC {
+    font-size: 1pt;
+    height: 100%;
+    background-color: #006000;
+    background-image: url("arch_item_126.png");
+    border-right: 1px solid #007a1d;
+}
+
+div.tsgSumLeft {
+    font-size: 1px;
+    position: absolute;
+    top: 0px;
+    left: -6px; 
+    height: 15px;
+    width: 13px;
+    background-image: url("arch_item_127.gif");
+}
+
+div.tsgSumRight {
+    font-size: 1px;
+    position: absolute;
+    top: 0px;
+    right: -7px; 
+    height: 15px;
+    width: 13px;
+    background: url("arch_item_128.gif");
+}
+
+div.tsgTask {
+    font-size: 1pt;
+    position: absolute;
+    top: 5px;
+    height: 15px;
+    width: 1px;
+    background-color: #020fc0;
+    background-image: url("arch_item_129.png");
+    border-left: 1px solid #5689b4;
+    border-right: 1px solid #5689b4;
+    cursor: pointer;
+    z-index: 1;
+}
+
+div.tsgTaskPC {
+    font-size: 1pt;
+    height: 100%;
+    background-color: #006000;
+    background-image: url("arch_item_130.png");
+    border-right: 1px solid #00b82b;
+}
+
+span.tsgRowLabel {
+    position: relative;
+    top: 2px;
+    white-space: nowrap;
+}
+
+
+
+/* CSS classes relating to the vertical chart lines that identify dates */
+
+div.tsGanttDateBarHolder {
+    position: absolute;
+    top: 0;
+    height: 0px;
+    overflow:visible;
+    z-index: 1;
+}
+
+div.tsGanttDateBar {
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    background-color: #d4d0c8;
+}
+
+div.tsGanttDateLabel {
+    position: absolute;
+    top: 0px;
+    padding-top: 5px;
+    height: 25px;
+    white-space: nowrap;
+    padding-left: 5px;
+}
+
+
+
+/* CSS classes relating to dependencies */
+
+div.tsgDep {
+    font-size: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    z-index: 4;
+}
+
+div.tsgDepA {
+    font-size: 1px;
+    position: absolute;
+    top: 8px;
+    width: 10px;
+    height: 9px;
+    background-image: url("arch_item_117.gif");
+}
+
+div.tsgDepH {
+    font-size: 1px;
+    position: absolute;
+    top: 12px;
+    height: 1px;
+    border-top: 1px solid black;
+    z-index: 2;
+}
+
+div.tsgDepV {
+    font-size: 0px;
+    position: absolute; 
+}
+
+@media screen { div.tsgDepV {
+    width: 1px;
+    background-color: black;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+} }
+
+@media print { div.tsgDepV {
+    width: 3px;
+    background-image: url("arch_item_118.png");
+} }
+
+div.licenseFooter a:link    { color:#000080; text-decoration:none }
+div.licenseFooter a:visited { color:#000080; text-decoration:none }
+div.licenseFooter a:hover   { color:blue; text-decoration:underline }
+div.licenseFooter {
+    border: 4px double black;
+    padding: 5px;
+}
+
+div.licenseStatusNotNeeded {
+    display: none;
+}
+
+div.tsGanttContentWrapper div.licenseStatusCurrent {
+    border: none;
+    font-size: small;
+}
+
+div.tsGanttContentWrapper div.licenseStatusGrace {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ff9999;
+}
+
+div.tsGanttContentWrapper div.licenseStatusTrial {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ccffcc;
+}
+
+p.exportFooter {
+    font-style: italic;
+}
+
+@media print { p.exportFooter { display: none } }

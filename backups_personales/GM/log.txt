@@ -1,17 +1,42 @@
-Process Dashboard - logging started at Mon Apr 14 08:23:28 COT 2014
+Process Dashboard - logging started at Wed Apr 16 10:17:48 COT 2014
 Oracle Corporation JRE 1.8.0-ea; Windows 7
 Using LocalWorkingDirectory[C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM]
 Created default translation engine.
-abr 14, 2014 8:23:31 AM net.sourceforge.processdash.ProcessDashboard <init>
+abr 16, 2014 10:17:55 AM net.sourceforge.processdash.ProcessDashboard <init>
 Información: Process Dashboard version 2.0
-abr 14, 2014 8:23:32 AM net.sourceforge.processdash.tool.export.DataImporter importData
+abr 16, 2014 10:17:56 AM net.sourceforge.processdash.tool.export.DataImporter importData
 Información: importing C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\data\ht77arzq\disseminate\team-data.pdash
-schedule simulation took 54 ms.
-Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\44.dat
+schedule simulation took 119 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\6.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\4.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\2.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
-abr 14, 2014 8:24:04 AM net.sourceforge.processdash.ProcessDashboard quit
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\global.dat
+schedule simulation took 56 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\53.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\30.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\29.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\52.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\26.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\27.dat
+schedule simulation took 52 ms.
+schedule simulation took 64 ms.
+schedule simulation took 56 ms.
+schedule simulation took 52 ms.
+schedule simulation took 36 ms.
+schedule simulation took 48 ms.
+schedule simulation took 35 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\53.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\52.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\26.dat
+schedule simulation took 40 ms.
+schedule simulation took 35 ms.
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\30.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\29.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\26.dat
+Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\27.dat
+abr 16, 2014 10:26:59 AM net.sourceforge.processdash.ProcessDashboard quit
 Información: Successfully saved all data.
-schedule simulation took 44 ms.
 Completed user-scheduled data export.
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\0.dat
 Saved C:\Users\IngDesarrollo\Documents\GitHub\proyectotsp\backups_personales\GM\global.dat

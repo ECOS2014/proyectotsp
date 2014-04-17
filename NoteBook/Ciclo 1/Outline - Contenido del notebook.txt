@@ -1,0 +1,32 @@
+NOTEBOOK - PROYECTO TSP: CHANGE COUNTER
+
+-	Summary: 
+	- nombre del proyecto, datos, miembros del equipo y                  asignación de roles.
+	-SUMP, SUMQ con datos planeados y reales.
+	-TASK and SCHEDULE con datos planeados y reales.
+-	Reportes de ciclo y del proyecto: 
+	-Reporte final de cada ciclo
+	-Durante el proyecto puede ser usado como un repositorio de         documentos que luego se incluirán en el reporte final.
+-	Task and Schedule (plan y real): todos los recursos y datos       de cronograma planeados y reales.
+	-Resumen de desempeño de las tareas y el cronograma planeado        Vs real.
+	-TASK ingeniero, SCHEDULE, LOGD, LOGT.
+-	Documentos del proceso (process document):
+	-Si hay cambios los procesos definidos usados y todos los PIPs
+	-Procedimiento de control de cambios y cualquier documento relacionado.
+	-Procesos de gestión de configuración.
+	-Factores y riesgos seguidos en el proceso.
+-	Sistema y componente, datos planeados y reales (component        data)
+	-SUMP Y SUMQ de cada componente del producto.
+-	Plan de pruebas y datos
+ 	-Plan de pruebas de construcción, integración y de sistema.
+	-Registro de pruebas y datos (LOGTEST)
+	-Registro de revisiones de los defectos en las pruebas.
+-	Reportes de inspección y registro de defectos (Inspection        reports   -   Reports)
+	-Todos los reportes de inspección INS y defectos LOGD.
+	-Reportes semanales individuales y del equipo WEEK.
+-	Notas de trabajo y documentos (Working documents)
+	-Especificación de requerimientos SRS
+	-Estrategia de desarrollo
+	-Especificación del diseño SDS con traceabilidad de SRS.
+	-Todos los documentos del diseño.
+	-Otros importantes: CCR, CSR, SUMTASK.
