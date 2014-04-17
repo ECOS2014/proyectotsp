@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<project name='ChangeCounter' id='13566668' tid='ht77arzq:13566668' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397628507131'>
+<project name='ChangeCounter' id='13566668' tid='ht77arzq:13566668' labels='Inicio_del_projecto' dumpFileVersion='4.0.0' dumpTimestamp='@1397698037828'>
   <teamMember name='David Abril' tmid='90251806' initials='DA' startDate='@1393977600000' startCalendarDate='2014-03-05' endWeek='9' hoursPerWeek='6.0'>
     <scheduleException week='6' hours='16.0'/>
     <scheduleException week='8' hours='3.0'/>
@@ -214,14 +214,14 @@
 			<task name='Implementation Standards' id='13566606' tid='ht77arzq:13566606' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',DA=2,FF=2,'/>
 			<task name='Detailed Design' id='13566607' tid='ht77arzq:13566607' labels='IMP2' phaseName='Design' phaseType='DLD' deferredTime=',DA=0.13542028447436202,FF=0.13542028447436202,GM=0.13542028447436202,IE=0.13542028447436202,PC=0.13542028447436202,CR=0.13542028447436202,'/>
 			<component name='Implementation' id='13566608' tid='ht77arzq:13566608' labels='IMP2'>
-				<task name='class Line' id='13566648' tid='ht77arzq:13566648' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',FF=6,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='117' sizeReu='0' sizeNC='117'/>
-				<task name='class lineType' id='13566654' tid='ht77arzq:13566654' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',GM=1,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='8' sizeReu='0' sizeNC='8'/>
-				<task name='class program' id='13566661' tid='ht77arzq:13566661' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',GM=3,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='37' sizeReu='0' sizeNC='37'/>
-				<task name='class panelOutput' id='13566662' tid='ht77arzq:13566662' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',CR=5.583333333333333,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='67' sizeReu='0' sizeNC='67'/>
-				<task name='class panelInputVersion' id='13566663' tid='ht77arzq:13566663' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',IE=3.9166666666666665,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='47' sizeReu='0' sizeNC='47'/>
-				<task name='class panelInputDirectoryPath' id='13566664' tid='ht77arzq:13566664' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',PC=4.6,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='69' sizeReu='0' sizeNC='69'/>
-				<task name='class panelChangeData' id='13566665' tid='ht77arzq:13566665' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',DA=4,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='66' sizeReu='0' sizeNC='66'/>
-				<task name='Actualizacion de clases' id='13566666' tid='ht77arzq:13566666' labels='IMP2' phaseName='Code' phaseType='CODE' deferredTime=',IE=0.8333333333333334,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='10' sizeReu='0' sizeNC='10'/>
+				<psp name='class Line' id='13566648' tid='ht77arzq:13566648' labels='IMP2' deferredTime=',FF=6,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='117' sizeReu='0' sizeNC='117'/>
+				<psp name='class lineType' id='13566654' tid='ht77arzq:13566654' labels='IMP2' deferredTime=',GM=1,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='8' sizeReu='0' sizeNC='8'/>
+				<psp name='class program' id='13566661' tid='ht77arzq:13566661' labels='IMP2' deferredTime=',GM=3,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='37' sizeReu='0' sizeNC='37'/>
+				<psp name='class panelOutput' id='13566662' tid='ht77arzq:13566662' labels='IMP2' deferredTime=',CR=5.583333333333333,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='67' sizeReu='0' sizeNC='67'/>
+				<psp name='class panelInputVersion' id='13566663' tid='ht77arzq:13566663' labels='IMP2' deferredTime=',IE=3.9166666666666665,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='47' sizeReu='0' sizeNC='47'/>
+				<psp name='class panelInputDirectoryPath' id='13566664' tid='ht77arzq:13566664' labels='IMP2' deferredTime=',PC=4.6,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='69' sizeReu='0' sizeNC='69'/>
+				<psp name='class panelChangeData' id='13566665' tid='ht77arzq:13566665' labels='IMP2' deferredTime=',DA=4,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='66' sizeReu='0' sizeNC='66'/>
+				<psp name='Actualizacion de clases' id='13566666' tid='ht77arzq:13566666' labels='IMP2' deferredTime=',IE=0.8333333333333334,' sizeUnits='LOC' sizeBase='0' sizeDel='0' sizeMod='0' sizeAdd='10' sizeReu='0' sizeNC='10'/>
 			</component>
 			<task name='Code Review' id='13566609' tid='ht77arzq:13566609' labels='IMP2' phaseName='Code Review' phaseType='CR' deferredTime=',DA=2,FF=2,GM=2,IE=2,PC=2,CR=2,' inspUnits='LOC' inspSize='421'/>
 			<task name='Code Inspect' id='13566610' tid='ht77arzq:13566610' labels='IMP2' phaseName='Code Inspect' phaseType='CODEINSP' deferredTime=',DA=1,GM=1,IE=1,PC=1,CR=1,' inspUnits='LOC' inspSize='421'/>
