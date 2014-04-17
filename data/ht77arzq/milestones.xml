@@ -1,5 +1,5 @@
 <wbsModel>
-  <wbsNode name='Project Milestones' id='11867052' type='Milestone List' indentLevel='0' expanded='true'>
+  <wbsNode name='Project Milestones' id='11867059' type='Milestone List' indentLevel='0' expanded='true'>
     <attr name='createdWithVersion' value='4.0.0'/>
   </wbsNode>
     <wbsNode name='Inicio del projecto' id='11867033' type='Milestone' indentLevel='1' expanded='true'>
@@ -50,46 +50,83 @@
     <wbsNode name='LAU2' id='11867043' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-17'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#7f4e28'/>
     </wbsNode>
     <wbsNode name='STRAT2' id='11867044' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-17'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#8c5f51'/>
     </wbsNode>
     <wbsNode name='PLAN2' id='11867045' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-17'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#b5d1d4'/>
     </wbsNode>
     <wbsNode name='REQ2' id='11867046' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-24'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#f0809c'/>
     </wbsNode>
     <wbsNode name='DES2' id='11867047' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-24'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#f3d0b1'/>
     </wbsNode>
     <wbsNode name='IMP2' id='11867048' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-30'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#f67388'/>
     </wbsNode>
     <wbsNode name='TEST2' id='11867049' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-04-30'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#368023'/>
     </wbsNode>
     <wbsNode name='PM2' id='11867050' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-05-07'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#4d3571'/>
     </wbsNode>
     <wbsNode name='LAU3' id='11867051' type='Milestone' indentLevel='1' expanded='true'>
       <attr name='Defer Sync' value='true'/>
       <attr name='Commit Date' value='2014-05-14'/>
+      <attr name='Hidden' value='true'/>
       <attr name='Color' value='#e8b12c'/>
+    </wbsNode>
+    <wbsNode name='Week1' id='11867052' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-03-26'/>
+      <attr name='Color' value='#c1931c'/>
+    </wbsNode>
+    <wbsNode name='Week2' id='11867053' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-04-02'/>
+      <attr name='Color' value='#2dcf87'/>
+    </wbsNode>
+    <wbsNode name='Week3' id='11867054' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-04-09'/>
+      <attr name='Color' value='#28d636'/>
+    </wbsNode>
+    <wbsNode name='Week4' id='11867055' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-04-18'/>
+      <attr name='Color' value='#386c8d'/>
+    </wbsNode>
+    <wbsNode name='Week5' id='11867056' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-04-23'/>
+      <attr name='Color' value='#a3e240'/>
+    </wbsNode>
+    <wbsNode name='Week6' id='11867057' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-04-30'/>
+      <attr name='Color' value='#83388a'/>
+    </wbsNode>
+    <wbsNode name='Week7' id='11867058' type='Milestone' indentLevel='1' expanded='true'>
+      <attr name='Commit Date' value='2014-05-07'/>
+      <attr name='Color' value='#2cf942'/>
     </wbsNode>
 </wbsModel>

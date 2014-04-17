@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<wbstabs version='4.0.0'>
+	<tab name='Balance'>
+		<column name='Milestone' id='Milestone'/>
+		<column name='Time' id='Time'/>
+		<column name='Assigned To' id='Assigned To'/>
+	</tab>
+</wbstabs>
