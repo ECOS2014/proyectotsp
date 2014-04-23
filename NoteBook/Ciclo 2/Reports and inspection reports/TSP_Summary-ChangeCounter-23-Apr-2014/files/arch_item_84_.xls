@@ -1,0 +1,78 @@
+<HTML><HEAD>
+<TITLE>Defect Removal Profile</TITLE>
+<LiNt REL='stylesheet' TYPE='text/css' HREF='arch_item_34.css'>
+</HEAD><BODY>
+<H1>Defect Removal Profile</H1>
+<TABLE BORDER>
+<TR>
+<TD>Phase</TD>
+<TD>Plan</TD>
+<TD>Actual</TD>
+</TR>
+<TR>
+<TD>Reqts Review</TD>
+<TD>#DIV/0!</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Reqts Inspect</TD>
+<TD>#DIV/0!</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>HLD Review</TD>
+<TD>#DIV/0!</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>HLD Inspect</TD>
+<TD>#DIV/0!</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Design Review</TD>
+<TD>13.8</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Design Inspect</TD>
+<TD>4.15</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Code Review</TD>
+<TD>45.5</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Code Inspect</TD>
+<TD>6.91</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Test</TD>
+<TD>3.79</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Int Test</TD>
+<TD>0.34</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Sys Test</TD>
+<TD>0.07</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Accept Test</TD>
+<TD>0</TD>
+<TD>#DIV/0!</TD>
+</TR>
+<TR>
+<TD>Product Life</TD>
+<TD>0</TD>
+<TD>#DIV/0!</TD>
+</TR>
+</TABLE>
+<!--HIDDEN P class='doNotPrint'><dis_a HREF="excel.iqy"><I>Export to Excel</I></dis_a></P HIDDEN--></BODY></HTML>
