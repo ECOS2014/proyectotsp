@@ -1,0 +1,375 @@
+/*
+ * Kanban chart functionality by Tuma Solutions.
+ * Copyright (C) 2010-2011 Tuma Solutions, LLC.  All rights reserved.
+ *
+ * This file is NOT open source.  It can not be copied, modified, or
+ * reused without prior written permission from Tuma Solutions, LLC.
+ *
+ * Unauthorized reuse of this file or portions thereof is a federal
+ * copyright violation, and is punishable by fines of up to $100,000
+ * per infraction and/or prison sentence.
+ *
+ * For more information, or to request permission to reuse this file,
+ * contact <kanban@tuma-solutions.com>
+ */
+
+
+/* CSS classes relating to the appearance of the header row  */
+
+
+tr.tsKanbanHeader td {
+   background: url("arch_item_137.gif");
+   background-position: 50% 50%;
+   color: white;
+   padding: 4px 1px;
+   margin-right: -1px;
+   text-align: center;
+   font-weight: bold;
+   font-size: large;
+}
+
+tr.tsKanbanHeader td div { position: relative; }
+
+tr.tsKanbanHeader a.tsKanbanIcon.tsKanbanAddTask {
+   height: 22px;
+   width: 22px;
+   background-position: 0px -112px; 
+}
+
+tr.tsKanbanHeader a.tsKanbanIcon.tsKanbanOptions {
+   height: 22px;
+   width: 22px;
+   background-position: 0px -134px;
+}
+
+tr.tsKanbanHeader td div.tsKanbanOptionsMenu {
+   background-color: #ccf;
+   border: 1px solid black;
+   color: black;
+   font-size: small;
+   font-weight: normal;
+   padding: 5px;
+   position: absolute;
+   right: 4px;
+   text-align: left;
+   top: 22px;
+   z-index: 10;
+}
+
+tr.tsKanbanHeader td div.tsKanbanOptionsMenu ul {
+   list-style: none;
+   padding-left: 1.5em;
+}
+
+tr.tsKanbanHeader td div.tsKanbanOptionsMenu li {
+   cursor: pointer;
+   margin: 0px -5px 0px 0px;
+   padding: 5px;
+   white-space: nowrap;
+}
+
+tr.tsKanbanHeader td div.tsKanbanOptionsMenu li.tsKanbanFilterSelected {
+   list-style: square;
+}
+
+tr.tsKanbanHeader td div.tsKanbanOptionsMenu li:hover {
+   background-color: #aaf;
+}
+
+
+.tsKanbanTooltip { display: none }
+
+
+/* CSS classes relating to the appearance of the table of tasks  */
+
+table.tsKanbanTaskColumns {
+   border-collapse: separate;
+   border-spacing: 1px;
+   background-color: gray;
+   width: 100%;
+   table-layout: fixed;
+}
+td.tsKanbanTaskHolder {
+   padding: 10px;
+   vertical-align: top;
+   border: none;
+   background-color: white;
+}
+td.tsKanbanTaskHolderHover {
+   background-color: #ffffaa;
+}
+
+/* CSS classes for the "show more" task divider  */
+
+div.tsKanbanDivider {
+    text-align: center;
+    background: url("arch_item_139.png");
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+    margin-bottom: 10px;
+}
+div.tsKanbanDivider a {
+   padding: 5px;
+   background-color: white;
+}
+td.tsKanbanTaskHolderHover div.tsKanbanDivider a {
+   background-color: #ffffaa;
+}
+div.tsKanbanDivider a {
+   color: black;
+   outline: none;
+   text-decoration: none;
+}
+div.tsKanbanDivider a:hover {
+   text-decoration: underline;
+}
+
+
+/* CSS classes relating to the appearance of task blocks  */
+
+div.tsKanbanTask {
+     border: 1px solid black;
+     margin-bottom: 10px;
+     background-color: #ddd;
+}
+div.tsKanbanTask:hover {
+     border: 2px solid black;
+     background-color: #aaa;
+}
+
+div.tsKanbanTask.tsKanbanEarly { background-color: #aaffaa }
+div.tsKanbanTask.tsKanbanEarly:hover { background-color: #88ff88 }
+
+div.tsKanbanTask.tsKanbanOnTime { background-color: #ccccff }
+div.tsKanbanTask.tsKanbanOnTime:hover { background-color: #aaaaff }
+
+div.tsKanbanTask.tsKanbanLate { background-color: #ffbbbb }
+div.tsKanbanTask.tsKanbanLate:hover { background-color: #ff8888 }
+
+div.tsKanbanTaskTitle {
+    padding: 4px;    
+}
+div.tsKanbanTask:hover div.tsKanbanTaskTitle {
+    padding: 3px 3px 4px 3px;
+}
+
+div.tsKanbanAssigned {
+    font-size: 9pt;
+    float: left;
+    margin-right: 10px;
+}
+
+div.tsKanbanTaskIcons {
+     height: 16px;
+     padding: 4px 0px 4px 4px;
+     border-top: 1px solid silver;
+     clear: both;
+     font-size: 1px;
+}
+div.tsKanbanTask:hover div.tsKanbanTaskIcons {
+     margin: 0px -1px -1px -1px;
+}
+
+div.tsKanbanTask.tsKanbanPersonFiltered { display: none; }
+
+
+/* CSS classes relating to the appearance of sundry task blocks  */
+
+div.tsKanbanSundryTask { background-color: #cc8; cursor: move; }
+div.tsKanbanSundryTask:hover { background-color: #bb6; }
+div.tsKanbanReadOnly div.tsKanbanSundryTask { cursor: inherit; }
+
+div.tsKanbanSundryHandle {
+    height: 10px;
+    padding-right: 5px;
+    background-color: #884;
+}
+div.tsKanbanSundryTask:hover div.tsKanbanSundryHandle {
+    height: 9px;
+}
+div.tsKanbanSundryTask:hover div.tsKanbanTaskTitle {
+    padding-top: 4px;
+}
+
+div.tsKanbanSundryHandle a.tsKanbanIcon {
+    display: none;
+    background-color: #884;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin: 0px -5px 0px 0px;
+    padding: 5px;
+}
+div.tsKanbanSundryTask:hover div.tsKanbanSundryHandle a.tsKanbanIcon {
+    display: inline;
+}
+
+
+
+/* CSS classes relating to the appearance of icons within task blocks  */
+
+div.tsKanbanIcon, a.tsKanbanIcon {
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-right: 4px; 
+    font-size: 1pt;
+    outline: none;
+    text-decoration: none;
+    background: url("arch_item_141.png") no-repeat;
+}
+
+xdiv.tsKanbanTask:hover div.tsKanbanAssigned { background-position: 0px 0px }
+xdiv.tsKanbanAssigned { background-position: -16px 0px; float: left }
+
+div.tsKanbanTask:hover div.tsKanbanDates { background-position: 0px -16px }
+div.tsKanbanDates { background-position: -16px -16px }
+
+div.tsKanbanTask:hover div.tsKanbanNotes { background-position: 0px -32px }
+div.tsKanbanNotes { background-position: -16px -32px }
+
+div.tsKanbanTask:hover div.tsKanbanLabels { background-position: 0px -48px }
+div.tsKanbanLabels { background-position: -16px -48px }
+
+div.tsKanbanTask:hover div.tsKanbanDependency_Incomplete {
+    background-position: 0px -64px; }
+div.tsKanbanDependency_Incomplete {
+    background-position: -16px -64px; }
+
+div.tsKanbanTask:hover div.tsKanbanDependency_Reverse_Misordered {
+    background-position: 0px -80px;    }
+div.tsKanbanDependency_Reverse_Misordered {
+    background-position: -16px -80px;    }
+
+div.tsKanbanTask:hover div.tsKanbanDependency_Unresolved, 
+div.tsKanbanTask:hover div.tsKanbanDependency_Incomplete_Misordered {
+    background-position: 0px -96px; }
+div.tsKanbanDependency_Unresolved, 
+div.tsKanbanDependency_Incomplete_Misordered {
+    background-position: -16px -96px; }
+
+div.tsKanbanSundryHandle a.tsKanbanEdit {
+    background-image: url("arch_item_140.png");
+}
+div.tsKanbanSundryHandle a.tsKanbanDelete {
+    background-image: url("arch_item_138.png"); 
+}
+
+
+/* CSS classes relating to the appearance of the percent spent gauge  */
+
+div.tsKanbanTimeGauge {
+    width: 50px;
+    height: 15px;
+    float: left;
+    margin-bottom: 1px;
+    background: url("arch_item_142.png");
+    position: relative;
+}
+div.tsKanbanTimeGaugePctSpent {
+    height: 15px;
+    background: url("arch_item_142.png");
+    background-position: 0px -15px;
+}
+div.tsKanbanTask:hover div.tsKanbanTimeGaugePctSpent {
+    background: url("arch_item_142.png");
+    background-position: 0px -30px;
+}
+div.tsKanbanTimeGaugeOverspent {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    height: 15px;
+    background: url("arch_item_142.png");
+    background-position: 0px -45px;
+}
+
+
+/* CSS classes relating to the display of license information */
+
+body {
+    margin-bottom: 50px;
+}
+
+div.licenseFooter a:link    { color:#000080; text-decoration:none }
+div.licenseFooter a:visited { color:#000080; text-decoration:none }
+div.licenseFooter a:hover   { color:blue; text-decoration:underline }
+div.licenseFooter {
+    border: 4px double black;
+    padding: 5px;
+}
+
+div.licenseStatusNotNeeded {
+    display: none;
+}
+
+div.licenseStatusCurrent {
+    border: none;
+    font-size: small;
+}
+
+div.licenseStatusGrace, div.licenseStatusTrial {
+    position: fixed;
+    left: 0px; right: 0px; bottom: 0; top: auto;    
+    text-align: center;
+    border: none;
+    border-top: 3px solid black;
+}
+
+div.licenseStatusGrace { background-color: #ff9999; }
+div.licenseStatusTrial { background-color: #ffffcc; }
+
+
+/* CSS classes relating to the display of the task editing form */
+
+#tsKanbanEditTaskForm h2 { margin: 0px 0px 10px 0px; }
+#tsKanbanEditTaskForm div.formItemWrapper { margin-top: 10px; }
+#tsKanbanEditTaskForm div.label { font-weight: bold; }
+#tsKanbanEditTaskForm input { border-width: 2px; padding: 1px; }
+#tsKanbanEditTaskForm textarea { border-width: 2px; padding: 1px; }
+#tsKanbanEditTaskForm input.hasError { background-color: #ffaaaa; }
+
+#tsKanbanEditTaskForm input#taskName { width: 100%; }
+#tsKanbanEditTaskForm div#assignedToWrapper div.label {
+    float: left; width: 90px; }
+#tsKanbanEditTaskForm input#assignedTo { width: 200px; }
+#tsKanbanEditTaskForm div.dateItem div.label {
+    float: left; width: 90px; }
+#tsKanbanEditTaskForm div.dateItem input {
+    width: 100px;
+    background: url("arch_item_141.png") no-repeat;
+    background-position: 80px -16px;
+}
+
+#tsKanbanEditTaskForm textarea#description { width: 100% }
+
+#tsKanbanEditTaskForm div.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div#tsKanbanAutocomplete {
+    margin: 0px;
+    padding: 0px;  
+    width: 250px;
+    background: #ffa;
+    border: 1px solid #888;
+    position: absolute;
+}
+
+div#tsKanbanAutocomplete ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+div#tsKanbanAutocomplete ul li.selected { 
+  background-color: #aaf;
+}
+
+div#tsKanbanAutocomplete ul li {
+  margin: 0;
+  padding: 2px;
+  display: block;
+  list-style-type: none;
+  cursor: pointer;
+}
