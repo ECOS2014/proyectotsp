@@ -1,0 +1,1429 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>Earned Value - ChangeCounterTSP</title>
+<notlink rel=stylesheet type='text/css' href='/style.css'>
+<script type='text/javascript' src='/lib/overlib.js'></script>
+<script type='text/javascript' src='/reports/ev.js'></script>
+<notlink rel=stylesheet type='text/css' href='/reports/ev.css'>
+<notlink rel=stylesheet type='text/css' href='/lib/treetable.css'>
+<script type='text/javascript' src='/lib/treetable.js'></script>
+<style>.timeFmt { vnd.ms-excel.numberformat: [h]\:mm }</style>
+<notlink rel=stylesheet type='text/css' href='/lib/popup.css'>
+<script type='text/javascript' src='/lib/popup.js'></script>
+<notlink rel=stylesheet type='text/css' href='/lib/sorttable.css'>
+<script type='text/javascript' src='/lib/sorttable.js'></script>
+<script type='text/javascript' src='/reports/evTreeSort.js'></script>
+</head><body><h1>Earned Value - ChangeCounterTSP</h1><table name='STATS'><tr><td valign='top'><b>Planned Completion Date:&nbsp;</b></td><td valign='top'>Apr 29, 2014</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Replanned Completion Date:&nbsp;</b></td><td valign='top'>May 4, 2014</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Cost Variance:&nbsp;</b></td><td valign='top'>-16.692</td><td colspan='5' valign='top'><i class='doNotPrint'>(16.7 hours over budget)</i></td></tr>
+<tr><td valign='top'><b>Cost Variance %:&nbsp;</b></td><td valign='top'>-34%</td><td colspan='5' valign='top'><i class='doNotPrint'>(34% over budget)</i></td></tr>
+<tr><td valign='top'><b>Cost Performance Index:&nbsp;</b></td><td valign='top'>0.744</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Schedule Variance:&nbsp;</b></td><td valign='top'>0</td><td colspan='5' valign='top'><i class='doNotPrint'>(0 minutes ahead of schedule)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance %:&nbsp;</b></td><td valign='top'>0%</td><td colspan='5' valign='top'><i class='doNotPrint'>(0% ahead of schedule)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance Duration:&nbsp;</b></td><td valign='top'>0</td><td colspan='5' valign='top'><i class='doNotPrint'>(0 minutes ahead of schedule)</i></td></tr>
+<tr><td valign='top'><b>Schedule Performance Index:&nbsp;</b></td><td valign='top'>1</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Percent Complete:&nbsp;</b></td><td valign='top'>100%</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Percent Spent on Completed Tasks:&nbsp;</b></td><td valign='top'>134%</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>To Complete Performance Index:&nbsp;</b></td><td valign='top'>-0</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Improvement Ratio:&nbsp;</b></td><td valign='top'>-1</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+<tr><td valign='top'><b>Forecast Cost:&nbsp;</b></td><td valign='top'>65.217</td><td colspan='5' valign='top'><i class='doNotPrint'>(65.2 hours)</i></td></tr>
+<tr><td valign='top'><b>Forecast Duration:&nbsp;</b></td><td valign='top'>60.575</td><td colspan='5' valign='top'><i class='doNotPrint'>(2.02 months)</i></td></tr>
+<tr><td valign='top'><b>Forecast Completion Date:&nbsp;</b></td><td valign='top'>May 4, 2014</td><td colspan='5' valign='top'><i class='doNotPrint'></i></td></tr>
+</table><h2><a name='tasks'></a>Task List</h2>
+<table name='TASK' class='sortable' id='task' border='1'>
+<tr>
+<th style='font-weight:bold' title='Project/Task'>Project/Task</th>
+<th style='font-weight:bold' title='Type of Task/Item'>Type</th>
+<th style='font-weight:bold' title='Planned Time (hours:minutes)'>PT</th>
+<th style='font-weight:bold' title='Actual Time (hours:minutes)'>Time</th>
+<th style='font-weight:bold' title='Planned Value'>PV</th>
+<th style='font-weight:bold' title='Planned Completion Date'>Plan Date</th>
+<th style='font-weight:bold' title='Replanned Completion Date'>Replan</th>
+<th style='font-weight:bold' title='Forecast Completion Date'>Forecast</th>
+<th style='font-weight:bold' title='Actual Completion Date'>Date</th>
+<th style='font-weight:bold' title='Task Labels'>Labels</th>
+<th style='font-weight:bold' title='Task Dependencies'>Dep</th>
+<th style='font-weight:bold' title='Percent Complete'>%C</th>
+<th style='font-weight:bold' title='Percent Spent'>%S</th>
+<th style='font-weight:bold' title='Actual Earned Value'>EV</th>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Launch/INFOForm</td>
+<td sortkey='4'>Misc</td>
+<td class='timeFmt' sortkey='3.59'>3:59</td>
+<td class='timeFmt' sortkey='8.00'>8:00</td>
+<td sortkey='8.2'>8.2%</td>
+<td sortkey='1395205199000'>3/18/14</td>
+<td sortkey='1396231610668'>3/30/14</td>
+<td sortkey='1396231610668'>3/30/14</td>
+<td sortkey='1396231610668'>3/30/14</td>
+<td>LAU1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='201'>201%</td>
+<td sortkey='8.2'>8.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Strategy/Conceptual Desing</td>
+<td sortkey='5'>Strategy</td>
+<td class='timeFmt' sortkey='2.50'>2:50</td>
+<td class='timeFmt' sortkey='11.00'>11:00</td>
+<td sortkey='5.8'>5.8%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396232114872'>3/30/14</td>
+<td sortkey='1396232114872'>3/30/14</td>
+<td sortkey='1396232114872'>3/30/14</td>
+<td>STRAT1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='389'>389%</td>
+<td sortkey='5.8'>5.8%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Launch/WeekForm</td>
+<td sortkey='4'>Misc</td>
+<td class='timeFmt' sortkey='0.48'>0:48</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='1.6'>1.6%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396232430686'>3/30/14</td>
+<td sortkey='1396232430686'>3/30/14</td>
+<td sortkey='1396232430686'>3/30/14</td>
+<td>LAU1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='17'>17%</td>
+<td sortkey='1.6'>1.6%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Design/Design Standards</td>
+<td sortkey='11'>HLD</td>
+<td class='timeFmt' sortkey='0.14'>0:14</td>
+<td class='timeFmt' sortkey='0.14'>0:14</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396233229606'>3/30/14</td>
+<td sortkey='1396233229606'>3/30/14</td>
+<td sortkey='1396233229606'>3/30/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='97'>97%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Reqts/SRS</td>
+<td sortkey='9'>Reqts Review</td>
+<td class='timeFmt' sortkey='0.51'>0:51</td>
+<td class='timeFmt' sortkey='0.37'>0:37</td>
+<td sortkey='1.7'>1.7%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396404957632'>4/1/14</td>
+<td sortkey='1396404957632'>4/1/14</td>
+<td sortkey='1396404957632'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='73'>73%</td>
+<td sortkey='1.7'>1.7%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Planning/Personal TASK</td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396405892183'>4/1/14</td>
+<td sortkey='1396405892183'>4/1/14</td>
+<td sortkey='1396405892183'>4/1/14</td>
+<td>PLAN1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='259'>259%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Planning/Personal SCHEDULE</td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396405894092'>4/1/14</td>
+<td sortkey='1396405894092'>4/1/14</td>
+<td sortkey='1396405894092'>4/1/14</td>
+<td>PLAN1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='259'>259%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Reqts/Reqts Review</td>
+<td sortkey='9'>Reqts Review</td>
+<td class='timeFmt' sortkey='1.16'>1:16</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='2.6'>2.6%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396405901986'>4/1/14</td>
+<td sortkey='1396405901986'>4/1/14</td>
+<td sortkey='1396405901986'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='26'>26%</td>
+<td sortkey='2.6'>2.6%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Reqts/Reqts Inspect</td>
+<td sortkey='10'>Reqts Inspect</td>
+<td class='timeFmt' sortkey='0.51'>0:51</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='1.8'>1.8%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396405908152'>4/1/14</td>
+<td sortkey='1396405908152'>4/1/14</td>
+<td sortkey='1396405908152'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='118'>118%</td>
+<td sortkey='1.8'>1.8%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/Detailed Design</td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.07'>0:07</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1397064550153'>4/9/14</td>
+<td sortkey='1397064550153'>4/9/14</td>
+<td sortkey='1397064550153'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='136'>136%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/Implementation</td>
+<td sortkey='19'>Code</td>
+<td class='timeFmt' sortkey='2.48'>2:48</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td sortkey='5.8'>5.8%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397064551964'>4/9/14</td>
+<td sortkey='1397064551964'>4/9/14</td>
+<td sortkey='1397064551964'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='107'>107%</td>
+<td sortkey='5.8'>5.8%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/Code Review</td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='1.24'>1:24</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='2.9'>2.9%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397064552870'>4/9/14</td>
+<td sortkey='1397064552870'>4/9/14</td>
+<td sortkey='1397064552870'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='36'>36%</td>
+<td sortkey='2.9'>2.9%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/Code Inspect</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.42'>0:42</td>
+<td class='timeFmt' sortkey='0.50'>0:50</td>
+<td sortkey='1.4'>1.4%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397064553354'>4/9/14</td>
+<td sortkey='1397064553354'>4/9/14</td>
+<td sortkey='1397064553354'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='119'>119%</td>
+<td sortkey='1.4'>1.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/UpdateLOGD</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397064553757'>4/9/14</td>
+<td sortkey='1397064553757'>4/9/14</td>
+<td sortkey='1397064553757'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='286'>286%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/UpdateLOGT</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397064553958'>4/9/14</td>
+<td sortkey='1397064553958'>4/9/14</td>
+<td sortkey='1397064553958'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='286'>286%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Design/LOGD</td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397072482893'>4/9/14</td>
+<td sortkey='1397072482893'>4/9/14</td>
+<td sortkey='1397072482893'>4/9/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='208'>208%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Design/HLD Inspect</td>
+<td sortkey='14'>HLD Inspect</td>
+<td class='timeFmt' sortkey='0.58'>0:58</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='2'>2%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397072483695'>4/9/14</td>
+<td sortkey='1397072483695'>4/9/14</td>
+<td sortkey='1397072483695'>4/9/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='2'>2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Design/Design Review</td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1397072484405'>4/9/14</td>
+<td sortkey='1397072484405'>4/9/14</td>
+<td sortkey='1397072484405'>4/9/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Design/Test Devel</td>
+<td sortkey='17'>Test Devel</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397072485319'>4/9/14</td>
+<td sortkey='1397072485319'>4/9/14</td>
+<td sortkey='1397072485319'>4/9/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Code/Unit Test</td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='0.35'>0:35</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397073378473'>4/9/14</td>
+<td sortkey='1397073378473'>4/9/14</td>
+<td sortkey='1397073378473'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='278'>278%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Test/LOGTEST</td>
+<td sortkey='24'>Int Test</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437388163'>4/13/14</td>
+<td sortkey='1397437388163'>4/13/14</td>
+<td sortkey='1397437388163'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='214'>214%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Test/User Documentation</td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437389400'>4/13/14</td>
+<td sortkey='1397437389400'>4/13/14</td>
+<td sortkey='1397437389400'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='214'>214%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Test/Int Test</td>
+<td sortkey='24'>Int Test</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437393360'>4/13/14</td>
+<td sortkey='1397437393360'>4/13/14</td>
+<td sortkey='1397437393360'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='214'>214%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Test/Sys Test</td>
+<td sortkey='25'>Sys Test</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437395307'>4/13/14</td>
+<td sortkey='1397437395307'>4/13/14</td>
+<td sortkey='1397437395307'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='214'>214%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Documentation/Design</td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='2.27'>2:27</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td sortkey='5'>5%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437444583'>4/13/14</td>
+<td sortkey='1397437444583'>4/13/14</td>
+<td sortkey='1397437444583'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='122'>122%</td>
+<td sortkey='5'>5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Documentation/Review</td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='0.16'>0:16</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.6'>0.6%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437445359'>4/13/14</td>
+<td sortkey='1397437445359'>4/13/14</td>
+<td sortkey='1397437445359'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='184'>184%</td>
+<td sortkey='0.6'>0.6%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/weekly meeting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.17'>0:17</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.6'>0.6%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437448376'>4/13/14</td>
+<td sortkey='1397437448376'>4/13/14</td>
+<td sortkey='1397437448376'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='121'>121%</td>
+<td sortkey='0.6'>0.6%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/Data reporting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437448657'>4/13/14</td>
+<td sortkey='1397437448657'>4/13/14</td>
+<td sortkey='1397437448657'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='194'>194%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/Update NoteBook</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437449308'>4/13/14</td>
+<td sortkey='1397437449308'>4/13/14</td>
+<td sortkey='1397437449308'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='129'>129%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/Manager change</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437449781'>4/13/14</td>
+<td sortkey='1397437449781'>4/13/14</td>
+<td sortkey='1397437449781'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='194'>194%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/Control ITL</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437450433'>4/13/14</td>
+<td sortkey='1397437450433'>4/13/14</td>
+<td sortkey='1397437450433'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='65'>65%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Every Week/Name Glossary</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397437450974'>4/13/14</td>
+<td sortkey='1397437450974'>4/13/14</td>
+<td sortkey='1397437450974'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='65'>65%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Postmortem/PEER</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397521160582'>4/14/14</td>
+<td sortkey='1397521160582'>4/14/14</td>
+<td sortkey='1397521160582'>4/14/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='125'>125%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Postmortem/PIP</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397521161200'>4/14/14</td>
+<td sortkey='1397521161200'>4/14/14</td>
+<td sortkey='1397521161200'>4/14/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='125'>125%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Postmortem/Cycle Report</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397521162112'>4/14/14</td>
+<td sortkey='1397521162112'>4/14/14</td>
+<td sortkey='1397521162112'>4/14/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='125'>125%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Postmortem/Role Report</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397521162652'>4/14/14</td>
+<td sortkey='1397521162652'>4/14/14</td>
+<td sortkey='1397521162652'>4/14/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='125'>125%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo1/Postmortem/Engineer Report</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1397521163383'>4/14/14</td>
+<td sortkey='1397521163383'>4/14/14</td>
+<td sortkey='1397521163383'>4/14/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='188'>188%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Strategy/Conceptual Desing</td>
+<td sortkey='5'>Strategy</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td sortkey='4.1'>4.1%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1397704752861'>4/16/14</td>
+<td sortkey='1397704752861'>4/16/14</td>
+<td sortkey='1397704752861'>4/16/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='150'>150%</td>
+<td sortkey='4.1'>4.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Planning/Personal TASK</td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1397704754470'>4/16/14</td>
+<td sortkey='1397704754470'>4/16/14</td>
+<td sortkey='1397704754470'>4/16/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='421'>421%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Planning/Personal SCHEDULE</td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.06'>0:06</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1397704755455'>4/16/14</td>
+<td sortkey='1397704755455'>4/16/14</td>
+<td sortkey='1397704755455'>4/16/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='253'>253%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Reqts/Reqts Review</td>
+<td sortkey='9'>Reqts Review</td>
+<td class='timeFmt' sortkey='1.05'>1:05</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='2.2'>2.2%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224642830'>4/22/14</td>
+<td sortkey='1398224642830'>4/22/14</td>
+<td sortkey='1398224642830'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='92'>92%</td>
+<td sortkey='2.2'>2.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Design/LOGD</td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224646362'>4/22/14</td>
+<td sortkey='1398224646362'>4/22/14</td>
+<td sortkey='1398224646362'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='274'>274%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Design/Design Review</td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.11'>0:11</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224647037'>4/22/14</td>
+<td sortkey='1398224647037'>4/22/14</td>
+<td sortkey='1398224647037'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='91'>91%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week5/weekly meeting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224655654'>4/22/14</td>
+<td sortkey='1398224655654'>4/22/14</td>
+<td sortkey='1398224655654'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week5/Data reporting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224656161'>4/22/14</td>
+<td sortkey='1398224656161'>4/22/14</td>
+<td sortkey='1398224656161'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='579'>579%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week5/Update NoteBook</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224659029'>4/22/14</td>
+<td sortkey='1398224659029'>4/22/14</td>
+<td sortkey='1398224659029'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week5/Manager change</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.26'>0:26</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224659997'>4/22/14</td>
+<td sortkey='1398224659997'>4/22/14</td>
+<td sortkey='1398224659997'>4/22/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week4/weekly meeting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224664913'>4/22/14</td>
+<td sortkey='1398224664913'>4/22/14</td>
+<td sortkey='1398224664913'>4/22/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week4/Data reporting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224665295'>4/22/14</td>
+<td sortkey='1398224665295'>4/22/14</td>
+<td sortkey='1398224665295'>4/22/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='1,158'>1,158%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week4/Update NoteBook</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224668007'>4/22/14</td>
+<td sortkey='1398224668007'>4/22/14</td>
+<td sortkey='1398224668007'>4/22/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='70'>70%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week4/Manager change</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.26'>0:26</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398224668423'>4/22/14</td>
+<td sortkey='1398224668423'>4/22/14</td>
+<td sortkey='1398224668423'>4/22/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Planning</td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.14'>0:14</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1398832559571'>4/29/14</td>
+<td sortkey='1398832559571'>4/29/14</td>
+<td sortkey='1398832559571'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='109'>109%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Design</td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='1.09'>1:09</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='2.4'>2.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832560212'>4/29/14</td>
+<td sortkey='1398832560212'>4/29/14</td>
+<td sortkey='1398832560212'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='87'>87%</td>
+<td sortkey='2.4'>2.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Design Review</td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.35'>0:35</td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td sortkey='1.2'>1.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832560606'>4/29/14</td>
+<td sortkey='1398832560606'>4/29/14</td>
+<td sortkey='1398832560606'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='1.2'>1.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Code</td>
+<td sortkey='19'>Code</td>
+<td class='timeFmt' sortkey='1.09'>1:09</td>
+<td class='timeFmt' sortkey='1.10'>1:10</td>
+<td sortkey='2.4'>2.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832561045'>4/29/14</td>
+<td sortkey='1398832561045'>4/29/14</td>
+<td sortkey='1398832561045'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='101'>101%</td>
+<td sortkey='2.4'>2.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Code Review</td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='0.35'>0:35</td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td sortkey='1.2'>1.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832565106'>4/29/14</td>
+<td sortkey='1398832565106'>4/29/14</td>
+<td sortkey='1398832565106'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='1.2'>1.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Compile</td>
+<td sortkey='21'>Compile</td>
+<td class='timeFmt' sortkey='0.07'>0:07</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832565995'>4/29/14</td>
+<td sortkey='1398832565995'>4/29/14</td>
+<td sortkey='1398832565995'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='145'>145%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Test</td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='0.35'>0:35</td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td sortkey='1.2'>1.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832568706'>4/29/14</td>
+<td sortkey='1398832568706'>4/29/14</td>
+<td sortkey='1398832568706'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='1.2'>1.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Detailed Design</td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832641843'>4/29/14</td>
+<td sortkey='1398832641843'>4/29/14</td>
+<td sortkey='1398832641843'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='123'>123%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Code Review</td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td sortkey='4.1'>4.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832646017'>4/29/14</td>
+<td sortkey='1398832646017'>4/29/14</td>
+<td sortkey='1398832646017'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='4.1'>4.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Code Inspect</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='2.1'>2.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832646781'>4/29/14</td>
+<td sortkey='1398832646781'>4/29/14</td>
+<td sortkey='1398832646781'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='2.1'>2.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/UpdateLOGD</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832647884'>4/29/14</td>
+<td sortkey='1398832647884'>4/29/14</td>
+<td sortkey='1398832647884'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='246'>246%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/UpdateLOGT</td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832648592'>4/29/14</td>
+<td sortkey='1398832648592'>4/29/14</td>
+<td sortkey='1398832648592'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='246'>246%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Unit Test</td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='1.38'>1:38</td>
+<td class='timeFmt' sortkey='1.40'>1:40</td>
+<td sortkey='3.3'>3.3%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832649549'>4/29/14</td>
+<td sortkey='1398832649549'>4/29/14</td>
+<td sortkey='1398832649549'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='103'>103%</td>
+<td sortkey='3.3'>3.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Test/LOGTEST</td>
+<td sortkey='24'>Int Test</td>
+<td class='timeFmt' sortkey='2.30'>2:30</td>
+<td class='timeFmt' sortkey='2.30'>2:30</td>
+<td sortkey='5.2'>5.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832665231'>4/29/14</td>
+<td sortkey='1398832665231'>4/29/14</td>
+<td sortkey='1398832665231'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='7'>Waiting</td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='5.2'>5.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week6/weekly meeting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832676335'>4/29/14</td>
+<td sortkey='1398832676335'>4/29/14</td>
+<td sortkey='1398832676335'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week6/Data reporting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832677213'>4/29/14</td>
+<td sortkey='1398832677213'>4/29/14</td>
+<td sortkey='1398832677213'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='579'>579%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week6/Update NoteBook</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832678000'>4/29/14</td>
+<td sortkey='1398832678000'>4/29/14</td>
+<td sortkey='1398832678000'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='77'>77%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week6/Manager change</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.26'>0:26</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398832678551'>4/29/14</td>
+<td sortkey='1398832678551'>4/29/14</td>
+<td sortkey='1398832678551'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Code/Implementation/class panelInputDirectoryPath/Postmortem</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.14'>0:14</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1398833000965'>4/29/14</td>
+<td sortkey='1398833000965'>4/29/14</td>
+<td sortkey='1398833000965'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'>Others Interested</td>
+<td sortkey='100'>100%</td>
+<td sortkey='145'>145%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Postmortem/PEER</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1399229275182'>5/4/14</td>
+<td sortkey='1399229275182'>5/4/14</td>
+<td sortkey='1399229275182'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='4'>Complete</td>
+<td sortkey='100'>100%</td>
+<td sortkey='600'>600%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Postmortem/PIP</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1399229275823'>5/4/14</td>
+<td sortkey='1399229275823'>5/4/14</td>
+<td sortkey='1399229275823'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='4'>Complete</td>
+<td sortkey='100'>100%</td>
+<td sortkey='150'>150%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Postmortem/Role Report</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1399229276701'>5/4/14</td>
+<td sortkey='1399229276701'>5/4/14</td>
+<td sortkey='1399229276701'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='4'>Complete</td>
+<td sortkey='100'>100%</td>
+<td sortkey='333'>333%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Postmortem/Engineer Report</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1399229277376'>5/4/14</td>
+<td sortkey='1399229277376'>5/4/14</td>
+<td sortkey='1399229277376'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='4'>Complete</td>
+<td sortkey='100'>100%</td>
+<td sortkey='333'>333%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Documentation/Design</td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='4.19'>4:19</td>
+<td class='timeFmt' sortkey='4.30'>4:30</td>
+<td sortkey='8.9'>8.9%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1399229282641'>5/4/14</td>
+<td sortkey='1399229282641'>5/4/14</td>
+<td sortkey='1399229282641'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='8.9'>8.9%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week7/weekly meeting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1399229290765'>5/4/14</td>
+<td sortkey='1399229290765'>5/4/14</td>
+<td sortkey='1399229290765'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week7/Data reporting</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1399229291281'>5/4/14</td>
+<td sortkey='1399229291281'>5/4/14</td>
+<td sortkey='1399229291281'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='1,158'>1,158%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week7/Update NoteBook</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1399229291934'>5/4/14</td>
+<td sortkey='1399229291934'>5/4/14</td>
+<td sortkey='1399229291934'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr>
+<td>/Project/ChangeCounterTSP/Ciclo2/Every Week7/Manager change</td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.26'>0:26</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1399229292361'>5/4/14</td>
+<td sortkey='1399229292361'>5/4/14</td>
+<td sortkey='1399229292361'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+</table>
+<h2>Schedule List</h2>
+<table name='SCHEDULE' border='1'>
+<tr>
+<th style='font-weight:bold' title='Period Start Date/Time'>From</th>
+<th style='font-weight:bold' title='Period End Date/Time'>To</th>
+<th style='font-weight:bold' title='Planned Direct Time (hours:minutes)'>PT</th>
+<th style='font-weight:bold' title='Cumulative Planned Direct Time (hours:minutes)'>CPT</th>
+<th style='font-weight:bold' title='Cumulative Planned Value'>CPV</th>
+<th style='font-weight:bold' title='Actual Direct Time (hours:minutes)'>Time</th>
+<th style='font-weight:bold' title='Cumulative Actual Direct Time (hours:minutes)'>CT</th>
+<th style='font-weight:bold' title='Actual Cumulative Earned Value'>EV</th>
+</tr>
+<tr>
+<td sortkey='1393995600000'>3/5/14</td>
+<td sortkey='1394600399000'>3/11/14</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1394600400000'>3/12/14</td>
+<td sortkey='1395205199000'>3/18/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td sortkey='8.2'>8.2%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395205200000'>3/19/14</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='12.00'>12:00</td>
+<td sortkey='23'>23%</td>
+<td class='timeFmt' sortkey='19.42'>19:42</td>
+<td class='timeFmt' sortkey='19.42'>19:42</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395810000000'>3/26/14</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='18.00'>18:00</td>
+<td sortkey='36.5'>36.5%</td>
+<td class='timeFmt' sortkey='2.17'>2:17</td>
+<td class='timeFmt' sortkey='21.59'>21:59</td>
+<td sortkey='22.8'>22.8%</td>
+</tr>
+<tr>
+<td sortkey='1396414800000'>4/2/14</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='24.00'>24:00</td>
+<td sortkey='48.9'>48.9%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='21.59'>21:59</td>
+<td sortkey='22.8'>22.8%</td>
+</tr>
+<tr>
+<td sortkey='1397019600000'>4/9/14</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td sortkey='61.3'>61.3%</td>
+<td class='timeFmt' sortkey='14.55'>14:55</td>
+<td class='timeFmt' sortkey='36.54'>36:54</td>
+<td sortkey='48.9'>48.9%</td>
+</tr>
+<tr>
+<td sortkey='1397624400000'>4/16/14</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td class='timeFmt' sortkey='16.00'>16:00</td>
+<td class='timeFmt' sortkey='46.00'>46:00</td>
+<td sortkey='88.7'>88.7%</td>
+<td class='timeFmt' sortkey='7.29'>7:29</td>
+<td class='timeFmt' sortkey='44.23'>44:23</td>
+<td sortkey='60.9'>60.9%</td>
+</tr>
+<tr>
+<td sortkey='1398229200000'>4/23/14</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='52.00'>52:00</td>
+<td sortkey='100'>100%</td>
+<td class='timeFmt' sortkey='13.50'>13:50</td>
+<td class='timeFmt' sortkey='58.13'>58:13</td>
+<td sortkey='88'>88%</td>
+</tr>
+<tr>
+<td sortkey='1398834000000'>4/30/14</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td class='timeFmt' sortkey='55.00'>55:00</td>
+<td sortkey='100'>100%</td>
+<td class='timeFmt' sortkey='7.00'>7:00</td>
+<td class='timeFmt' sortkey='65.13'>65:13</td>
+<td sortkey='100'>100%</td>
+</tr>
+<tr>
+<td sortkey='1399438800000'>5/7/14</td>
+<td sortkey='1400043599000'>5/13/14</td>
+<td class='timeFmt' sortkey='END'>END</td>
+<td class='timeFmt' sortkey='55.00'>55:00</td>
+<td sortkey='100'>100%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='65.13'>65:13</td>
+<td sortkey='100'>100%</td>
+</tr>
+</table>
+<p><i>Report generated at 9:48 AM on May 10, 2014</i></p>
+<p class='doNotPrint'></p></body></html>
