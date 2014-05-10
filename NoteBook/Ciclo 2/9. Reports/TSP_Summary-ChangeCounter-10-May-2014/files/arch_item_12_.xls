@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>TSP(SM) Rollup Plan Summary</title>
+
+<LiNt href="arch_item_28.css" rel="stylesheet" type="text/css">
+<script src="arch_item_1.js" type="text/javascript"></script>
+<script src="arch_item_16.js" type="text/javascript"></script>
+<script src="arch_item_24.js" type="text/javascript"></script>
+<LiNt href="arch_item_23.css" rel="stylesheet" type="text/css">
+<LiNt href="arch_item_21.css" rel="stylesheet" type="text/css">
+<script src="arch_item_22.js" type="text/javascript"></script>
+<LiNt href="arch_item_17.css" rel="stylesheet" type="text/css">
+<script src="arch_item_18.js" type="text/javascript"></script>
+<LiNt href="arch_item_19.css" rel="stylesheet" type="text/css">
+<script src="arch_item_20.js" type="text/javascript"></script>
+<script src="arch_item_25.js" type="text/javascript"></script>
+<LiNt href="arch_item_33.css" rel="stylesheet" type="text/css">
+<script src="arch_item_35.js" type="text/javascript"></script>
+<script src="arch_item_34.js" type="text/javascript"></script>
+<style> table { border: 1px solid grey; border-collapse: collapse }  td    { border: 1px solid grey }  .excelTimeFmt { vnd.ms-excel.numberformat: [h]\:mm} </style></head>
+<body>
+<div><form>
+
+
+<h1 style='margin-top:0pt'>/Project/ChangeCounter</h1>
+<h2><dis_img border=0 src='arch_item_10.png' style='margin-right:2px' width='16' height='23' title='Showing data from entire project hierarchy'>/</h2>
+<h2>TSP(SM) Rollup Plan Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Earned Value</h2>
+<h2>Earned Value - ChangeCounter<span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='arch_item_15.htm'>Show Weekly View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='arch_item_13.htm'>Show Kanban View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='arch_item_14.htm'>More Charts</dis_a></span HIDDEN--></span></h2><pre><dis_img width="400" height="300" src="arch_item_36.png" usemap="#IMG33437046" border="0"><map id="IMG33437046" name="IMG33437046"><dis_area shape="poly" coords="299,54,298,56,296,57,294,56,293,54,294,52,296,51,298,52,299,54,299,54" onMouseOver="return overlib('Baseline: (5/7/14, 93.6)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="270,58,270,60,267,61,265,60,264,58,265,56,267,55,270,56,270,58,270,58" onMouseOver="return overlib('Baseline: (4/30/14, 92)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="242,84,241,86,239,87,237,86,236,84,237,81,239,81,241,81,242,84,242,84" onMouseOver="return overlib('Baseline: (4/23/14, 81.4)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="213,151,212,154,210,154,208,154,207,151,208,149,210,148,212,149,213,151,213,151" onMouseOver="return overlib('Baseline: (4/16/14, 53.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="185,176,184,178,182,179,180,178,179,176,180,174,182,173,184,174,185,176,185,176" onMouseOver="return overlib('Baseline: (4/9/14, 43.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="156,207,155,209,153,210,151,209,150,207,151,205,153,204,155,205,156,207,156,207" onMouseOver="return overlib('Baseline: (4/2/14, 30.3)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="128,232,127,234,125,235,123,234,122,232,123,230,125,229,127,230,128,232,128,232" onMouseOver="return overlib('Baseline: (3/26/14, 20)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="99,264,98,266,96,267,94,266,93,264,94,262,96,261,98,262,99,264,99,264" onMouseOver="return overlib('Baseline: (3/19/14, 6.5)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="299,54,298,56,296,57,294,56,293,54,294,52,296,51,298,52,299,54,299,54" onMouseOver="return overlib('Plan: (5/7/14, 93.6)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="270,58,270,60,267,61,265,60,264,58,265,56,267,55,270,56,270,58,270,58" onMouseOver="return overlib('Plan: (4/30/14, 92.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="242,84,241,86,239,87,237,86,236,84,237,81,239,81,241,81,242,84,242,84" onMouseOver="return overlib('Plan: (4/23/14, 81.4)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="213,151,212,154,210,154,208,154,207,151,208,149,210,148,212,149,213,151,213,151" onMouseOver="return overlib('Plan: (4/16/14, 53.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="185,176,184,178,182,179,180,178,179,176,180,174,182,173,184,174,185,176,185,176" onMouseOver="return overlib('Plan: (4/9/14, 43.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="156,207,155,209,153,210,151,209,150,207,151,205,153,204,155,205,156,207,156,207" onMouseOver="return overlib('Plan: (4/2/14, 30.3)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="128,232,127,234,125,235,123,234,122,232,123,230,125,229,127,230,128,232,128,232" onMouseOver="return overlib('Plan: (3/26/14, 20)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="99,264,98,266,96,267,94,266,93,264,94,262,96,261,98,262,99,264,99,264" onMouseOver="return overlib('Plan: (3/19/14, 6.5)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="314,39,313,41,311,42,309,41,308,39,309,37,311,36,313,37,314,39,314,39" onMouseOver="return overlib('Actual: (5/10/14, 100)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="299,43,298,45,296,46,294,45,293,43,294,41,296,40,298,41,299,43,299,43" onMouseOver="return overlib('Actual: (5/7/14, 98.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="270,71,270,73,267,74,265,73,264,71,265,69,267,68,270,69,270,71,270,71" onMouseOver="return overlib('Actual: (4/30/14, 86.6)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="242,135,241,137,239,138,237,137,236,135,237,133,239,132,241,133,242,135,242,135" onMouseOver="return overlib('Actual: (4/23/14, 60.2)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="213,162,212,165,210,165,208,165,207,162,208,160,210,159,212,160,213,162,213,162" onMouseOver="return overlib('Actual: (4/16/14, 48.7)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="185,205,184,207,182,208,180,207,179,205,180,203,182,202,184,203,185,205,185,205" onMouseOver="return overlib('Actual: (4/9/14, 31)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="156,211,155,213,153,214,151,213,150,211,151,209,153,208,155,209,156,211,156,211" onMouseOver="return overlib('Actual: (4/2/14, 28.4)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/></map><dis_img width="320" height="300" src="arch_item_37.png" usemap="#IMG33437047" border="0"><map id="IMG33437047" name="IMG33437047"><dis_area shape="poly" coords="282,45,282,47,279,48,277,47,276,45,277,43,279,42,282,43,282,45,282,45" onMouseOver="return overlib('Baseline: (5/7/14, 275)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="256,58,255,60,253,61,251,60,250,58,251,56,253,55,255,56,256,58,256,58" onMouseOver="return overlib('Baseline: (4/30/14, 260)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="229,84,228,86,226,87,224,86,223,84,224,81,226,81,228,81,229,84,229,84" onMouseOver="return overlib('Baseline: (4/23/14, 230)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="202,152,201,154,199,155,197,154,196,152,197,150,199,149,201,150,202,152,202,152" onMouseOver="return overlib('Baseline: (4/16/14, 150)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="176,177,175,180,173,180,170,180,170,177,170,175,173,174,175,175,176,177,176,177" onMouseOver="return overlib('Baseline: (4/9/14, 120)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="149,203,148,205,146,206,144,205,143,203,144,201,146,200,148,201,149,203,149,203" onMouseOver="return overlib('Baseline: (4/2/14, 90)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="122,229,121,231,119,232,117,231,116,229,117,226,119,226,121,226,122,229,122,229" onMouseOver="return overlib('Baseline: (3/26/14, 60)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="95,254,94,256,92,257,90,256,89,254,90,252,92,251,94,252,95,254,95,254" onMouseOver="return overlib('Baseline: (3/19/14, 30)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="309,45,308,47,306,48,304,47,303,45,304,43,306,42,308,43,309,45,309,45" onMouseOver="return overlib('Plan: (5/14/14, 275)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="282,45,282,47,279,48,277,47,276,45,277,43,279,42,282,43,282,45,282,45" onMouseOver="return overlib('Plan: (5/7/14, 275)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="256,58,255,60,253,61,251,60,250,58,251,56,253,55,255,56,256,58,256,58" onMouseOver="return overlib('Plan: (4/30/14, 260)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="229,84,228,86,226,87,224,86,223,84,224,81,226,81,228,81,229,84,229,84" onMouseOver="return overlib('Plan: (4/23/14, 230)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="202,152,201,154,199,155,197,154,196,152,197,150,199,149,201,150,202,152,202,152" onMouseOver="return overlib('Plan: (4/16/14, 150)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="176,177,175,180,173,180,170,180,170,177,170,175,173,174,175,175,176,177,176,177" onMouseOver="return overlib('Plan: (4/9/14, 120)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="149,203,148,205,146,206,144,205,143,203,144,201,146,200,148,201,149,203,149,203" onMouseOver="return overlib('Plan: (4/2/14, 90)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="122,229,121,231,119,232,117,231,116,229,117,226,119,226,121,226,122,229,122,229" onMouseOver="return overlib('Plan: (3/26/14, 60)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="95,254,94,256,92,257,90,256,89,254,90,252,92,251,94,252,95,254,95,254" onMouseOver="return overlib('Plan: (3/19/14, 30)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="296,39,296,41,293,42,291,41,290,39,291,37,293,36,296,37,296,39,296,39" onMouseOver="return overlib('Actual: (5/10/14, 282.6)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="282,39,282,42,279,42,277,42,276,39,277,37,279,36,282,37,282,39,282,39" onMouseOver="return overlib('Actual: (5/7/14, 281.8)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="256,59,255,61,253,62,251,61,250,59,251,57,253,56,255,57,256,59,256,59" onMouseOver="return overlib('Actual: (4/30/14, 259)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="229,108,228,111,226,111,224,111,223,108,224,106,226,105,228,106,229,108,229,108" onMouseOver="return overlib('Actual: (4/23/14, 200.8)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="202,135,201,137,199,138,197,137,196,135,197,133,199,132,201,133,202,135,202,135" onMouseOver="return overlib('Actual: (4/16/14, 169.8)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="176,169,175,171,173,172,170,171,170,169,170,166,173,166,175,166,176,169,176,169" onMouseOver="return overlib('Actual: (4/9/14, 130.4)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="149,201,148,204,146,204,144,204,143,201,144,199,146,198,148,199,149,201,149,201" onMouseOver="return overlib('Actual: (4/2/14, 91.8)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="122,229,121,231,119,232,117,231,116,229,117,227,119,226,121,227,122,229,122,229" onMouseOver="return overlib('Actual: (3/26/14, 59.3)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/><dis_area shape="poly" coords="95,279,94,281,92,282,90,281,89,279,90,277,92,276,94,277,95,279,95,279" onMouseOver="return overlib('Actual: (3/19/14, 1.1)');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/nohref"/></map></pre>
+<div style='clear:both'></div><div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div style='clear:both'>&nbsp;</div><span style='display:none'><dis_img alt='tree-table-folder-open' src='arch_item_8.gif'><dis_img alt='tree-table-folder-closed' src='arch_item_7.gif'></span>
+<table name='STATS'><tr><td valign='top'><b>Optimized Plan Date:&nbsp;</b></td><td valign='top'>May 5, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you rebalanced subschedules optimally (so they all plan to complete at the same time), the overall planned completion date would be May 5, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you rebalanced subschedules optimally (so they all plan to complete at the same time), the overall planned completion date would be May 5, 2014.)</i></td></tr>
+<tr><td valign='top'><b>Optimized Replan Date:&nbsp;</b></td><td valign='top'>May 5, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, and you rebalanced subschedules optimally (so they all plan to complete at the same time), the replanned completion date for the overall work would be May 5, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, and you rebalanced subschedules optimally (so they all plan to complete at the same time), the replanned completion date for the overall work would be May 5, 2014.)</i></td></tr>
+<tr><td valign='top'><b>Replanned Completion Date:&nbsp;</b></td><td valign='top'>May 10, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, the replanned completion date for the overall work would be May 10, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, the replanned completion date for the overall work would be May 10, 2014.)</i></td></tr>
+<tr><td valign='top'><b>Cost Variance:&nbsp;</b></td><td valign='top'>-9.994</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(9.99 hours over budget <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have taken 9.99 hours more effort than planned.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have taken 9.99 hours more effort than planned.)</i></td></tr>
+<tr><td valign='top'><b>Cost Variance %:&nbsp;</b></td><td valign='top'>-4%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(4% over budget <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have taken 4% more effort than planned.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have taken 4% more effort than planned.)</i></td></tr>
+<tr><td valign='top'><b>Cost Performance Index:&nbsp;</b></td><td valign='top'>0.965</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Work is taking more time than planned.  For every effort hour actually spent, you are accomplishing 0.965 hours worth of planned results.  This usually means that your original effort estimate was too small.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Work is taking more time than planned.  For every effort hour actually spent, you are accomplishing 0.965 hours worth of planned results.  This usually means that your original effort estimate was too small.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance:&nbsp;</b></td><td valign='top'>18.363</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(18.4 hours ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed 18.4 hours more work than you had planned to complete by this date.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed 18.4 hours more work than you had planned to complete by this date.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance %:&nbsp;</b></td><td valign='top'>7%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(7% ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed  7% more work than you had planned to complete by this date.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed  7% more work than you had planned to complete by this date.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance Duration:&nbsp;</b></td><td valign='top'>4.492</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(4.49 days ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current rate of task completion to date, you are 4.49 days ahead of schedule.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current rate of task completion to date, you are 4.49 days ahead of schedule.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Performance Index:&nbsp;</b></td><td valign='top'>1.072</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You are completing tasks more quickly than scheduled.  For every effort hour of work you should have accomplished to date, you are completing 1.072 hours.  This may mean that your original planned schedule was too laid-back.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You are completing tasks more quickly than scheduled.  For every effort hour of work you should have accomplished to date, you are completing 1.072 hours.  This may mean that your original planned schedule was too laid-back.)</i></td></tr>
+<tr><td valign='top'><b>Baseline Cost:&nbsp;</b></td><td valign='top'>272.59</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(273 hours <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>In the baseline you saved for this schedule, the total work was planned to require 273 hours of effort.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(In the baseline you saved for this schedule, the total work was planned to require 273 hours of effort.)</i></td></tr>
+<tr><td valign='top'><b>Baseline Growth:&nbsp;</b></td><td valign='top'>0</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(0.0 minutes over baseline <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The total work is currently planned to require 0.0 minutes more effort than it did in the baseline you saved for this schedule.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The total work is currently planned to require 0.0 minutes more effort than it did in the baseline you saved for this schedule.)</i></td></tr>
+<tr><td valign='top'><b>Baseline Growth %:&nbsp;</b></td><td valign='top'>0%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(0% over baseline <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The total work is currently planned to require 0% more effort than it did in the baseline you saved for this schedule.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The total work is currently planned to require 0% more effort than it did in the baseline you saved for this schedule.)</i></td></tr>
+<tr><td valign='top'><b>Percent Complete:&nbsp;</b></td><td valign='top'>100%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed 100% of the total work.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed 100% of the total work.)</i></td></tr>
+<tr><td valign='top'><b>Percent Spent on Completed Tasks:&nbsp;</b></td><td valign='top'>104%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have used 104% of the total planned effort hours.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have used 104% of the total planned effort hours.)</i></td></tr>
+<tr><td valign='top'><b>To Complete Performance Index:&nbsp;</b></td><td valign='top'>-0</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>In order to complete all the work within the original effort estimate, each future hour of effort must accomplish -0 hours worth of planned results.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(In order to complete all the work within the original effort estimate, each future hour of effort must accomplish -0 hours worth of planned results.)</i></td></tr>
+<tr><td valign='top'><b>Improvement Ratio:&nbsp;</b></td><td valign='top'>-1</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>In order to complete all the work within the original effort estimate, you can be 100% less productive in the future than you have been in the past.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(In order to complete all the work within the original effort estimate, you can be 100% less productive in the future than you have been in the past.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Cost:&nbsp;</b></td><td valign='top'>282.583</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(283 hours <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current CPI, the total work is forecast to require 283 hours of effort.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current CPI, the total work is forecast to require 283 hours of effort.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Cost Range:&nbsp;</b></td><td valign='top'>282.583 - 282.583</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(283 hours - 283 hours <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon the tasks you have completed to date, the total work is likely to require between 283 hours and 283 hours of effort.  (This range estimates 70% probability.)</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon the tasks you have completed to date, the total work is likely to require between 283 hours and 283 hours of effort.  (This range estimates 70% probability.))</i></td></tr>
+<tr><td valign='top'><b>Forecast Duration:&nbsp;</b></td><td valign='top'>66.679</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(2.22 months <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If subschedules are not rebalanced, and each continues at its current rate of task completion to date, the total work schedule is forecast to be 2.22 months.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If subschedules are not rebalanced, and each continues at its current rate of task completion to date, the total work schedule is forecast to be 2.22 months.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Completion Date:&nbsp;</b></td><td valign='top'>May 10, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If subschedules are not rebalanced, and each continues at its current rate of task completion to date, the total work is forecast to be completed May 10, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If subschedules are not rebalanced, and each continues at its current rate of task completion to date, the total work is forecast to be completed May 10, 2014.)</i></td></tr>
+<tr><td valign='top'><b>Optimized Forecast Duration:&nbsp;</b></td><td valign='top'>61.411</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(2.05 months <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you rebalanced subschedules optimally (so they all complete at the same time), the total work schedule is forecast to be 2.05 months (based upon your current rate of task completion to date).</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you rebalanced subschedules optimally (so they all complete at the same time), the total work schedule is forecast to be 2.05 months (based upon your current rate of task completion to date).)</i></td></tr>
+<tr><td valign='top'><b>Optimized Forecast Completion Date:&nbsp;</b></td><td valign='top'>May 5, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you rebalanced subschedules optimally (so they all complete at the same time), the total work is forecast to be completed May 5, 2014 (based upon your current rate of task completion to date).</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you rebalanced subschedules optimally (so they all complete at the same time), the total work is forecast to be completed May 5, 2014 (based upon your current rate of task completion to date).)</i></td></tr>
+</table><h2><dis_a name='snip15_tasks'></dis_a>Task List<span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a id="snip15_taskstyletree" href="arch_item_30.htm#snip15_tasks">Tree View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a id="snip15_taskstyleflat" href="arch_item_11.htm#snip15_tasks">Flat View</dis_a></span HIDDEN--></span></h2>
+<div class="tsGanttContentWrapper"><div class="licenseFooter licenseStatusNoneFound">Gantt chart functionality is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div>
+<h2>Schedule List</h2>
+<table name='SCHEDULE' border='1'>
+<tr>
+<th style='font-weight:bold' title='Period Start Date/Time'>From</th>
+<th style='font-weight:bold' title='Period End Date/Time'>To</th>
+<th style='font-weight:bold' title='Planned Direct Time (hours:minutes)'>PT</th>
+<th style='font-weight:bold' title='Cumulative Planned Direct Time (hours:minutes)'>CPT</th>
+<th style='font-weight:bold' title='Cumulative Planned Value'>CPV</th>
+<th style='font-weight:bold' title='Actual Direct Time (hours:minutes)'>Time</th>
+<th style='font-weight:bold' title='Cumulative Actual Direct Time (hours:minutes)'>CT</th>
+<th style='font-weight:bold' title='Actual Cumulative Earned Value'>EV</th>
+</tr>
+<tr>
+<td sortkey='1393995600000'>3/5/14</td>
+<td sortkey='1394600399000'>3/11/14</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1394600400000'>3/12/14</td>
+<td sortkey='1395205199000'>3/18/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td sortkey='6.5'>6.5%</td>
+<td class='timeFmt' sortkey='1.04'>1:04</td>
+<td class='timeFmt' sortkey='1.04'>1:04</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395205200000'>3/19/14</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='60.00'>60:00</td>
+<td sortkey='20'>20%</td>
+<td class='timeFmt' sortkey='58.13'>58:13</td>
+<td class='timeFmt' sortkey='59.17'>59:17</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395810000000'>3/26/14</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='90.00'>90:00</td>
+<td sortkey='30.3'>30.3%</td>
+<td class='timeFmt' sortkey='32.28'>32:28</td>
+<td class='timeFmt' sortkey='91.45'>91:45</td>
+<td sortkey='28.4'>28.4%</td>
+</tr>
+<tr>
+<td sortkey='1396414800000'>4/2/14</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='120.00'>120:00</td>
+<td sortkey='43.2'>43.2%</td>
+<td class='timeFmt' sortkey='38.39'>38:39</td>
+<td class='timeFmt' sortkey='130.24'>130:24</td>
+<td sortkey='31'>31%</td>
+</tr>
+<tr>
+<td sortkey='1397019600000'>4/9/14</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='150.00'>150:00</td>
+<td sortkey='53.2'>53.2%</td>
+<td class='timeFmt' sortkey='39.23'>39:23</td>
+<td class='timeFmt' sortkey='169.47'>169:47</td>
+<td sortkey='48.7'>48.7%</td>
+</tr>
+<tr>
+<td sortkey='1397624400000'>4/16/14</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td class='timeFmt' sortkey='80.00'>80:00</td>
+<td class='timeFmt' sortkey='230.00'>230:00</td>
+<td sortkey='81.4'>81.4%</td>
+<td class='timeFmt' sortkey='31.04'>31:04</td>
+<td class='timeFmt' sortkey='200.51'>200:51</td>
+<td sortkey='60.2'>60.2%</td>
+</tr>
+<tr>
+<td sortkey='1398229200000'>4/23/14</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td class='timeFmt' sortkey='260.00'>260:00</td>
+<td sortkey='92.2'>92.2%</td>
+<td class='timeFmt' sortkey='58.10'>58:10</td>
+<td class='timeFmt' sortkey='259.01'>259:01</td>
+<td sortkey='86.6'>86.6%</td>
+</tr>
+<tr>
+<td sortkey='1398834000000'>4/30/14</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td class='timeFmt' sortkey='15.00'>15:00</td>
+<td class='timeFmt' sortkey='275.00'>275:00</td>
+<td sortkey='93.6'>93.6%</td>
+<td class='timeFmt' sortkey='22.49'>22:49</td>
+<td class='timeFmt' sortkey='281.50'>281:50</td>
+<td sortkey='98.2'>98.2%</td>
+</tr>
+<tr>
+<td sortkey='1399438800000'>5/7/14</td>
+<td sortkey='1400043599000'>5/13/14</td>
+<td class='timeFmt' sortkey='END'>END</td>
+<td class='timeFmt' sortkey='275.00'>275:00</td>
+<td sortkey='93.6'>93.6%</td>
+<td class='timeFmt' sortkey='0.45'>0:45</td>
+<td class='timeFmt' sortkey='282.35'>282:35</td>
+<td sortkey='100'>100%</td>
+</tr>
+</table>
+<!--HIDDEN p class='doNotPrint'></p HIDDEN--><hr><div style="font-size:small; font-style:italic">TSP<sup>(SM)</sup>
+is a service mark of Carnegie Mellon University.</div>
+</form></div>
+
+<p><i>Report generated at 4:19 PM on May 10, 2014</i></p>
+<hr>
+
+</body>
+</html>
