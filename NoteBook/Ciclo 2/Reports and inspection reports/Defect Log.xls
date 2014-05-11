@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>TSP(SM) Rollup Plan Summary</title>
+
+<LiNt href="arch_item_28.css" rel="stylesheet" type="text/css">
+<script src="arch_item_1.js" type="text/javascript"></script>
+<LiNt href="arch_item_64.css" rel="stylesheet" type="text/css">
+<style> table { border: 1px solid grey; border-collapse: collapse }  td    { border: 1px solid grey }  .excelTimeFmt { vnd.ms-excel.numberformat: [h]\:mm} </style></head>
+<body>
+<div><form>
+
+
+<h1 style='margin-top:0pt'>/Project/ChangeCounter</h1>
+<h2><dis_img border=0 src='arch_item_10.png' style='margin-right:2px' width='16' height='23' title='Showing data from entire project hierarchy'>/</h2>
+<h2>TSP(SM) Rollup Plan Summary</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Defect Log</h2>
+
+<p><table border class='defectLog'><tr>
+<th>Project/Task</th>
+<th>Date</th>
+<th>ID</th>
+<th>Type</th>
+<th>Injected</th>
+<th>Removed</th>
+<th>FixTime</th>
+<th>FixCount</th>
+<th>FixDefect</th>
+<th>Pending</th>
+<th>Description</th></tr><TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/02/2014</TD>
+<TD></TD>
+<TD>System</TD>
+<TD>Planning</TD>
+<TD>Design</TD>
+<TD ALIGN='center'>6.7</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'>*</TD>
+<TD>debido al tiempo de implementacion y curva de aprendizaje de la herramienta de seguimiento DashBoard. se debio eliminar los hitos de las tares (LAU, STRAT, PLAN) anteriores mientras todo el equipo se pone al dia con el reporte de horas y actividades. esto trar como consecuencia que el cromograna resente sobre tiempos</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/09/2014</TD>
+<TD></TD>
+<TD>Documentation</TD>
+<TD>HLD</TD>
+<TD>Design</TD>
+<TD ALIGN='center'>10.7</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'>Yes</TD>
+<TD ALIGN='center'></TD>
+<TD>Modificacion en las interfacez de las clases, agregacion de nuevas interfaces</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/09/2014</TD>
+<TD></TD>
+<TD>Documentation</TD>
+<TD>Design</TD>
+<TD>Code</TD>
+<TD ALIGN='center'>8.5</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>Correccion del nombre de algunas enumeraciones, para realizar bien la comparacion entre lineas</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/09/2014</TD>
+<TD></TD>
+<TD>Function</TD>
+<TD>Code</TD>
+<TD>Code</TD>
+<TD ALIGN='center'>7.4</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>comparaciones entre archivos de diferente numero de lineas presenta problemas</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/09/2014</TD>
+<TD></TD>
+<TD>Function</TD>
+<TD>Code</TD>
+<TD>Code</TD>
+<TD ALIGN='center'>6.4</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>agregar el line label presenta un ciclo infinito</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo1</TD>
+<TD>04/09/2014</TD>
+<TD></TD>
+<TD>Function</TD>
+<TD>Code</TD>
+<TD>Code Review</TD>
+<TD ALIGN='center'>18.1</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>La ionterfaz grafica no cuenta con los suficientes parametros de entrada para escribir los datos del line label</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo2</TD>
+<TD>04/01/2014</TD>
+<TD></TD>
+<TD>Documentation</TD>
+<TD>Documentation</TD>
+<TD>Documentation</TD>
+<TD ALIGN='center'>3</TD>
+<TD ALIGN='center'>2</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>Se identifica que no se ha exportado la documentación soporte de tipo javadoc para el proyecto terminado; se exporta con la herramienta de eclipse.</TD>
+</TR>
+<TR>
+<TD>/Project/ChangeCounter/Ciclo2</TD>
+<TD>04/21/2014</TD>
+<TD></TD>
+<TD>Checking</TD>
+<TD>Reqts</TD>
+<TD>Test</TD>
+<TD ALIGN='center'>40</TD>
+<TD ALIGN='center'>1</TD>
+<TD ALIGN='center'> </TD>
+<TD ALIGN='center'></TD>
+<TD>Para la ejecución de pruebas se identifica que no se habia compartido el documento formal de casos de prueba para el equipo, esto hace que la comunicación con el equipo no sea clara sobre el trabajo a realizar</TD>
+</TR>
+</table></p><hr><div style="font-size:small; font-style:italic">TSP<sup>(SM)</sup>
+is a service mark of Carnegie Mellon University.</div>
+</form></div>
+
+<p><i>Report generated at 7:19 PM on May 10, 2014</i></p>
+<hr>
+
+</body>
+</html>
