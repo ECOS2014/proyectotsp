@@ -31,87 +31,158 @@
 <h2>Defect Reports</h2>
 
 <P><table name='D22' border class='R3table'><TR>
-<TD colspan=3 class='R3header'>Defect Fix Times</TD></TR>
+<TD colspan=4 class='R3header'>Defect Fix Times</TD></TR>
 <TR><TD colspan=2></TD>
+<TD VALIGN=bottom>Defects Found in Test</TD>
 <TD VALIGN=bottom>Total Defects Found</TD>
 </TR>
-<TR><TD rowspan=3>Defects Injected in HLD</TD>
+<TR><TD rowspan=3>Defects Injected in Reqts</TD>
 <TD class='R3subcat'>Tot. fix time</TD>
-<TD>10.7</TD>
+<TD>40</TD>
+<TD>40</TD>
 </TR>
 <TR><TD class='R3subcat'>Tot. defects</TD>
 <TD>1</TD>
+<TD>1</TD>
 </TR>
 <TR><TD class='R3subcat'>Avg. fix time</TD>
+<TD>40</TD>
+<TD>40</TD>
+</TR>
+<TR><TD rowspan=3>Defects Injected in HLD</TD>
+<TD class='R3subcat'>Tot. fix time</TD>
+<TD>-</TD>
+<TD>10.7</TD>
+</TR>
+<TR><TD class='R3subcat'>Tot. defects</TD>
+<TD>-</TD>
+<TD>1</TD>
+</TR>
+<TR><TD class='R3subcat'>Avg. fix time</TD>
+<TD>-</TD>
 <TD>10.7</TD>
 </TR>
 <TR><TD rowspan=3>Defects Injected in Design</TD>
 <TD class='R3subcat'>Tot. fix time</TD>
+<TD>-</TD>
 <TD>8.5</TD>
 </TR>
 <TR><TD class='R3subcat'>Tot. defects</TD>
+<TD>-</TD>
 <TD>1</TD>
 </TR>
 <TR><TD class='R3subcat'>Avg. fix time</TD>
+<TD>-</TD>
 <TD>8.5</TD>
 </TR>
 <TR><TD rowspan=3>Defects Injected in Code</TD>
 <TD class='R3subcat'>Tot. fix time</TD>
+<TD>-</TD>
 <TD>31.9</TD>
 </TR>
 <TR><TD class='R3subcat'>Tot. defects</TD>
+<TD>-</TD>
 <TD>3</TD>
 </TR>
 <TR><TD class='R3subcat'>Avg. fix time</TD>
+<TD>-</TD>
 <TD>10.63</TD>
+</TR>
+<TR><TD rowspan=3>Defects Injected in Documentation</TD>
+<TD class='R3subcat'>Tot. fix time</TD>
+<TD>-</TD>
+<TD>3</TD>
+</TR>
+<TR><TD class='R3subcat'>Tot. defects</TD>
+<TD>-</TD>
+<TD>2</TD>
+</TR>
+<TR><TD class='R3subcat'>Avg. fix time</TD>
+<TD>-</TD>
+<TD>1.5</TD>
 </TR>
 <TR><TD rowspan=3>Total Defects Injected</TD>
 <TD class='R3subcat'>Tot. fix time</TD>
-<TD>57.8</TD>
+<TD>40</TD>
+<TD>100.8</TD>
 </TR>
 <TR><TD class='R3subcat'>Tot. defects</TD>
-<TD>6</TD>
+<TD>1</TD>
+<TD>9</TD>
 </TR>
 <TR><TD class='R3subcat'>Avg. fix time</TD>
-<TD>9.63</TD>
+<TD>40</TD>
+<TD>11.2</TD>
 </TR>
 </table></p>
 
 <p><table name='D23' class='R4table' border><TR class='R4header'><TD></TD>
-<TD colspan=3>Number Injected</TD>
-<TD colspan=3>Percentage Injected</TD>
+<TD colspan=5>Number Injected</TD>
+<TD colspan=5>Percentage Injected</TD>
 
-<TD colspan=0>Number Removed</TD>
-<TD colspan=0>Percentage Removed</TD></TR>
+<TD colspan=1>Number Removed</TD>
+<TD colspan=1>Percentage Removed</TD></TR>
 
 <TR><TD>Type</TD>
-<TD>HLD</TD><TD>Design</TD><TD>Code</TD>
-<TD>HLD</TD><TD>Design</TD><TD>Code</TD>
-
-
+<TD>Reqts</TD><TD>HLD</TD><TD>Design</TD><TD>Code</TD><TD>Documentation</TD>
+<TD>Reqts</TD><TD>HLD</TD><TD>Design</TD><TD>Code</TD><TD>Documentation</TD>
+<TD>Test</TD>
+<TD>Test</TD>
+</TR>
+<TR><TD>Checking</TD>
+<TD>1</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>100%</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>1</TD>
+<TD>100%</TD>
 </TR>
 <TR><TD>Documentation</TD>
+<TD>-</TD>
 <TD>1</TD>
 <TD>1</TD>
 <TD>-</TD>
+<TD>2</TD>
+<TD>-</TD>
 <TD>100%</TD>
 <TD>100%</TD>
+<TD>-</TD>
+<TD>100%</TD>
+<TD>-</TD>
 <TD>-</TD>
 </TR>
 <TR><TD>Function</TD>
 <TD>-</TD>
 <TD>-</TD>
+<TD>-</TD>
 <TD>3</TD>
 <TD>-</TD>
 <TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
 <TD>100%</TD>
+<TD>-</TD>
+<TD>-</TD>
+<TD>-</TD>
 </TR>
 <TR><TD>Total</TD>
 <TD>1</TD>
 <TD>1</TD>
+<TD>1</TD>
 <TD>3</TD>
+<TD>2</TD>
 <TD>100%</TD>
 <TD>100%</TD>
+<TD>100%</TD>
+<TD>100%</TD>
+<TD>100%</TD>
+<TD>1</TD>
 <TD>100%</TD>
 </TR>
 </table></p>
@@ -120,17 +191,25 @@
 <TR class='R4header'><TD>Defect Type</TD>
 <TD VALIGN=bottom>Number of defects at Compile Entry</TD><TD VALIGN=bottom>Number of defects found in Compile</TD><TD VALIGN=bottom>Percentage of Type found by the Compiler</TD></TR>
 
+<TR><TD>Checking</TD>
+<TD>1</TD>
+<TD>-</TD>
+<TD>-</TD></TR>
+<TR><TD>Total</TD>
+<TD>1</TD>
+<TD>-</TD>
+<TD>-</TD></TR>
 </table></p>
 
-<p><dis_img width="500" height="400" src="arch_item_65.png" usemap="#IMG33437071" border="0"><map id="IMG33437071" name="IMG33437071"><dis_area shape="poly" coords="360,309,360,222,372,214,473,214,473,301,461,309,461,309" onMouseOver="return overlib('(Total # Defects, System) = 1');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="216,309,216,135,228,127,329,127,329,301,317,309,317,309" onMouseOver="return overlib('(Total # Defects, Documentation) = 2');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="72,309,72,49,84,41,185,41,185,301,173,309,173,309" onMouseOver="return overlib('(Total # Defects, Function) = 3');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/></map></p>
+<p><dis_img width="500" height="400" src="arch_item_65.png" usemap="#IMG33437117" border="0"><map id="IMG33437117" name="IMG33437117"><dis_area shape="poly" coords="385,309,385,244,397,236,473,236,473,301,461,309,461,309" onMouseOver="return overlib('(Total # Defects, Checking) = 1');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="281,309,281,244,293,236,369,236,369,301,357,309,357,309" onMouseOver="return overlib('(Total # Defects, System) = 1');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="177,309,177,114,189,106,264,106,264,301,252,309,252,309" onMouseOver="return overlib('(Total # Defects, Function) = 3');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="72,309,72,49,84,41,160,41,160,301,148,309,148,309" onMouseOver="return overlib('(Total # Defects, Documentation) = 4');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/></map></p>
 
-<p><dis_img width="500" height="400" src="arch_item_66.png" usemap="#IMG33437072" border="0"><map id="IMG33437072" name="IMG33437072"><dis_area shape="poly" coords="360,309,360,254,372,246,473,246,473,301,461,309,461,309" onMouseOver="return overlib('(Total Fix Time (minutes), System) = 6.7');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="216,309,216,152,228,144,329,144,329,301,317,309,317,309" onMouseOver="return overlib('(Total Fix Time (minutes), Documentation) = 19.2');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="72,309,72,49,84,41,185,41,185,301,173,309,173,309" onMouseOver="return overlib('(Total Fix Time (minutes), Function) = 31.9');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/></map></p>
+<p><dis_img width="500" height="400" src="arch_item_66.png" usemap="#IMG33437119" border="0"><map id="IMG33437119" name="IMG33437119"><dis_area shape="poly" coords="385,309,385,265,397,257,473,257,473,301,461,309,461,309" onMouseOver="return overlib('(Total Fix Time (minutes), System) = 6.7');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="281,309,281,164,293,156,369,156,369,301,357,309,357,309" onMouseOver="return overlib('(Total Fix Time (minutes), Documentation) = 22.2');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="177,309,177,101,189,93,264,93,264,301,252,309,252,309" onMouseOver="return overlib('(Total Fix Time (minutes), Function) = 31.9');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/><dis_area shape="poly" coords="72,309,72,49,84,41,160,41,160,301,148,309,148,309" onMouseOver="return overlib('(Total Fix Time (minutes), Checking) = 40');" onMouseOut="return nd();" nohref="/Project/ChangeCounter//reports/analysis/nohref"/></map></p>
 
 <hr><div style="font-size:small; font-style:italic">TSP<sup>(SM)</sup>
 is a service mark of Carnegie Mellon University.</div>
 </form></div>
 
-<p><i>Report generated at 4:19 PM on May 10, 2014</i></p>
+<p><i>Report generated at 7:19 PM on May 10, 2014</i></p>
 <hr>
 
 </body>
