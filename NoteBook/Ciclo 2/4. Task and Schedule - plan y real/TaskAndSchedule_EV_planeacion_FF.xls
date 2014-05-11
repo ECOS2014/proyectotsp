@@ -1,0 +1,1721 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>Earned Value - ScheduleChangeCounter (Felipe Fagua)</title>
+<LiNt rel=stylesheet type='text/css' href='arch_item_19.css'>
+<script type='text/javascript' src='arch_item_7.js'></script>
+<script type='text/javascript' src='arch_item_15.js'></script>
+<LiNt rel=stylesheet type='text/css' href='arch_item_14.css'>
+<LiNt rel=stylesheet type='text/css' href='arch_item_12.css'>
+<script type='text/javascript' src='arch_item_13.js'></script>
+<style>.timeFmt { vnd.ms-excel.numberformat: [h]\:mm }</style>
+<LiNt rel=stylesheet type='text/css' href='arch_item_8.css'>
+<script type='text/javascript' src='arch_item_9.js'></script>
+<LiNt rel=stylesheet type='text/css' href='arch_item_10.css'>
+<script type='text/javascript' src='arch_item_11.js'></script>
+<script type='text/javascript' src='arch_item_16.js'></script>
+</head><body><h1>Earned Value - ScheduleChangeCounter (Felipe Fagua)<span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='week.class'>Show Weekly View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='arch_item_1.htm'>Show Kanban View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a href='arch_item_20.htm'>More Charts</dis_a></span HIDDEN--></span></h1><pre><dis_img width="400" height="300" src="arch_item_17.png" usemap="#IMG24170359" border="0"><map id="IMG24170359" name="IMG24170359"><dis_area shape="poly" coords="326,98,325,100,323,101,321,100,320,98,321,96,323,95,325,96,326,98,326,98" onMouseOver="return overlib('Plan: (5/7/14, 75.6)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="294,106,293,108,291,109,289,108,288,106,289,104,291,103,293,104,294,106,294,106" onMouseOver="return overlib('Plan: (4/30/14, 72.2)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="263,127,262,129,260,130,258,129,257,127,258,124,260,124,262,124,263,127,263,127" onMouseOver="return overlib('Plan: (4/23/14, 63.6)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="231,191,230,193,228,194,226,193,225,191,226,189,228,188,230,189,231,191,231,191" onMouseOver="return overlib('Plan: (4/16/14, 36.7)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="200,203,199,205,197,206,195,205,194,203,195,201,197,200,199,201,200,203,200,203" onMouseOver="return overlib('Plan: (4/9/14, 31.7)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="168,233,167,235,165,236,163,235,162,233,163,231,165,230,167,231,168,233,168,233" onMouseOver="return overlib('Plan: (4/2/14, 19.4)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="137,252,136,254,134,255,132,254,131,252,132,249,134,249,136,249,137,252,137,252" onMouseOver="return overlib('Plan: (3/26/14, 11.7)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="105,266,104,268,102,269,100,268,99,266,100,264,102,263,104,264,105,266,105,266" onMouseOver="return overlib('Plan: (3/19/14, 5.6)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="314,39,313,41,311,42,309,41,308,39,309,37,311,36,313,37,314,39,314,39" onMouseOver="return overlib('Actual: (5/4/14, 100)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="294,45,293,47,291,48,289,47,288,45,289,43,291,42,293,43,294,45,294,45" onMouseOver="return overlib('Actual: (4/30/14, 97.4)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="263,117,262,119,260,120,258,119,257,117,258,115,260,114,262,115,263,117,263,117" onMouseOver="return overlib('Actual: (4/23/14, 67.4)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="231,127,230,129,228,130,226,129,225,127,226,124,228,124,230,124,231,127,231,127" onMouseOver="return overlib('Actual: (4/16/14, 63.6)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="200,160,199,162,197,163,195,162,194,160,195,158,197,157,199,158,200,160,200,160" onMouseOver="return overlib('Actual: (4/9/14, 49.7)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="168,160,167,162,165,163,163,162,162,160,163,158,165,157,167,158,168,160,168,160" onMouseOver="return overlib('Actual: (4/2/14, 49.7)');" onMouseOut="return nd();" nohref="nohref"/></map><dis_img width="320" height="300" src="arch_item_18.png" usemap="#IMG24170360" border="0"><map id="IMG24170360" name="IMG24170360"><dis_area shape="poly" coords="309,121,308,123,306,124,304,123,303,121,304,118,306,118,308,118,309,121,309,121" onMouseOver="return overlib('Plan: (5/7/14, 55)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="279,129,278,131,276,132,274,131,273,129,274,127,276,126,278,127,279,129,279,129" onMouseOver="return overlib('Plan: (4/30/14, 52)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="248,147,247,149,245,150,243,149,242,147,243,144,245,144,247,144,248,147,248,147" onMouseOver="return overlib('Plan: (4/23/14, 46)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="218,193,217,195,215,196,213,195,212,193,213,191,215,190,217,191,218,193,218,193" onMouseOver="return overlib('Plan: (4/16/14, 30)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="188,210,187,212,185,213,183,212,182,210,183,208,185,207,187,208,188,210,188,210" onMouseOver="return overlib('Plan: (4/9/14, 24)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="157,228,156,230,154,231,152,230,151,228,152,225,154,225,156,225,157,228,157,228" onMouseOver="return overlib('Plan: (4/2/14, 18)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="127,245,126,247,124,248,122,247,121,245,122,243,124,242,126,243,127,245,127,245" onMouseOver="return overlib('Plan: (3/26/14, 12)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="97,262,96,264,94,265,92,264,91,262,92,260,94,259,96,260,97,262,97,262" onMouseOver="return overlib('Plan: (3/19/14, 6)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="298,39,297,41,295,42,292,41,292,39,292,37,295,36,297,37,298,39,298,39" onMouseOver="return overlib('Actual: (5/4/14, 83.2)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="279,45,278,47,276,48,274,47,273,45,274,43,276,42,278,43,279,45,279,45" onMouseOver="return overlib('Actual: (4/30/14, 81.2)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="248,100,247,102,245,103,243,102,242,100,243,98,245,97,247,98,248,100,248,100" onMouseOver="return overlib('Actual: (4/23/14, 62.1)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="218,124,217,127,215,127,213,127,212,124,213,122,215,121,217,122,218,124,218,124" onMouseOver="return overlib('Actual: (4/16/14, 53.7)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="188,149,187,151,185,152,183,151,182,149,183,147,185,146,187,147,188,149,188,149" onMouseOver="return overlib('Actual: (4/9/14, 45.1)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="157,170,156,172,154,173,152,172,151,170,152,168,154,167,156,168,157,170,157,170" onMouseOver="return overlib('Actual: (4/2/14, 37.9)');" onMouseOut="return nd();" nohref="nohref"/><dis_area shape="poly" coords="127,217,126,219,124,220,122,219,121,217,122,215,124,214,126,215,127,217,127,217" onMouseOver="return overlib('Actual: (3/26/14, 21.6)');" onMouseOut="return nd();" nohref="nohref"/></map></pre>
+<div style='clear:both'></div><div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div class='evChartItem' style='width:350px; height:340px'><div class="licenseFooter licenseStatusNoneFound">This chart is distributed as a way of thanking organizations and teams that support the ongoing development of the Process Dashboard. <u>Click here</u> to learn more and to unlock this chart.</div>
+</div> <div style='clear:both'>&nbsp;</div><span style='display:none'><dis_img alt='tree-table-folder-open' src='arch_item_5.gif'><dis_img alt='tree-table-folder-closed' src='arch_item_4.gif'></span>
+<table name='STATS'><tr><td valign='top'><b>Replanned Completion Date:&nbsp;</b></td><td valign='top'>May 4, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, the replanned completion date for the overall work would be May 4, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(If you were to &quot;replan from today,&quot; taking into account the amount of time your actual progress has slipped against your original plan, but assuming that your original planned times still hold true for all remaining tasks and time periods, the replanned completion date for the overall work would be May 4, 2014.)</i></td></tr>
+<tr><td valign='top'><b>Cost Variance:&nbsp;</b></td><td valign='top'>-11.862</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(11.9 hours over budget <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have taken 11.9 hours more effort than planned.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have taken 11.9 hours more effort than planned.)</i></td></tr>
+<tr><td valign='top'><b>Cost Variance %:&nbsp;</b></td><td valign='top'>-17%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(17% over budget <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have taken 17% more effort than planned.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have taken 17% more effort than planned.)</i></td></tr>
+<tr><td valign='top'><b>Cost Performance Index:&nbsp;</b></td><td valign='top'>0.858</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Work is taking more time than planned.  For every effort hour actually spent, you are accomplishing 0.858 hours worth of planned results.  This usually means that your original effort estimate was too small.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Work is taking more time than planned.  For every effort hour actually spent, you are accomplishing 0.858 hours worth of planned results.  This usually means that your original effort estimate was too small.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance:&nbsp;</b></td><td valign='top'>18.363</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(18.4 hours ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed 18.4 hours more work than you had planned to complete by this date.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed 18.4 hours more work than you had planned to complete by this date.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance %:&nbsp;</b></td><td valign='top'>35%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(35% ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed  35% more work than you had planned to complete by this date.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed  35% more work than you had planned to complete by this date.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Variance Duration:&nbsp;</b></td><td valign='top'>15.524</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(2.22 weeks ahead of schedule <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current rate of task completion to date, you are 2.22 weeks ahead of schedule.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current rate of task completion to date, you are 2.22 weeks ahead of schedule.)</i></td></tr>
+<tr><td valign='top'><b>Schedule Performance Index:&nbsp;</b></td><td valign='top'>1.346</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You are completing tasks more quickly than scheduled.  For every effort hour of work you should have accomplished to date, you are completing 1.346 hours.  This may mean that your original planned schedule was too laid-back.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You are completing tasks more quickly than scheduled.  For every effort hour of work you should have accomplished to date, you are completing 1.346 hours.  This may mean that your original planned schedule was too laid-back.)</i></td></tr>
+<tr><td valign='top'><b>Percent Complete:&nbsp;</b></td><td valign='top'>100%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>You have completed 100% of the total work.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(You have completed 100% of the total work.)</i></td></tr>
+<tr><td valign='top'><b>Percent Spent on Completed Tasks:&nbsp;</b></td><td valign='top'>117%</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>The tasks completed to date have used 117% of the total planned effort hours.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(The tasks completed to date have used 117% of the total planned effort hours.)</i></td></tr>
+<tr><td valign='top'><b>To Complete Performance Index:&nbsp;</b></td><td valign='top'>-0</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>In order to complete all the work within the original effort estimate, each future hour of effort must accomplish -0 hours worth of planned results.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(In order to complete all the work within the original effort estimate, each future hour of effort must accomplish -0 hours worth of planned results.)</i></td></tr>
+<tr><td valign='top'><b>Improvement Ratio:&nbsp;</b></td><td valign='top'>-1</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>In order to complete all the work within the original effort estimate, you can be 100% less productive in the future than you have been in the past.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(In order to complete all the work within the original effort estimate, you can be 100% less productive in the future than you have been in the past.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Cost:&nbsp;</b></td><td valign='top'>83.25</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(83.2 hours <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current CPI, the total work is forecast to require 83.2 hours of effort.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current CPI, the total work is forecast to require 83.2 hours of effort.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Duration:&nbsp;</b></td><td valign='top'>60.351</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(2.01 months <dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current rate of task completion to date, the total work schedule is forecast to be 2.01 months.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current rate of task completion to date, the total work schedule is forecast to be 2.01 months.)</i></td></tr>
+<tr><td valign='top'><b>Forecast Completion Date:&nbsp;</b></td><td valign='top'>May 4, 2014</td><td colspan='5' valign='top'><!--HIDDEN i class='doNotPrint'>(<dis_a class='doNotPrint' href='#' onclick='togglePopupInfo(this); return false;'>More...</dis_a>)<div class='popupInfo'><table width='300' onclick='togglePopupInfo(this.parentNode)'><tr><td>Based upon your current rate of task completion to date, the total work is forecast to be completed May 4, 2014.</td></tr></table></div></i HIDDEN--><i class='printOnly' style='margin-bottom:1em'>(Based upon your current rate of task completion to date, the total work is forecast to be completed May 4, 2014.)</i></td></tr>
+</table><h2><dis_a name='tasks'></dis_a>Task List<span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a id="taskstyleflat" href="arch_item_21.htm#tasks">Flat View</dis_a></span HIDDEN--></span><span  style='font-size: medium; font-style: italic; font-weight: normal; margin-left: 0.5cm' ><!--HIDDEN span class='doNotPrint'><dis_a id="taskstylegantt" href="arch_item_22.htm#tasks">Gantt View</dis_a></span HIDDEN--></span></h2>
+<table name='TASK' class='needsTreeSortLinks' id='task' border='1'>
+<tr>
+<th style='font-weight:bold' title='Project/Task'>Project/Task</th>
+<th style='font-weight:bold' title='Type of Task/Item'>Type</th>
+<th style='font-weight:bold' title='Planned Time (hours:minutes)'>PT</th>
+<th style='font-weight:bold' title='Actual Time (hours:minutes)'>Time</th>
+<th style='font-weight:bold' title='Planned Value'>PV</th>
+<th style='font-weight:bold' title='Planned Completion Date'>Plan Date</th>
+<th style='font-weight:bold' title='Replanned Completion Date'>Replan</th>
+<th style='font-weight:bold' title='Forecast Completion Date'>Forecast</th>
+<th style='font-weight:bold' title='Actual Completion Date'>Date</th>
+<th style='font-weight:bold' title='Task Labels'>Labels</th>
+<th style='font-weight:bold' title='Task Dependencies'>Dep</th>
+<th style='font-weight:bold' title='Percent Complete'>%C</th>
+<th style='font-weight:bold' title='Percent Spent'>%S</th>
+<th style='font-weight:bold' title='Actual Earned Value'>EV</th>
+</tr>
+<tr id='t'>
+<td><div style='margin-left: 24px; position: relative'><dis_a href='#' class='treeTableExpandAll' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_3.gif' title='Expand All' width='16' height='16'></dis_a>ScheduleChangeCounter (Felipe Fagua)/Project/ChangeCounter</div></td>
+<td sortkey='1'></td>
+<td class='timeFmt' sortkey='71.23'>71:23</td>
+<td class='timeFmt' sortkey='83.15'>83:15</td>
+<td sortkey='100'>100%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td>Inicio_del_projecto</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='117'>117%</td>
+<td sortkey='100'>100%</td>
+</tr>
+<tr id='t-0'>
+<td><div style='margin-left: 44px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_5.gif' width='11' height='14'></dis_a>Ciclo1</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='45.23'>45:23</td>
+<td class='timeFmt' sortkey='53.40'>53:40</td>
+<td sortkey='63.6'>63.6%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='118'>118%</td>
+<td sortkey='63.6'>63.6%</td>
+</tr>
+<tr id='t-0-0'>
+<td><div style='margin-left: 64px; position: relative'>Launch/INFOForm</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='3.59'>3:59</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td sortkey='5.6'>5.6%</td>
+<td sortkey='1395205199000'>3/18/14</td>
+<td sortkey='1396231702501'>3/30/14</td>
+<td sortkey='1396231702501'>3/30/14</td>
+<td sortkey='1396231702501'>3/30/14</td>
+<td>LAU1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='151'>151%</td>
+<td sortkey='5.6'>5.6%</td>
+</tr>
+<tr id='t-0-1'>
+<td><div style='margin-left: 64px; position: relative'>Strategy/Conceptual Desing</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='2.50'>2:50</td>
+<td class='timeFmt' sortkey='5.30'>5:30</td>
+<td sortkey='4'>4%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396232088877'>3/30/14</td>
+<td sortkey='1396232088877'>3/30/14</td>
+<td sortkey='1396232088877'>3/30/14</td>
+<td>STRAT1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Launch &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='194'>194%</td>
+<td sortkey='4'>4%</td>
+</tr>
+<tr id='t-0-2'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Planning</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td class='timeFmt' sortkey='0.16'>0:16</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td>PLAN1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Strategy &bull; David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-0-2-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Personal TASK</div></td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396233353522'>3/30/14</td>
+<td sortkey='1396233353522'>3/30/14</td>
+<td sortkey='1396233353522'>3/30/14</td>
+<td>PLAN1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-2-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Personal SCHEDULE</div></td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td sortkey='1396233356205'>3/30/14</td>
+<td>PLAN1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-3'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Reqts</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='12.43'>12:43</td>
+<td class='timeFmt' sortkey='12.02'>12:02</td>
+<td sortkey='17.8'>17.8%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Planning &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='95'>95%</td>
+<td sortkey='17.8'>17.8%</td>
+</tr>
+<tr id='t-0-3-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Reqts Review</div></td>
+<td sortkey='9'>Reqts Review</td>
+<td class='timeFmt' sortkey='1.16'>1:16</td>
+<td class='timeFmt' sortkey='1.16'>1:16</td>
+<td sortkey='1.8'>1.8%</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td sortkey='1396233498467'>3/30/14</td>
+<td sortkey='1396233498467'>3/30/14</td>
+<td sortkey='1396233498467'>3/30/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='1.8'>1.8%</td>
+</tr>
+<tr id='t-0-3-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>SRS</div></td>
+<td sortkey='9'>Reqts Review</td>
+<td class='timeFmt' sortkey='8.51'>8:51</td>
+<td class='timeFmt' sortkey='8.31'>8:31</td>
+<td sortkey='12.4'>12.4%</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td sortkey='1396404481532'>4/1/14</td>
+<td sortkey='1396404481532'>4/1/14</td>
+<td sortkey='1396404481532'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='96'>96%</td>
+<td sortkey='12.4'>12.4%</td>
+</tr>
+<tr id='t-0-3-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Sys Test Plan</div></td>
+<td sortkey='8'>Sys Test Plan</td>
+<td class='timeFmt' sortkey='2.36'>2:36</td>
+<td class='timeFmt' sortkey='2.15'>2:15</td>
+<td sortkey='3.6'>3.6%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td sortkey='1396404484094'>4/1/14</td>
+<td>REQ1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='87'>87%</td>
+<td sortkey='3.6'>3.6%</td>
+</tr>
+<tr id='t-0-4'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Design</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='15.44'>15:44</td>
+<td class='timeFmt' sortkey='14.07'>14:07</td>
+<td sortkey='22'>22%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Reqts &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='90'>90%</td>
+<td sortkey='22'>22%</td>
+</tr>
+<tr id='t-0-4-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Int Test Plan</div></td>
+<td sortkey='12'>Int Test Plan</td>
+<td class='timeFmt' sortkey='0.58'>0:58</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td sortkey='1.3'>1.3%</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td sortkey='1396404488468'>4/1/14</td>
+<td sortkey='1396404488468'>4/1/14</td>
+<td sortkey='1396404488468'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='1.3'>1.3%</td>
+</tr>
+<tr id='t-0-4-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>HLD</div></td>
+<td sortkey='11'>HLD</td>
+<td class='timeFmt' sortkey='5.29'>5:29</td>
+<td class='timeFmt' sortkey='5.35'>5:35</td>
+<td sortkey='7.7'>7.7%</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td sortkey='1396404477729'>4/1/14</td>
+<td sortkey='1396404477729'>4/1/14</td>
+<td sortkey='1396404477729'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='102'>102%</td>
+<td sortkey='7.7'>7.7%</td>
+</tr>
+<tr id='t-0-4-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>SDS</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='8.15'>8:15</td>
+<td class='timeFmt' sortkey='3.12'>3:12</td>
+<td sortkey='11.6'>11.6%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1396404492040'>4/1/14</td>
+<td sortkey='1396404492040'>4/1/14</td>
+<td sortkey='1396404492040'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='39'>39%</td>
+<td sortkey='11.6'>11.6%</td>
+</tr>
+<tr id='t-0-4-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>LOGD</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='1.35'>1:35</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1396404495012'>4/1/14</td>
+<td sortkey='1396404495012'>4/1/14</td>
+<td sortkey='1396404495012'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='1,979'>1,979%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-0-4-4' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Design Review</div></td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1396404497349'>4/1/14</td>
+<td sortkey='1396404497349'>4/1/14</td>
+<td sortkey='1396404497349'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='104'>104%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-0-4-5' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Test Devel</div></td>
+<td sortkey='17'>Test Devel</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td class='timeFmt' sortkey='2.15'>2:15</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td sortkey='1396404500659'>4/1/14</td>
+<td>DES1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, Ingrid Echavarria</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Design &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='469'>469%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-0-5'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Code</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='5.21'>5:21</td>
+<td class='timeFmt' sortkey='8.52'>8:52</td>
+<td sortkey='7.5'>7.5%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Design &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='166'>166%</td>
+<td sortkey='7.5'>7.5%</td>
+</tr>
+<tr id='t-0-5-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Detailed Design</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.07'>0:07</td>
+<td class='timeFmt' sortkey='0.45'>0:45</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050950860'>4/9/14</td>
+<td sortkey='1397050950860'>4/9/14</td>
+<td sortkey='1397050950860'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='612'>612%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-5-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Implementation</div></td>
+<td sortkey='19'>Code</td>
+<td class='timeFmt' sortkey='2.48'>2:48</td>
+<td class='timeFmt' sortkey='4.27'>4:27</td>
+<td sortkey='3.9'>3.9%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050952999'>4/9/14</td>
+<td sortkey='1397050952999'>4/9/14</td>
+<td sortkey='1397050952999'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='159'>159%</td>
+<td sortkey='3.9'>3.9%</td>
+</tr>
+<tr id='t-0-5-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Code Review</div></td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='1.24'>1:24</td>
+<td class='timeFmt' sortkey='1.33'>1:33</td>
+<td sortkey='2'>2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050954761'>4/9/14</td>
+<td sortkey='1397050954761'>4/9/14</td>
+<td sortkey='1397050954761'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='111'>111%</td>
+<td sortkey='2'>2%</td>
+</tr>
+<tr id='t-0-5-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Code Inspect</div></td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.42'>0:42</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='1'>1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050960526'>4/9/14</td>
+<td sortkey='1397050960526'>4/9/14</td>
+<td sortkey='1397050960526'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='71'>71%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr id='t-0-5-4' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>UpdateLOGD</div></td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050962515'>4/9/14</td>
+<td sortkey='1397050962515'>4/9/14</td>
+<td sortkey='1397050962515'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='286'>286%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-0-5-5' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>UpdateLOGT</div></td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050966086'>4/9/14</td>
+<td sortkey='1397050966086'>4/9/14</td>
+<td sortkey='1397050966086'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='286'>286%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-0-5-6' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Unit Test</div></td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='0.13'>0:13</td>
+<td class='timeFmt' sortkey='1.17'>1:17</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td sortkey='1397050968051'>4/9/14</td>
+<td>IMP1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='611'>611%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr id='t-0-6'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Test</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.28'>0:28</td>
+<td class='timeFmt' sortkey='1.02'>1:02</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='7'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_6.gif' border='0' width='14' height='14' title='One or more dependent tasks are not projected to finish in time.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task is not projected to finish in time.' style='text-align:center'><dis_img src='arch_item_6.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Code &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 4/19/14 &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='221'>221%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-0-6-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Sys Test</div></td>
+<td sortkey='25'>Sys Test</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.45'>0:45</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437572258'>4/13/14</td>
+<td sortkey='1397437572258'>4/13/14</td>
+<td sortkey='1397437572258'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='4'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='All dependent tasks have been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Test/Int Test &bull; Carlos Felipe Roa Chavez, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='482'>482%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-6-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>LOGTEST</div></td>
+<td sortkey='24'>Int Test</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.12'>0:12</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437577320'>4/13/14</td>
+<td sortkey='1397437577320'>4/13/14</td>
+<td sortkey='1397437577320'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='129'>129%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-6-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>User Documentation</div></td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td sortkey='1397437578239'>4/13/14</td>
+<td>TEST1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='54'>54%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-7'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Postmortem</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td class='timeFmt' sortkey='2.28'>2:28</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='4'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='All dependent tasks have been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo1/Test &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='370'>370%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+<tr id='t-0-7-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>PEER</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.49'>0:49</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438485293'>4/13/14</td>
+<td sortkey='1397438485293'>4/13/14</td>
+<td sortkey='1397438485293'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='612'>612%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-7-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>PIP</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438486137'>4/13/14</td>
+<td sortkey='1397438486137'>4/13/14</td>
+<td sortkey='1397438486137'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='500'>500%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-7-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Cycle Report</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438486903'>4/13/14</td>
+<td sortkey='1397438486903'>4/13/14</td>
+<td sortkey='1397438486903'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='188'>188%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-7-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Role Report</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.22'>0:22</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438487451'>4/13/14</td>
+<td sortkey='1397438487451'>4/13/14</td>
+<td sortkey='1397438487451'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='275'>275%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-7-4' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Engineer Report</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.22'>0:22</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td sortkey='1397438488201'>4/13/14</td>
+<td>PM1</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='275'>275%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-8'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Documentation</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='2.43'>2:43</td>
+<td class='timeFmt' sortkey='1.51'>1:51</td>
+<td sortkey='3.8'>3.8%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='68'>68%</td>
+<td sortkey='3.8'>3.8%</td>
+</tr>
+<tr id='t-0-8-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>OutLine</div></td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='2.27'>2:27</td>
+<td class='timeFmt' sortkey='1.15'>1:15</td>
+<td sortkey='3.4'>3.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437584614'>4/13/14</td>
+<td sortkey='1397437584614'>4/13/14</td>
+<td sortkey='1397437584614'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='51'>51%</td>
+<td sortkey='3.4'>3.4%</td>
+</tr>
+<tr id='t-0-8-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Review</div></td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='0.16'>0:16</td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td sortkey='1397437586040'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='220'>220%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-0-9'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Every Week</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.40'>0:40</td>
+<td class='timeFmt' sortkey='1.32'>1:32</td>
+<td sortkey='0.9'>0.9%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='231'>231%</td>
+<td sortkey='0.9'>0.9%</td>
+</tr>
+<tr id='t-0-9-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>weekly meeting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.17'>0:17</td>
+<td class='timeFmt' sortkey='1.01'>1:01</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437591678'>4/13/14</td>
+<td sortkey='1397437591678'>4/13/14</td>
+<td sortkey='1397437591678'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='368'>368%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-0-9-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Data reporting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437593323'>4/13/14</td>
+<td sortkey='1397437593323'>4/13/14</td>
+<td sortkey='1397437593323'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='103'>103%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-0-9-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Build Control</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td class='timeFmt' sortkey='0.23'>0:23</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td sortkey='1397437594427'>4/13/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='149'>149%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-1'>
+<td><div style='margin-left: 44px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_5.gif' width='11' height='14'></dis_a>Ciclo2</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='26.00'>26:00</td>
+<td class='timeFmt' sortkey='29.35'>29:35</td>
+<td sortkey='36.4'>36.4%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td></td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='114'>114%</td>
+<td sortkey='36.4'>36.4%</td>
+</tr>
+<tr id='t-1-0'>
+<td><div style='margin-left: 64px; position: relative'>Strategy/Conceptual Desing</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='4.35'>4:35</td>
+<td sortkey='2.8'>2.8%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028456450'>4/20/14</td>
+<td sortkey='1398028456450'>4/20/14</td>
+<td sortkey='1398028456450'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Launch &bull; Carlos Felipe Roa Chavez &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='229'>229%</td>
+<td sortkey='2.8'>2.8%</td>
+</tr>
+<tr id='t-1-1'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Planning</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.09'>0:09</td>
+<td class='timeFmt' sortkey='0.38'>0:38</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Strategy &bull; David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='400'>400%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-1-1-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Personal TASK</div></td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.24'>0:24</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028459749'>4/20/14</td>
+<td sortkey='1398028459749'>4/20/14</td>
+<td sortkey='1398028459749'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='674'>674%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-1-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Personal SCHEDULE</div></td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.06'>0:06</td>
+<td class='timeFmt' sortkey='0.14'>0:14</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td sortkey='1398028460707'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='236'>236%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-2'>
+<td><div style='margin-left: 64px; position: relative'>Reqts/Sys Test Plan</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='1.05'>1:05</td>
+<td class='timeFmt' sortkey='0.59'>0:59</td>
+<td sortkey='1.5'>1.5%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260227803'>4/23/14</td>
+<td sortkey='1398260227803'>4/23/14</td>
+<td sortkey='1398260227803'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Planning &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='91'>91%</td>
+<td sortkey='1.5'>1.5%</td>
+</tr>
+<tr id='t-1-3'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Design</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='1.42'>1:42</td>
+<td class='timeFmt' sortkey='1.38'>1:38</td>
+<td sortkey='2.4'>2.4%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Reqts &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='96'>96%</td>
+<td sortkey='2.4'>2.4%</td>
+</tr>
+<tr id='t-1-3-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Reuse Standards/Interface</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.18'>0:18</td>
+<td class='timeFmt' sortkey='0.19'>0:19</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260229831'>4/23/14</td>
+<td sortkey='1398260229831'>4/23/14</td>
+<td sortkey='1398260229831'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='106'>106%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-1-3-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>HLD actualizacion</div></td>
+<td sortkey='11'>HLD</td>
+<td class='timeFmt' sortkey='0.22'>0:22</td>
+<td class='timeFmt' sortkey='0.24'>0:24</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260231602'>4/23/14</td>
+<td sortkey='1398260231602'>4/23/14</td>
+<td sortkey='1398260231602'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='110'>110%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr id='t-1-3-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>SDS Baseline actualizacion</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.22'>0:22</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260233442'>4/23/14</td>
+<td sortkey='1398260233442'>4/23/14</td>
+<td sortkey='1398260233442'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='46'>46%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr id='t-1-3-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>LOGD</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260235076'>4/23/14</td>
+<td sortkey='1398260235076'>4/23/14</td>
+<td sortkey='1398260235076'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='110'>110%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-3-4' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Design Review</div></td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.11'>0:11</td>
+<td class='timeFmt' sortkey='0.12'>0:12</td>
+<td sortkey='0.3'>0.3%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260236988'>4/23/14</td>
+<td sortkey='1398260236988'>4/23/14</td>
+<td sortkey='1398260236988'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='110'>110%</td>
+<td sortkey='0.3'>0.3%</td>
+</tr>
+<tr id='t-1-3-5' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Test Devel</div></td>
+<td sortkey='17'>Test Devel</td>
+<td class='timeFmt' sortkey='0.26'>0:26</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td sortkey='0.6'>0.6%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td sortkey='1398260239021'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Design &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, Gabriel Martinez</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='113'>113%</td>
+<td sortkey='0.6'>0.6%</td>
+</tr>
+<tr id='t-1-4'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Code</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='11.24'>11:24</td>
+<td class='timeFmt' sortkey='10.58'>10:58</td>
+<td sortkey='16'>16%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Design &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='96'>96%</td>
+<td sortkey='16'>16%</td>
+</tr>
+<tr id='t-1-4-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Implementation Standards</div></td>
+<td sortkey='19'>Code</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='1.48'>1:48</td>
+<td sortkey='2.8'>2.8%</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td sortkey='1398831462908'>4/29/14</td>
+<td sortkey='1398831462908'>4/29/14</td>
+<td sortkey='1398831462908'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='90'>90%</td>
+<td sortkey='2.8'>2.8%</td>
+</tr>
+<tr id='t-1-4-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Detailed Design</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.49'>0:49</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td sortkey='1398831465185'>4/29/14</td>
+<td sortkey='1398831465185'>4/29/14</td>
+<td sortkey='1398831465185'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='603'>603%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-1-4-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Implementation/class Line</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='5.30'>5:30</td>
+<td class='timeFmt' sortkey='4.49'>4:49</td>
+<td sortkey='7.7'>7.7%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='88'>88%</td>
+<td sortkey='7.7'>7.7%</td>
+</tr>
+<tr id='t-1-4-2-0' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Planning</div></td>
+<td sortkey='6'>Planning</td>
+<td class='timeFmt' sortkey='0.17'>0:17</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td sortkey='1398831467614'>4/29/14</td>
+<td sortkey='1398831467614'>4/29/14</td>
+<td sortkey='1398831467614'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='91'>91%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-1-4-2-1' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Design</div></td>
+<td sortkey='15'>Design</td>
+<td class='timeFmt' sortkey='1.23'>1:23</td>
+<td class='timeFmt' sortkey='1.30'>1:30</td>
+<td sortkey='1.9'>1.9%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831468420'>4/29/14</td>
+<td sortkey='1398831468420'>4/29/14</td>
+<td sortkey='1398831468420'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='109'>109%</td>
+<td sortkey='1.9'>1.9%</td>
+</tr>
+<tr id='t-1-4-2-2' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Design Review</div></td>
+<td sortkey='16'>Design Review</td>
+<td class='timeFmt' sortkey='0.41'>0:41</td>
+<td class='timeFmt' sortkey='0.35'>0:35</td>
+<td sortkey='1'>1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831469414'>4/29/14</td>
+<td sortkey='1398831469414'>4/29/14</td>
+<td sortkey='1398831469414'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='85'>85%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr id='t-1-4-2-3' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Code</div></td>
+<td sortkey='19'>Code</td>
+<td class='timeFmt' sortkey='1.23'>1:23</td>
+<td class='timeFmt' sortkey='0.59'>0:59</td>
+<td sortkey='1.9'>1.9%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831471340'>4/29/14</td>
+<td sortkey='1398831471340'>4/29/14</td>
+<td sortkey='1398831471340'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='72'>72%</td>
+<td sortkey='1.9'>1.9%</td>
+</tr>
+<tr id='t-1-4-2-4' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Code Review</div></td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='0.41'>0:41</td>
+<td class='timeFmt' sortkey='0.32'>0:32</td>
+<td sortkey='1'>1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831472220'>4/29/14</td>
+<td sortkey='1398831472220'>4/29/14</td>
+<td sortkey='1398831472220'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='78'>78%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr id='t-1-4-2-5' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Compile</div></td>
+<td sortkey='21'>Compile</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831475170'>4/29/14</td>
+<td sortkey='1398831475170'>4/29/14</td>
+<td sortkey='1398831475170'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='12'>12%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-1-4-2-6' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Test</div></td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='0.41'>0:41</td>
+<td class='timeFmt' sortkey='0.42'>0:42</td>
+<td sortkey='1'>1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831476018'>4/29/14</td>
+<td sortkey='1398831476018'>4/29/14</td>
+<td sortkey='1398831476018'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='102'>102%</td>
+<td sortkey='1'>1%</td>
+</tr>
+<tr id='t-1-4-2-7' style='display:none'>
+<td><div style='margin-left: 104px; position: relative'>Postmortem</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.17'>0:17</td>
+<td class='timeFmt' sortkey='0.15'>0:15</td>
+<td sortkey='0.4'>0.4%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td sortkey='1398831477023'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='91'>91%</td>
+<td sortkey='0.4'>0.4%</td>
+</tr>
+<tr id='t-1-4-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Code Review</div></td>
+<td sortkey='20'>Code Review</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='2.15'>2:15</td>
+<td sortkey='2.8'>2.8%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831483281'>4/29/14</td>
+<td sortkey='1398831483281'>4/29/14</td>
+<td sortkey='1398831483281'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='112'>112%</td>
+<td sortkey='2.8'>2.8%</td>
+</tr>
+<tr id='t-1-4-4' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>UpdateLOGD</div></td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831484164'>4/29/14</td>
+<td sortkey='1398831484164'>4/29/14</td>
+<td sortkey='1398831484164'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='25'>25%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-4-5' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>UpdateLOGT</div></td>
+<td sortkey='22'>Code Inspect</td>
+<td class='timeFmt' sortkey='0.04'>0:04</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831485070'>4/29/14</td>
+<td sortkey='1398831485070'>4/29/14</td>
+<td sortkey='1398831485070'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='25'>25%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-4-6' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Unit Test</div></td>
+<td sortkey='23'>Test</td>
+<td class='timeFmt' sortkey='1.38'>1:38</td>
+<td class='timeFmt' sortkey='1.15'>1:15</td>
+<td sortkey='2.3'>2.3%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td sortkey='1398831486864'>4/29/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='77'>77%</td>
+<td sortkey='2.3'>2.3%</td>
+</tr>
+<tr id='t-1-5'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Test</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='6.50'>6:50</td>
+<td sortkey='8.4'>8.4%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='3'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='This dependent task has been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>Other individuals would like to know that this task is complete &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Gabriel Martinez, Ingrid Echavarria, Paula Castellanos</td></tr><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Code &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='114'>114%</td>
+<td sortkey='8.4'>8.4%</td>
+</tr>
+<tr id='t-1-5-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Sys Test</div></td>
+<td sortkey='25'>Sys Test</td>
+<td class='timeFmt' sortkey='2.00'>2:00</td>
+<td class='timeFmt' sortkey='2.10'>2:10</td>
+<td sortkey='2.8'>2.8%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831492933'>4/29/14</td>
+<td sortkey='1398831492933'>4/29/14</td>
+<td sortkey='1398831492933'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='108'>108%</td>
+<td sortkey='2.8'>2.8%</td>
+</tr>
+<tr id='t-1-5-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>LOGTEST</div></td>
+<td sortkey='24'>Int Test</td>
+<td class='timeFmt' sortkey='2.30'>2:30</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td sortkey='3.5'>3.5%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831493606'>4/29/14</td>
+<td sortkey='1398831493606'>4/29/14</td>
+<td sortkey='1398831493606'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='120'>120%</td>
+<td sortkey='3.5'>3.5%</td>
+</tr>
+<tr id='t-1-5-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>User Documentation</div></td>
+<td sortkey='26'>Documentation</td>
+<td class='timeFmt' sortkey='1.30'>1:30</td>
+<td class='timeFmt' sortkey='1.40'>1:40</td>
+<td sortkey='2.1'>2.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td sortkey='1398831495627'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='111'>111%</td>
+<td sortkey='2.1'>2.1%</td>
+</tr>
+<tr id='t-1-6'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Postmortem</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.21'>0:21</td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td sortkey='0.5'>0.5%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='4'><dis_a style='text-decoration: none' href='#' onclick='togglePopupInfo(this); return false;'><dis_img src='arch_item_2.gif' border='0' width='14' height='14' title='All dependent tasks have been completed.' ></dis_a><div class='popupInfo'><table onclick='togglePopupInfo(this.parentNode)'><tr><td title='This dependent task has been completed.' style='text-align:center'><dis_img src='arch_item_2.gif'></td><td style='text-align:left' nowrap>/Project/ChangeCounter/Ciclo2/Test &bull; Carlos Felipe Roa Chavez, David Abril, Felipe Fagua, Ingrid Echavarria, Paula Castellanos &bull; 100%</td></tr></table></div></td>
+<td sortkey='100'>100%</td>
+<td sortkey='171'>171%</td>
+<td sortkey='0.5'>0.5%</td>
+</tr>
+<tr id='t-1-6-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>PEER</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209889674'>5/4/14</td>
+<td sortkey='1399209889674'>5/4/14</td>
+<td sortkey='1399209889674'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='160'>160%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-6-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>PIP</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td class='timeFmt' sortkey='0.20'>0:20</td>
+<td sortkey='0.2'>0.2%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209890385'>5/4/14</td>
+<td sortkey='1399209890385'>5/4/14</td>
+<td sortkey='1399209890385'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='200'>200%</td>
+<td sortkey='0.2'>0.2%</td>
+</tr>
+<tr id='t-1-6-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Role Report</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209891252'>5/4/14</td>
+<td sortkey='1399209891252'>5/4/14</td>
+<td sortkey='1399209891252'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='167'>167%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-6-3' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Engineer Report</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td sortkey='1399209892082'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-7'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Every Week4</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td class='timeFmt' sortkey='0.34'>0:34</td>
+<td sortkey='0.8'>0.8%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='94'>94%</td>
+<td sortkey='0.8'>0.8%</td>
+</tr>
+<tr id='t-1-7-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>weekly meeting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.29'>0:29</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028466326'>4/20/14</td>
+<td sortkey='1398028466326'>4/20/14</td>
+<td sortkey='1398028466326'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='97'>97%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-1-7-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Data reporting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.02'>0:02</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028467224'>4/20/14</td>
+<td sortkey='1398028467224'>4/20/14</td>
+<td sortkey='1398028467224'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='232'>232%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr id='t-1-7-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Build Control</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.03'>0:03</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td sortkey='1398028468536'>4/20/14</td>
+<td>Week4</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='58'>58%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-8'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Every Week5</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td sortkey='0.8'>0.8%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='0.8'>0.8%</td>
+</tr>
+<tr id='t-1-8-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>weekly meeting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260247098'>4/23/14</td>
+<td sortkey='1398260247098'>4/23/14</td>
+<td sortkey='1398260247098'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-1-8-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Data reporting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td sortkey='0'>0%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260248027'>4/23/14</td>
+<td sortkey='1398260248027'>4/23/14</td>
+<td sortkey='1398260248027'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='116'>116%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr id='t-1-8-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Build Control</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td sortkey='1398260248745'>4/23/14</td>
+<td>Week5</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='97'>97%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-9'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Every Week6</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='0.36'>0:36</td>
+<td class='timeFmt' sortkey='0.45'>0:45</td>
+<td sortkey='0.8'>0.8%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='125'>125%</td>
+<td sortkey='0.8'>0.8%</td>
+</tr>
+<tr id='t-1-9-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>weekly meeting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831499727'>4/29/14</td>
+<td sortkey='1398831499727'>4/29/14</td>
+<td sortkey='1398831499727'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-1-9-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Data reporting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.10'>0:10</td>
+<td sortkey='0'>0%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831500417'>4/29/14</td>
+<td sortkey='1398831500417'>4/29/14</td>
+<td sortkey='1398831500417'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='1,158'>1,158%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr id='t-1-9-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Build Control</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td class='timeFmt' sortkey='0.05'>0:05</td>
+<td sortkey='0.1'>0.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td sortkey='1398831501096'>4/29/14</td>
+<td>Week6</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='97'>97%</td>
+<td sortkey='0.1'>0.1%</td>
+</tr>
+<tr id='t-1-10'>
+<td><div style='margin-left: 64px; position: relative'><dis_a href='#' class='treeTableFolder' onclick='toggleRows(this); return false;'><dis_img border='0' src='arch_item_4.gif' width='11' height='14'></dis_a>Every Week7</div></td>
+<td sortkey='2'></td>
+<td class='timeFmt' sortkey='1.31'>1:31</td>
+<td class='timeFmt' sortkey='1.26'>1:26</td>
+<td sortkey='2.1'>2.1%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='95'>95%</td>
+<td sortkey='2.1'>2.1%</td>
+</tr>
+<tr id='t-1-10-0' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>weekly meeting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td class='timeFmt' sortkey='0.30'>0:30</td>
+<td sortkey='0.7'>0.7%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209895534'>5/4/14</td>
+<td sortkey='1399209895534'>5/4/14</td>
+<td sortkey='1399209895534'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='100'>100%</td>
+<td sortkey='0.7'>0.7%</td>
+</tr>
+<tr id='t-1-10-1' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Data reporting</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='0.01'>0:01</td>
+<td class='timeFmt' sortkey='0.08'>0:08</td>
+<td sortkey='0'>0%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209896677'>5/4/14</td>
+<td sortkey='1399209896677'>5/4/14</td>
+<td sortkey='1399209896677'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='927'>927%</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr id='t-1-10-2' style='display:none'>
+<td><div style='margin-left: 84px; position: relative'>Build Control</div></td>
+<td sortkey='28'>Postmortem</td>
+<td class='timeFmt' sortkey='1.00'>1:00</td>
+<td class='timeFmt' sortkey='0.48'>0:48</td>
+<td sortkey='1.4'>1.4%</td>
+<td sortkey='9223372036854775807'>never</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td sortkey='1399209897531'>5/4/14</td>
+<td>Week7</td>
+<td style='text-align:center' sortkey='5'></td>
+<td sortkey='100'>100%</td>
+<td sortkey='80'>80%</td>
+<td sortkey='1.4'>1.4%</td>
+</tr>
+</table>
+<h2>Schedule List</h2>
+<table name='SCHEDULE' border='1'>
+<tr>
+<th style='font-weight:bold' title='Period Start Date/Time'>From</th>
+<th style='font-weight:bold' title='Period End Date/Time'>To</th>
+<th style='font-weight:bold' title='Planned Direct Time (hours:minutes)'>PT</th>
+<th style='font-weight:bold' title='Cumulative Planned Direct Time (hours:minutes)'>CPT</th>
+<th style='font-weight:bold' title='Cumulative Planned Value'>CPV</th>
+<th style='font-weight:bold' title='Actual Direct Time (hours:minutes)'>Time</th>
+<th style='font-weight:bold' title='Cumulative Actual Direct Time (hours:minutes)'>CT</th>
+<th style='font-weight:bold' title='Actual Cumulative Earned Value'>EV</th>
+</tr>
+<tr>
+<td sortkey='1393995600000'>3/5/14</td>
+<td sortkey='1394600399000'>3/11/14</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1394600400000'>3/12/14</td>
+<td sortkey='1395205199000'>3/18/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td sortkey='5.6'>5.6%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395205200000'>3/19/14</td>
+<td sortkey='1395809999000'>3/25/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='12.00'>12:00</td>
+<td sortkey='11.7'>11.7%</td>
+<td class='timeFmt' sortkey='21.33'>21:33</td>
+<td class='timeFmt' sortkey='21.33'>21:33</td>
+<td sortkey='0'>0%</td>
+</tr>
+<tr>
+<td sortkey='1395810000000'>3/26/14</td>
+<td sortkey='1396414799000'>4/1/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='18.00'>18:00</td>
+<td sortkey='19.4'>19.4%</td>
+<td class='timeFmt' sortkey='16.22'>16:22</td>
+<td class='timeFmt' sortkey='37.55'>37:55</td>
+<td sortkey='49.7'>49.7%</td>
+</tr>
+<tr>
+<td sortkey='1396414800000'>4/2/14</td>
+<td sortkey='1397019599000'>4/8/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='24.00'>24:00</td>
+<td sortkey='31.7'>31.7%</td>
+<td class='timeFmt' sortkey='7.12'>7:12</td>
+<td class='timeFmt' sortkey='45.07'>45:07</td>
+<td sortkey='49.7'>49.7%</td>
+</tr>
+<tr>
+<td sortkey='1397019600000'>4/9/14</td>
+<td sortkey='1397624399000'>4/15/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='30.00'>30:00</td>
+<td sortkey='36.7'>36.7%</td>
+<td class='timeFmt' sortkey='8.33'>8:33</td>
+<td class='timeFmt' sortkey='53.40'>53:40</td>
+<td sortkey='63.6'>63.6%</td>
+</tr>
+<tr>
+<td sortkey='1397624400000'>4/16/14</td>
+<td sortkey='1398229199000'>4/22/14</td>
+<td class='timeFmt' sortkey='16.00'>16:00</td>
+<td class='timeFmt' sortkey='46.00'>46:00</td>
+<td sortkey='63.6'>63.6%</td>
+<td class='timeFmt' sortkey='8.24'>8:24</td>
+<td class='timeFmt' sortkey='62.04'>62:04</td>
+<td sortkey='67.4'>67.4%</td>
+</tr>
+<tr>
+<td sortkey='1398229200000'>4/23/14</td>
+<td sortkey='1398833999000'>4/29/14</td>
+<td class='timeFmt' sortkey='6.00'>6:00</td>
+<td class='timeFmt' sortkey='52.00'>52:00</td>
+<td sortkey='72.2'>72.2%</td>
+<td class='timeFmt' sortkey='19.09'>19:09</td>
+<td class='timeFmt' sortkey='81.13'>81:13</td>
+<td sortkey='97.4'>97.4%</td>
+</tr>
+<tr>
+<td sortkey='1398834000000'>4/30/14</td>
+<td sortkey='1399438799000'>5/6/14</td>
+<td class='timeFmt' sortkey='3.00'>3:00</td>
+<td class='timeFmt' sortkey='55.00'>55:00</td>
+<td sortkey='75.6'>75.6%</td>
+<td class='timeFmt' sortkey='2.02'>2:02</td>
+<td class='timeFmt' sortkey='83.15'>83:15</td>
+<td sortkey='100'>100%</td>
+</tr>
+<tr>
+<td sortkey='1399438800000'>5/7/14</td>
+<td sortkey='1400043599000'>5/13/14</td>
+<td class='timeFmt' sortkey='END'>END</td>
+<td class='timeFmt' sortkey='55.00'>55:00</td>
+<td sortkey='75.6'>75.6%</td>
+<td class='timeFmt' sortkey='0.00'>0:00</td>
+<td class='timeFmt' sortkey='83.15'>83:15</td>
+<td sortkey='100'>100%</td>
+</tr>
+</table>
+<p><i>Report generated at 11:03 PM on May 10, 2014</i></p>
+<!--HIDDEN p class='doNotPrint'><dis_a href="excel.iqy"><i>Export text to Excel</i></dis_a>&nbsp; &nbsp; &nbsp; &nbsp;</p HIDDEN--></body></html>
